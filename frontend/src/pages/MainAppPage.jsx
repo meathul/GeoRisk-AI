@@ -1,5 +1,5 @@
 import React from "react";
-import sidebar from "../components/sidebar";
+import Sidebar from "../components/sidebar";
 import CenterCard from "../components/CenterCard";
 
 const MainAppPage = () => {

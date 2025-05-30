@@ -2,7 +2,7 @@ import React from "react";
 import FolderList from "./FolderList";
 import ChatList from "./chatlist";
 
-const sidebar = () => (
+const Sidebar = () => (
   <aside style={{
     width: 320,
     background: "#23272a",
@@ -45,4 +45,4 @@ const sidebar = () => (
   </aside>
 );
 
-export default sidebar;
+export default Sidebar;
