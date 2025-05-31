@@ -1,6 +1,6 @@
 import React from "react";
-import Sidebar from "../compnents/Sidebar.jsx";
-import CenterCard from "../compnents/CenterCard.jsx";
+import Sidebar from "../compnents/sidebar";
+import CenterCard from "../compnents/CenterCard";
 
 const MainAppPage = () => {
   return (
