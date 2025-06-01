@@ -18,7 +18,7 @@ load_dotenv()
 # Set parameters and credentials
 parameters = {
     GenParams.DECODING_METHOD: "greedy",
-    GenParams.MAX_NEW_TOKENS: 500,
+    GenParams.MAX_NEW_TOKENS: 1000,
     GenParams.TEMPERATURE: 0.7,
     GenParams.STOP_SEQUENCES: ["\n\n"]
 }
