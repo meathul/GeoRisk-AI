@@ -64,7 +64,7 @@ class RiskAnalysis(BaseModel):
     risk_score: float
 
 
-class EnhancedState:
+class State:
     """Enhanced conversation state with agent outputs"""
     def __init__(self):
         self.messages = []
@@ -146,7 +146,7 @@ class ClimateAgent:
     def __init__(self, climate_retriever):
         self.retriever = climate_retriever
     
-    def analyze_climate(self, state: EnhancedState) -> EnhancedState:
+    def analyze_climate(self, state: State) -> State:
         """
         Comprehensive climate analysis combining:
         1. Current weather conditions (when available)
@@ -299,7 +299,7 @@ class RiskAgent:
     def __init__(self, business_retriever):
         self.retriever = business_retriever
     
-    def analyze_risk(self, state: EnhancedState) -> EnhancedState:
+    def analyze_risk(self, state: State) -> State:
         """
         Business risk analysis based on climate analysis:
         1. Translate climate hazards to business impacts
@@ -461,7 +461,7 @@ class EnhancedChatbotFlow:
         self.risk_agent = RiskAgent(business_retriever)
         self.location_extractor = LocationExtractor()
     
-    def process_query(self, state: EnhancedState) -> EnhancedState:
+    def process_query(self, state: State) -> State:
         """
         Sequential processing:
         1. Extract location
@@ -494,7 +494,7 @@ class EnhancedChatbotFlow:
         
         return state
     
-    def _add_executive_summary(self, state: EnhancedState):
+    def _add_executive_summary(self, state: State):
         """Add executive summary combining both analyses"""
         hazards_text = "Various climate risks"
         if state.climate_analysis and state.climate_analysis.key_hazards:
@@ -567,7 +567,7 @@ def run_enhanced_chatbot():
         business_retriever=business_db.as_retriever()
     )
     
-    state = EnhancedState()
+    state = State()
     
     print("Climate Risk Assessment System")
     print("=" * 50)
