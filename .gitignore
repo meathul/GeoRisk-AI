@@ -18,3 +18,6 @@ backend/vector_store/climate_docs
 backend/vector_store/risk_docs
 backend/vector_store/climate_chroma_db
 backend/vector_store/risk_chroma_db
+
+!backend/processing/pdfs/.gitkeep
+!backend/processing/docs/.gitkeep
