@@ -6,3 +6,7 @@ __pycache__/
 processing/chroma_store/
 processing/pdfs/
 processing/docs/
+
+backend/processing/chroma_store/
+backend/processing/pdfs/
+backend/processing/docs/
