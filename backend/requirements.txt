@@ -1,0 +1,12 @@
+ibm-watsonx-ai
+python-dotenv
+requests
+flask
+flask-cors
+chromadb
+PyMuPDF
+langchain
+langchain-community
+langchain-huggingface
+langchain-chroma
+huggingface-hub
