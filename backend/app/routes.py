@@ -17,4 +17,5 @@ def routes(app):
             return jsonify({"error": "Missing 'query' in request"}), 400
 
         response = chatbot.process_query(query)
+        print(response)
         return jsonify({"response": response})
