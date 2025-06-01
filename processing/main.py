@@ -8,6 +8,10 @@ import json
 from ibm_watsonx_ai.foundation_models import ModelInference
 from ibm_watsonx_ai.metanames import GenTextParamsMetaNames as GenParams
 
+# Vector store integration
+from langchain_community.vectorstores import Chroma
+from langchain.embeddings import HuggingFaceEmbeddings
+
 # Load environment variables
 load_dotenv()
 
@@ -30,6 +34,14 @@ model = ModelInference(
     credentials=credentials,
     project_id=os.getenv("WATSONX_PROJECT_ID")
 )
+
+# Initialize vector store
+embedding_function = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+vector_store = Chroma(
+    persist_directory="processing/chroma_store",
+    embedding_function=embedding_function
+)
+retriever = vector_store.as_retriever()
 
 # Fetch weather forecast from Visual Crossing API
 def get_climate_forecast(location="New York"):
@@ -98,13 +110,24 @@ Response:"""
 
     def risk_agent(self, state):
         forecast = state.forecast_data or get_climate_forecast()
+        user_query = state.messages[-1]['content']
+
+        # Retrieve context from ChromaDB
+        docs = retriever.get_relevant_documents(user_query)
+        context = "\n\n".join([doc.page_content for doc in docs[:3]]) if docs else "No relevant context found."
 
         prompt = f"""You are a climate risk advisor.
-You are given the following recent forecast data: {forecast}
-Use this and your knowledge base to assess risk to company assets.
 
-User question: {state.messages[-1]['content']}
-Risk Assessment:"""
+Recent forecast data: {forecast}
+
+Use the following relevant data extracted from trusted documents:
+{context}
+
+User question: {user_query}
+
+Give a detailed risk assessment with references to both the forecast and retrieved data.
+Response:"""
+
         response = model.generate_text(prompt=prompt)
         state.messages.append({"role": "assistant", "content": response.strip()})
         return state
