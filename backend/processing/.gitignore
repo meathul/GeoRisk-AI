@@ -1,7 +1,0 @@
-venv/
-__pycache__/
-*.pyc
-processing/chroma_store/
-processing/pdfs/
-.env
-processing/docs/

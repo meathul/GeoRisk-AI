@@ -1,0 +1,5745 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+New York ISO Climate Change 
+Impact Study 
+ 
+Phase 1:  Long-Term Load Impact 
+ 
+ 
+ 
+Submitted to: 
+ 
+New York ISO, Albany New York 
+ 
+ 
+ 
+Submitted by: 
+ 
+Itron, Inc. 
+20 Park Plaza 
+Suite 428 
+Boston, Massachusetts 02116 
+(617) 423-7660 
+ 
+ 
+ 
+ 
+ 
+December 2019 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Contents 
+OVERVIEW ......................................................................................................................................................... 1 
+1. SUMMARY ...................................................................................................................................................... 3 
+2. CLIMATE IMPACT STUDIES ............................................................................................................................. 5 
+2.1 Temperature Projections ......................................................................................................................... 7 
+3. WEATHER ANALYSIS ...................................................................................................................................... 9 
+3.1 Estimate Temperature Trends ................................................................................................................. 9 
+3.2 Calculate Trended Normal Temperatures............................................................................................. 17 
+3.3 Calculate CDD, HDD, and Peak-day TDD .......................................................................................... 20 
+3.4 Accelerated Temperature Scenario ....................................................................................................... 25 
+3.5 Load Impacts ......................................................................................................................................... 27 
+4. MODEL OVERVIEW ....................................................................................................................................... 29 
+4.1 Sales and Energy Forecasts .................................................................................................................. 30 
+4.2 Economic Projections ........................................................................................................................... 33 
+4.3 Peak Demand Forecast ......................................................................................................................... 34 
+4.4 Baseline Hourly Load Forecast ............................................................................................................ 38 
+4.5 Adjusting for New Technologies ........................................................................................................... 39 
+5. FORECAST SCENARIOS .................................................................................................................................. 43 
+5.1 Energy Impacts ..................................................................................................................................... 46 
+5.2 Demand Impacts ................................................................................................................................... 50 
+6. ZONAL LOAD FORECASTS ............................................................................................................................. 55 
+APPENDIX A: FORECAST RESULTS .......................................................................................................... 57 
+A-1: REFERENCE CASE ..................................................................................................................................... 57 
+A-2: REFERENCE CASE WITH ACCELERATED WEATHER TREND ....................................................................... 93 
+A-3: POLICY CASE .......................................................................................................................................... 129 
+A-4: CLCPA CASE ......................................................................................................................................... 165 
+APPENDIX B:  SAE MODELING FRAMEWORK ..................................................................................... 201 
+B-1 RESIDENTIAL SECTOR .............................................................................................................................. 201 
+B-1.1 Residential Statistically Adjusted End-Use Modeling Framework.................................................. 201 
+B-1.2 Constructing XHeat ......................................................................................................................... 202 
+B-1.3 Constructing XCool ......................................................................................................................... 204 
+B-1.4 Constructing XOther ....................................................................................................................... 206 
+B-2 COMMERCIAL SECTOR ............................................................................................................................. 208 
+B-2.1 Commercial Statistically Adjusted End-Use Model Framework ..................................................... 209 
+B-2.2 Constructing XHeat ......................................................................................................................... 209 
+B-2.3 Constructing XCool ......................................................................................................................... 211 
+B-2.4 Constructing XOther ....................................................................................................................... 212 
+APPENDIX C:  WEATHER STATION WEIGHTS & STATE MAPS ...................................................... 215 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 1 
+  
+ 
+ 
+Overview 
+Over the last ten years, there has been a growing concern about the impact of climate change 
+on the environment and ultimately impact on humanity.  It has been well documented that the 
+air mass and oceans are warming, contributing to degradation of our environment, more 
+extreme weather events, and potentially catastrophic events in the future.  New York State 
+and New York City have been working to address the growing likelihood of Sandy-like 
+storms in the future as a result of warming temperatures and rising sea level.  NYISO is 
+concerned about how climate change may impact the state transmission system, as NYISO is 
+responsible for managing the New York wholesale power market, maintaining system 
+reliability, and planning for future capacity needs. 
+ 
+To this end, NYISO contracted with Itron, Inc. to develop long-term energy, peak, and 
+hourly load projections that captures the impact of increasing temperatures and state policy 
+designed to improve energy efficiency and address climate change.  Long-term hourly zonal-
+level load forecasts will be used in the second phase of the study to evaluate system impact 
+and develop a climate resiliency plan.  
+ 
+The primary study objectives include: 
+ 
+• Developing a long-term energy, peak, and 8,760 hourly load forecasts that reflect the 
+potential demand impact of climate change on the system and planning zones 
+ 
+• Evaluating statewide temperature and humidity trends in context of recent state and 
+other climate impact studies 
+ 
+• Translating temperature and humidity projections into long-term Heating Degree 
+Days (HDD), Cooling Degree Days (CDD), and peak-day Temperature Humidity 
+Index Degree Days (TDD) to drive system and planning area load models.  
+ 
+• Constructing long-term forecast scenarios that reflect state policy goals to address 
+climate change impacts 
+o Policy Case: Accelerated energy efficiency savings and Behind-the-meter 
+(BTM) solar adoption 
+o Climate Leadership and Community Protection Act (CLCPA) Case: State 
+electrification to meet targeted greenhouse gas emission targets 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 2 
+  
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 3 
+  
+ 
+1. Summary 
+The core finding is that temperatures are rising across New York and will have a significant 
+impact on summer peak demand.  Since early 1990 temperatures across the state have been 
+increasing from 0.06 to 0.09 degrees per year or 0.6 to 0.9 degrees per decade. On average, 
+the statewide average temperature is increasing 0.7 degrees per decade.  The temperature 
+trends are consistent with the NYSERDA comprehensive climate impact study (September 
+2014 ClimAID Update), New York City’s recent climate resiliency plan (March 2019 
+Climate Resiliency Design Guideline) and observed temperature trends across the country.  
+Temperature trend analysis is presented in Section 2. 
+ 
+On an annual basis, increasing temperatures have minimal impact on system energy 
+requirements as increasing cooling sales are largely mitigated by decreasing heating related 
+sales.  However, the system load profile will change over time with the strongest load growth 
+in the shoulder months (April, May, September, and October).  Summer and winter peak 
+demand will also be significantly impacted by climate change.  By 2050, increasing 
+temperatures will potentially add between 1,600 MW to 3,800 MW or 10% to 23% of 
+summer-peak cooling requirements. Additional discussion of the impact of increasing 
+temperatures on system peak load is included in Section 3. 
+ 
+State policy designed to counter the impact of climate change may have an even larger 
+impact on load than increasing temperatures.  New state energy efficiency targets largely 
+mitigate the impact of increasing temperatures on summer peak demand through 2045; after 
+that point increasing electric vehicle demand and electrification activity eventually push 
+loads above current trend. 
+ 
+In the most aggressive scenario, statewide electrification programs result in the system 
+switching from a summer peaking system to a winter peaking system; this occurs around 
+2035.  While there is still additional analysis to be done to translate greenhouse gas targets to 
+specific end-use impacts, the amount of electrification needed to achieve state greenhouse 
+gas targets has significant impacts on base loads, heating loads and cooling loads. An 
+aggressive electrification program could add more than 28,000 MW to the system summer 
+peak by 2050, and an even larger amount to winter peaks. 
+ 
+An end-use modeling framework is used to assess these policy impacts.  The modeling 
+framework allows us to estimate the impact of changes in end-use saturation and efficiency 
+trends on customer class sales, system energy, hourly loads, and ultimately system peaks.  An 
+overview of the modeling framework is presented in Section 4. 
+ 
+Forecasts for the period from 2020 through 2050 are provided for the system and eleven 
+planning zones are provided in Appendix A.  Forecasts includes annual energy, summer 
+coincident peak, and winter coincident peak forecasts for four scenarios. Appendix B 
+provides a detailed description of the residential and commercial Statistically Adjusted End-
+Use (SAE) models used in developing class sales and end-use energy forecasts.  Weather 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 4 
+  
+ 
+station weights used in developing state and regional load forecasts are included in Appendix 
+C, along with statewide maps. 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 5 
+  
+ 
+2. Climate Impact Studies 
+New York has been on the forefront of studying temperature trends and the potential impact 
+from climate change.  In 2011, NYSERDA released the first major climate impact study for 
+New York (Responding to Climate Change in New York State: The ClimAID Integrated 
+assessment for effective climate change adaption in New York State. Final report). 
+This study was updated in September 2014 by climatologists from Columbia University, 
+Cornell University and the City University of New York.  (Horton, R., D. Bader, C. 
+Rosenzweig, A. DeGaetano and W.Solecki. 2014. Climate Change in New York State: 
+Updating the 2011 ClimAID Climate Risk Information. New York State Energy Research and 
+Development Authority (NYSERDA), Albany, New York). 
+ 
+Based on the most advanced climate models at that time, the ClimAID team found that 
+temperature warming trends are slightly worse than the initial study.  The study concluded 
+that New York could expect to see hotter summers, warming winters, increasing rainfall, 
+rising oceans, and more extreme weather events. 
+ 
+The potential impacts of climate change were glimpsed when New York was hit by 
+Hurricane Sandy on October 29th, 2012.  Superstorm Sandy caused an estimated $19 billion 
+in losses in New York City and over $32 billion in losses in the state.  There were 48 
+reported storm-related deaths, subways and tunnels were flooded, thousands of homes were 
+destroyed, and with the impact on the transportation and communication systems, the City 
+was effectively shut down for several days.  Hundreds of thousands of City residences were 
+without power for several days. 
+ 
+Recognizing there may be an increasing likelihood of future storms of this magnitude, both 
+New York City and Consolidated Edison (ConEdison) have been working to improve climate 
+resiliency.  In March 2019, the City released the Climate Resiliency Design Guidelines.  The 
+report outlines the most recent plan for building a more climate-resilient city.  The New York 
+Panel on Climate Change (NPCC) provides the weather projections that formed the basis of 
+the city resiliency plan and also worked on the 2014 ClimAID update.  Current planning is 
+based on the second Panel on Climate Change Report (NPCC2) long-term weather 
+projections, which found the 2014 ClimAID projections to still be on track. 
+ 
+ConEdison launched a project in 2017 specifically focused on evaluating how climate change 
+will potentially impact the electric, gas, and steam distribution operation and network and 
+identifying infrastructure needs to build a more resilient distribution system. This project is 
+expected to be completed by the end of 2019 (ConEdison Climate Change Vulnerability 
+Study, ongoing).  As part of this study, long-term climate change projections were updated by 
+the Columbia Center for Climate System Research (CCSR) for the ConEdison service area.  
+Results of this study should be available early next year. 
+ 
+In climate models, temperature and humidity projections are driven by projected levels of 
+greenhouse gas concentration.  There are a number of complex General Circulation Models 
+(GCM) that model how increases in greenhouse gases interact with other factors that impact 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 6 
+  
+ 
+temperature trends.  These factors include current weather conditions, the amount of the 
+sun’s energy absorbed and radiated to space, forests, agricultural lands, and other vegetation 
+that absorb and ultimately release CO2 gases, and physical changes in the earth such as 
+melting ice caps and rising oceans that feedback through the model over time. 
+ 
+In 2014, the Intergovernmental Panel on Climate Change (IPCC) established a set of four 
+possible greenhouse gas concentration paths that provide a common set of inputs for 
+modeling weather impacts.  These paths, known as Representative Concentration Pathways 
+(RCPs) relate to the level of the sun’s energy absorbed by the Earth and radiated back to 
+space (radiative or climate forcing).  With a higher RCP, there is an increase in temperature 
+as the amount of energy trapped in the atmosphere increases.  The RCPs are physical paths 
+but can roughly be associated with specific human activity and response (or lack of response) 
+to climate change.  Defining socioeconomic conditions associated with these paths have been 
+designated Shared Socioeconomic reference Pathways (SSPs).  Figure 1 shows four of these 
+relative concentration paths. 
+ 
+Figure 1:  Relative Greenhouse Concentration Paths 
+ 
+ 
+RCP 8.5 represents the worse possible path.  Greenhouse gases continue escalating at a faster 
+rate and do not begin to level off until after 2100.  RCP 2.6 represents the best possible path. 
+Implicit in the RCP 2.6 path is immediate global action to address climate change.  RCP 4.5 
+is consistent with current man-made emission trends; greenhouse gases continue to increase 
+at roughly current rates with increases slowing significantly by mid-century and eventually 
+leveling out at a little over 550 ppm.  While RCP 8.5 begins to increase at a faster rate after 
+2020, there is no significant divergence between any of the paths until 2030.   
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 7 
+  
+ 
+2.1 Temperature Projections 
+While climate change will have an impact on many weather-related factors including rainfall, 
+sea level, cloud coverage, and more extreme weather events; this study focuses on 
+temperature and humidity projections as these have the most significant impact on electricity 
+demand. 
+ 
+The 2014 ClimAID update compared modeled temperatures for future decades against a 
+base-year temperature.  The base-year temperature is defined as the average temperature 
+between 1971 and 2000; if temperatures have been warming over this period then the 
+reference year is 1990 (the midpoint of the 30-year temperature range).  Table 1 shows 
+ClimAID projected temperatures for New York City.  The table is from the September 2014 
+updated report. 
+ 
+Table 1: New York City – Temperature Forecast Increase From Base Year 
+ 
+ 
+Using 1990 as the base year implies temperatures in New York City are expected to increase 
+0.5 degrees per decade (Low Estimate) to 1.1 degree per decade (High Estimate).  Averaging 
+the middle range results in 0.8 degrees per decade.  New York City NPCC has confirmed the 
+reasonableness of projected New York City temperature trend as the basis for developing the 
+City’s current climate resiliency plan.   
+ 
+Other studies show similar projections.  The California Fourth Climate Change Assessment 
+projects average temperatures that are 5.6 to 8.8 degrees higher by 2100; this is an increase of 
+0.7 to 1.1 degrees per decade (August, 2018 http://www.climateassessment.ca.gov).  The 
+IPCC in their most recent temperature projections show that by 2100, global average 
+temperatures increase 1.1 to 2.6 Celsius for RCP 4.5 and 2.6 to 4.8 Celsius for RCP 8.5 over 
+the base-year period (1986 – 2005); this translates into roughly 0.5 to 0.9 degrees Fahrenheit 
+per decade. (https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_Chapter12_FINAL.pdf). 
+ 
+A recent study by the San Francisco Federal Reserve Board and University of Pennsylvania 
+(https://economics.sas.upenn.edu/pier/working-paper/2019/evolution-us-temperature-
+dynamics)  evaluated annual average temperature trends for fifteen weather stations across 
+the United States.  Figure 2 shows the study results.  
+ 
+Baseline        
+(1971-2000)     
+54.6 °F
+Low Estimate 
+(10th 
+Percentile)
+Middle Range 
+(25th to 75th 
+Percentile)
+High Estimate 
+(90th 
+Percentile)
+2020s
++ 1.5°F
++ 2.0°F to  2.9°F
++ 3.2°F
+2050s
++ 3.1°F
++ 4.1°F to  5.7°F
++ 6.6°F
+2080s
++ 3.8°F
++ 5.3°F to  8.8°F
++ 10.3°F
+2100
++ 4.2°F
++ 5.8°F to  10.4°F
++ 12.1°F
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 8 
+  
+ 
+Figure 2: U.S. City Temperature Trends (Degrees Per Decade) 
+ 
+ 
+Temperature trends varied from 0.36 degrees per decade in Boston to as high as 1.06 degrees 
+per decade in Las Vegas.  Historical trends are consistent with climate model projections. 
+ 
+One thing to note when reviewing climate study results is that the RCPs are physical 
+greenhouse gas paths; there is no assigned probability.  The RCPs were adopted in 2015 to 
+provide a consistent set of input to all global climate models.  The RCPs replace a set of 
+socioeconomic scenarios.  There is no significant divergence in the RCP paths until 2030, at 
+which point the RCP 8.5 path accelerates.  RCP 4.5 and RCP 6.0 track each other through 
+2060.  RCP 2.6 is the best case scenario, with greenhouse gases beginning to decline around 
+2040.  Most studies focus on the RCP 4.5 and RCP 8.5 outcomes. ClimAID and NPCC use 
+RCP 4.5 to represent the low bound (assigned the 10th percentile) and RCP 8.5 to represent 
+the worst case (assigned the 90th percentile); mid-range estimates are generated by the 
+distribution of different GCM results.  The California study calls RCP 8.5 the “Business as 
+Usual” path. 
+ 
+The ClimAID study implies long-term average temperature increases between 0.5 to 1.1 
+degrees per decade with mean projection of 0.8 degrees per decade.  Projected trends are 
+consistent with the California climate assessment study, IPCC’s global temperature 
+projections, and recent temperature trends found across the country. 
+ 
+0.76
+0.36
+0.39
+0.44
+0.60
+0.69
+0.72
+1.06
+0.71
+0.83
+0.50
+0.45
+0.84
+0.69
+0.86
+0.69
+0.00
+0.20
+0.40
+0.60
+0.80
+1.00
+1.20
+ATL
+BOS
+BWI
+CVG
+DFW
+DSM
+DTW
+LAS
+LGA
+MSP
+ORD
+PDX
+PHL
+SLC
+TUS
+ALL
+Trend in Annual Average Temperature (Degrees per Decade)
+1960 to 2017
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 9 
+  
+ 
+3. Weather Analysis 
+3.1 Estimate Temperature Trends 
+At the beginning of this project, we (i.e., Itron in coordination with NYISO staff) elected to 
+develop a forecast based on historical weather trends rather than output from global climate 
+models.  The analysis entailed estimating temperature and Temperature Humidity Index 
+(THI) trends from historical weather data at the weather station level, evaluating the 
+reasonableness of these trends for forecasting, defining a temperature band that is consistent 
+with state climate impact studies, and translating trended temperatures and Cumulative 
+Temperature Humidity Index (CTHI) into heating, cooling, and peak degree-days for sales, 
+energy, load profiles, and peak models. 
+ 
+The core of the analysis is the evaluation of long-term weather trends across New York State.  
+Historical observations include daily data starting January 1, 1950 and extending through 
+December 31, 2018 for 21 weather stations.  Weather concepts evaluated include maximum 
+and minimum temperatures, hot and cold days, THI (a temperature/humidity weighted 
+variable), and cumulative THI (a three-day weighted THI variable).  Table 2  lists the 21 
+weather stations. (See Appendix C for a map showing the locations of these stations.) 
+ 
+Table 2:  Weather Station List 
+ 
+Station ID
+Station
+ALB
+Albany
+ART
+Watertown
+BGM
+Binghampton
+BUF
+Buffalo
+ELM
+Elmira
+ELZ
+Wellsville Muni
+FRG
+Farmingdale
+GFL
+Glens Falls
+HPN
+White Plains
+ISP
+Islip
+JFK
+JFK Airport
+LGA
+La Guardia Airport
+MSS
+Massena
+MSV
+Monticello
+NYC
+Central Park
+PLB
+Plattsburgh
+POU
+Poughkeepsie
+ROC
+Rochester
+SWF
+Newburgh
+SYR
+Syracuse
+UCA
+Utica
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 10 
+  
+ 
+While we explored a wide range of temperature and humidity concepts, we ultimately settled 
+on a few temperature concepts where there are measurable trends, which could be translated 
+into model weather variables such as heating and cooling degree-days, and could be 
+compared with other studies.  Final temperature concepts include: 
+ 
+• Average temperature (AvgDB): Average daily temperature 
+• Cold-day average temperature (MinAvgDB): Average temperature on the coldest day  
+• Hot-Day average temperature (MaxAvgDB): Average temperature on the hottest day 
+• Hot- Day cumulative THI (MaxCTHI): Average CTHI on the hottest day 
+ 
+Annual trend models were estimated for each of the temperature concepts.  The historical 
+period is from 1950 to 2018; this provides 69 annual observations for each concept and 
+weather station.  An example of the dataset is shown in Figure 3 for the Albany weather 
+station (ALB). 
+ 
+Figure 3: Annual Drybulb Values at Albany – Degrees F 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 11 
+  
+ 
+Figure 4: Annual CTHI Values at Albany – Degrees F 
+ 
+ 
+The modeling analysis involved fitting statistical trend models to the historical temperature 
+and CTHI data series.  We explored several model functions and determined that a hinge-fit 
+model best explained historical weather trends and resulted in reasonable temperature trend 
+estimates, which are consistent with other trend analyses, the ClimAID study update, and our 
+own analysis of other regions. 
+ 
+A hinge-fit model is a relatively simple specification that involves finding the point in time 
+where there is a statistically measurable change in temperature trend.  The model 
+specification is: 
+ 
+𝑉𝑉𝑉𝑉𝑉𝑉𝑉𝑉𝑉𝑉𝑐𝑐𝑐𝑐= 𝑓𝑓(𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑦𝑦, 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶) 
+ 
+Where: 
+c = Weather concept: 
+AvgDB 
+MinAvgDB 
+MaxAvgDB 
+MaxCTHI 
+ 
+y = year 
+HingedTrend = A variable whose value is 0 from 1950 to 1991, then increases by 1 
+each year thereafter 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 12 
+  
+ 
+Figure 5 depicts the actual and predicted results. 
+ 
+Figure 5: Hinge-Fit Model 
+ 
+ 
+Figure 6 shows the average temperature trend projection for the Albany airport weather 
+station. 
+ 
+Figure 6: Albany Average Temperature Trend – Degrees F 
+ 
+ 
+The upper and lower light blue lines show the 90% confidence interval around the 
+temperature trend.  The year 1992 was selected as the common hinge-point as this provided 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 13 
+  
+ 
+the best overall fit across all the weather stations and weather concepts.  Using a common 
+hinge point allows us to isolate trends across weather stations and concepts that are not 
+determined simply by differences in the starting point of the data series.  The average 
+temperature trend is highly statistically significant; this is true across all the weather stations.  
+The estimated coefficient on Albany average temperature is 0.11; this implies that since 1992 
+temperatures on average have been increasing 0.11 degrees per year or 1.1 degrees per 
+decade (climate analysis generally discuss temperature trends in terms of decades). 
+ 
+One of the interesting discoveries is that the temperatures on the hottest days and coldest 
+days are trending at different rates.  Figure 7 and Figure 8 show temperature trends on the 
+hottest and coldest days. 
+ 
+Figure 7: Albany Hot-Day Weather Trend – Degrees F 
+ 
+Figure 8: Albany Cold-Day Trend – Degrees F 
+ 
+ 
+The average temperatures on the coldest days are increasing faster than average temperatures 
+on the hottest days.  This is true for all the weather stations except La Guardia and Islip 
+where this relationship is reversed. 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 14 
+  
+ 
+While days are getting warmer, the maximum hourly temperatures are not.  Increases in 
+temperatures have largely been driven by increasing minimum temperatures.  Figure 9 shows 
+the maximum hourly temperature and Figure 10 shows the minimum hourly temperature. 
+ 
+Figure 9: Albany Maximum Hourly Temperature – Degrees F 
+ 
+ 
+Figure 10: Albany Minimum Hourly Temperature – Degrees F 
+ 
+ 
+Another finding is that there are significant differences in temperature trends across the state.  
+Figure 11 and  Figure 12 show the temperature trend for Central Park and La Guardia. Both 
+stations are within New York City, but have significantly different temperature trends. 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 15 
+  
+ 
+Figure 11: Central Park Average Temperature Trend Degrees F 
+ 
+ 
+Figure 12: La Guardia Average Temperature Trend – Degrees F 
+ 
+ 
+Average temperatures at Central Park are increasing 0.6 degrees per decade while average 
+temperatures at La Guardia are increasing 1.0 degrees per decade.  Similarly, temperatures on 
+the hottest days are increasing 0.4 degrees per decade at Central Park compared with 1.4 
+degrees per decade at La Guardia.   
+ 
+Estimated trend coefficients are used in constructing the long-term model weather variables. 
+The are 84 resulting coefficients - 21 weather stations, each with 4 weather concepts.  
+Transmission District temperature trend coefficients were calculated using a weighted 
+average of weather station coefficients.  The weather station weights were derived by the 
+NYISO forecasting team based on weather station to Transmission District mapping.  A 
+similar set of weights were derived for each NYISO Load Zone and for the NYCA system as 
+a whole.  Table 3 shows the resulting weather trend coefficients for each Transmission 
+District and the system (NYCA).  (Appendix C includes the weather station weights.) 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 16 
+  
+ 
+Table 3: Transmission District and System Weather Trend Coefficients  
+(Degrees F per Decade) 
+ 
+ 
+The state average temperature trend is 0.71 degrees per decade with peak-day CTHI 
+averaging 0.63 degrees per decade.  Average temperatures by Transmission District vary 
+from 0.59 to 0.90 degrees per decade.   
+ 
+For all but LIPA, average temperatures on the coldest days are increasing faster than average 
+temperatures on the hottest days. In LIPA is dominated by ISLIP airport were temperatures 
+on the hottest days are increasing faster than the average temperatures.  We believe proximity 
+to the ocean plays a part in this trend.  Table 4 shows expected average temperatures based 
+on current temperature trends.  
+ 
+Table 4: Expected Temperature Average Temperature – Degrees F 
+ 
+ 
+ 
+Differences in hot-day and cold-day temperature trends complicate the impact temperatures 
+have on load over time.  Thinking about it in terms of a temperature duration curve, the 
+temperature curve is not only shifting out over time as average temperature increases, but the 
+shape itself is changing — it is getting fatter at the bottom and steeper at the top.  In Figure 
+13, the blue line represents the unadjusted temperature duration curve, which remains 
+constant from year-to-year, while the red line represents the adjusted temperature duration 
+curve, which is adjusted to hit the average, maximum, and minimum targets.  As illustrated, 
+the deviations from the unadjusted curve increase as the forecast horizon progresses. 
+ 
+Weather 
+Concept
+National 
+Grid
+Consolidated 
+Edison
+Central 
+Hudson
+Long Island 
+Power 
+Authority
+New York 
+State Electric 
+& Gas
+Orange & 
+Rockland
+Rochester 
+Gas & 
+Electric
+NY
+MinTemp
+1.07
+0.86
+1.78
+0.79
+1.07
+0.99
+1.12
+0.98
+AvgTemp
+0.71
+0.69
+0.90
+0.85
+0.60
+0.59
+0.78
+0.71
+MaxTemp
+0.52
+0.56
+0.78
+0.93
+0.44
+0.41
+0.45
+0.58
+AvgCTHI
+0.64
+0.59
+0.80
+0.75
+0.55
+0.64
+0.68
+0.63
+Transmission District
+2020
+2030
+2040
+2050
+National Grid
+49.5
+      
+50.2
+      
+50.9
+      
+51.6
+      
+ConEdison
+55.9
+      
+56.6
+      
+57.3
+      
+57.9
+      
+Central Hudson
+51.9
+      
+52.8
+      
+53.7
+      
+54.6
+      
+Long Island Power Authority
+54.5
+      
+55.4
+      
+56.2
+      
+57.0
+      
+New York State Electric & Gas
+49.2
+      
+49.8
+      
+50.4
+      
+51.1
+      
+Orange & Rockland
+51.7
+      
+52.3
+      
+52.9
+      
+53.5
+      
+Rochester Gas & Electric
+50.1
+      
+50.8
+      
+51.6
+      
+52.4
+      
+New York Control Area
+52.6
+      
+53.3
+      
+54.0
+      
+54.7
+      
+Average Annual Temperature
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 17 
+  
+ 
+Figure 13: Temperature Duration Curves 
+ 
+ 
+When translated into monthly CDD, the shoulder-month CDDs (in April, May, September, 
+and October) increase faster than in the summer months (June, July, and August). 
+Effectively, summer is coming earlier and persisting longer.  Over time, system and zonal 
+loads flatten out as loads in the shoulder months increase faster than loads in the summer 
+months. 
+ 
+3.2 Calculate Trended Normal Temperatures 
+Forecasted HDD, CDD, and TDD are derived by combining historical average temperatures 
+with the trend calculations.  Daily, peak-day, and monthly degree-days are calculated for 
+each planning area and the system. 
+ 
+The first step is to calculate “normal” daily average temperatures and CTHI.  Daily normal 
+temperatures are calculated using an “average-by-date” approach over the period January 1, 
+1999 to December 31, 2018; 2018 is the last full year of data.  That is, take the following 
+steps: 
+ 
+• Average all the January 1st values 
+• Average all the January 2nd values 
+• … continue through end of year… 
+• Average all the December 31st values 
+ 
+The daily average is then assigned to a typical weather pattern that assures that the peak-
+producing weather conditions occur on a weekday.  This is important for the purposes of 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 18 
+  
+ 
+generating the peak demand forecast, as it complicates the analysis to have the most extreme 
+days occurring on a weekend.  While it is true that extreme weather can and will occur on 
+weekends, it is necessary from a forecasting perspective to ensure the forecasts are producing 
+extreme load values, which generally occur on weekdays, rather than to obscure the analysis 
+with the offsetting effects of the weekend.  Figure 14 shows the resulting normal daily 
+temperature series for the state. 
+ 
+Figure 14: State-level daily normal average temperatures – Degrees F 
+ 
+ 
+One thing to note is that averaging-by-date first and then calculating degree-days will result 
+in a small bias adjustment downward in the number of CDD in the shoulder months.  
+Typically, we would calculate degree-days first and then average the daily degree-days 
+series.  But as the trends are calculated on temperature (so they are consistent with climate 
+studies), we elected to accept the slightly biased shoulder-month CDD. 
+ 
+The next step is to calculate a normal temperature duration curve.  The daily normal 
+temperature (365 values for non-Leap Years and 366 value for Leap Years) are ranked from 
+the highest temperature to the lowest temperature, as illustrated in Figure 15. 
+ 
+Figure 15: Normal Temperature Duration Curve 
+ 
+ 
+Normal daily average temperatures are shown in green.  The associated maximum daily 
+temperature is red and associated minimum temperature is blue. 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 19 
+  
+ 
+ 
+The starting duration curve represents the average temperature over the period from 1999 to 
+2018.  Effectively, it represents the 2009 expected temperatures (i.e., the midpoint of the 
+1999–2018 period).  To get to the forecast starting point (2019), the normal-weather 
+temperature curve for the system is shifted up 0.07 degrees per year (0.7 degrees per decade). 
+ 
+In summary, the steps to reach the starting year normal temperatures include: 
+ 
+• Sorting temperatures from high to low 
+• Averaging by season (1999 – 2018) 
+• Adjusting the starting temperature duration curve to the 2019 start-year.  This value is 
+already 20 years from the starting point (i.e., 1999). This starting point (2019) is the 
+basis for trending temperatures through 2050. 
+ 
+At the state level, the temperature curve continues to shift upward over time at 0.7 degrees 
+per decade, but trend analysis has shown that the temperatures on the coldest days (1.0 
+degrees per decade) are increasing faster than the average temperature, while temperatures on 
+the hottest days (0.6 degrees per decade) are increasing slower than the average temperature.  
+The temperature curve is adjusted over time to reflect these differences in temperature trends 
+by performing the following steps: 
+ 
+• Adjusting the curve upward to match the hottest day (increasing .06 degrees per year) 
+• Pivoting the curve to match the coldest day (increasing 0.1 degrees per year) 
+• Calibrating to the annual average temperature (increasing 0.07 degrees per year) 
+ 
+The adjustment process is illustrated in Figure 16. 
+ 
+Figure 16: Depiction of Trended Normal Adjustment Process 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 20 
+  
+ 
+ 
+Finally, we map the duration curves to the typical weather pattern with two versions: 
+ 
+• Rotation by Day always puts the hottest day on a specified weekday (e.g., 
+Wednesday).  This approach is useful for the hourly load modeling and it ensures that 
+the extreme weather days do not rotate onto a weekend, which will impact the peak 
+demand values. 
+• Rotation by Calendar always starts the pattern on January 1st.  This approach is 
+useful for the monthly energy forecasting and it ensures that the calendar-month 
+degree days do not vary (with the movement of the calendar) from year to year.  In 
+other words, this ensures that the July CDD values do not change from year to year, 
+which will impact the monthly energy forecast. 
+ 
+The resulting daily normal temperature data series for NY state in 2020 and 2040 are 
+illustrated in Figure 17.  The most salient feature of the figure is that the 2040 values are 
+higher than the 2020 values, not every single day, but in aggregate. 
+ 
+Figure 17: New York State Normal Daily Temperatures: 2020 and 2040 
+ 
+ 
+3.3 Calculate CDD, HDD, and Peak-day TDD  
+Daily, monthly, and peak-day degree-days are used in driving energy and demand.  Degree-
+days are calculated from actual and trended-normal average temperatures.  Typically, CDD 
+and HDD are calculated with a 65-degree base temperature.  As the relationship between 
+energy use and temperature is nonlinear, forecast models of energy use can be improved by 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 21 
+  
+ 
+using CDD and HDD variables with different and potentially multiple temperature 
+breakpoints. 
+ 
+The formulas for CDD and HDD are as follows: 
+ 
+𝐶𝐶𝐶𝐶𝐶𝐶𝑑𝑑
+𝑏𝑏= 𝑀𝑀𝑀𝑀𝑀𝑀(𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝑑𝑑−𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝑏𝑏, 0) 
+𝐻𝐻𝐻𝐻𝐻𝐻𝑑𝑑
+𝑏𝑏= 𝑀𝑀𝑀𝑀𝑀𝑀(𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝑏𝑏−𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝑑𝑑, 0) 
+ 
+Where: 
+d  
+ 
+= date 
+b  
+ 
+= critical turning point (e.g., 65, 70, 75) 
+AvgDB  
+= average Daily Temperature 
+ 
+CDD values return a positive value when the temperature is above the Breakpoint and HDD 
+values return a positive value when the temperature is below the Breakpoint.  Otherwise, 
+each variable returns 0.  The daily CDD and HDD values are used as drivers in the hourly 
+load models. 
+ 
+For the purposes of monthly energy forecasting, the CDD and HDD values are summed over 
+the days in the month as follows: 
+ 
+𝐶𝐶𝐶𝐶𝐶𝐶𝑦𝑦,
+𝑏𝑏= ෍𝐶𝐶𝐶𝐶𝐶𝐶𝑦𝑦𝑦𝑦𝑦𝑦
+𝑏𝑏
+𝑦𝑦𝑦𝑦𝑦𝑦
+ 
+ 
+𝐻𝐻𝐻𝐻𝐻𝐻𝑦𝑦,
+𝑏𝑏= ෍𝐻𝐻𝐻𝐻𝐻𝐻𝑦𝑦𝑦𝑦𝑦𝑦
+𝑏𝑏
+𝑦𝑦𝑦𝑦𝑦𝑦
+ 
+Where: 
+y = year (e.g., 2010, 2011) 
+m = month (e.g., 1, 2, …12) 
+d = day (e.g.., 1, 2, … 31) 
+b = breakpoint (e.g., 65, 70, 75) 
+ 
+For the purposes of the monthly peak demand forecast model, Itron utilized a TDD (i.e., THI 
+Degree Day) calculated from the daily CDD based on the CTHI, rather than the temperature, 
+in order to capture the effects of humidity.  Further, the TDD was calculated as the maximum 
+monthly value of this variable rather than the value coinciding with the peak demand. 
+ 
+Figure 18 is a scatter plot of NY State Daily energy (retail usage plus losses) plotted against 
+average daily temperature, in which each point represents a day.  The relationship is clearly 
+non-linear.  Specifically, there is a positive relationship between energy and temperature at 
+temperatures above 65 degrees (i.e., high temperatures are associated with higher energy) 
+and there is a negative relationship between energy and temperature at temperatures below 
+50 degrees (i.e., lower temperatures are associated with higher energy).  This relationship is 
+well-known and easily explained.  At high temperatures, electricity consumers use more 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 22 
+  
+ 
+energy for cooling.  At low temperatures, electricity consumers use more energy for heating.  
+Further, the lower temperatures are also associated with increased lighting usage as the 
+winter has longer periods of darkness. 
+Figure 18: NY State Daily Energy vs. Average Temperature (2006 to 2018) 
+ 
+ 
+From the above figure, it is clear that using a single breakpoint of 65 for both CDD and HDD 
+will not provide the best fit.  While 65 degrees is a reasonable breakpoint for CDD, HDD 
+defined with a 55 or even 50 degrees, will fit the heating side of the curve much better.  Less 
+obvious is that using a single breakpoint for CDD alone (and for HDD alone) may not 
+sufficiently capture the load-weather relationship, due to the non-linear response of load to 
+weather.  To address this weakness, we develop weighted CDD and HDD values that 
+incorporate differential effects at various breakpoints.  
+ 
+𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑦𝑦𝑦𝑦= ෍𝑊𝑊𝑊𝑊𝑊𝑊𝑤𝑤× 𝐶𝐶𝐶𝐶𝐶𝐶𝑦𝑦𝑦𝑦
+𝑛𝑛
+𝑤𝑤=1
+ 
+Where: 
+WgtCDD  
+= Weighted CDD 
+CDD   
+= Cooling degree 
+y  
+ 
+= year 
+m  
+ 
+= month 
+w  
+= weight option (from 1 to n – CDD65, CDD70, 
+CDD75 would be n = 3) 
+Wgt  
+= Weight Value (e.g., 0.5). The sum of the 
+weights is 1.0. 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 23 
+  
+ 
+Analogous weighting logic applies to the monthly HDD. 
+ 
+Figure 19 depicts the relationship between NY state monthly peak demand against the peak-
+day CTHI — each point represents the peak-day during the month, with one point per month.  
+The relationship is very similar to the relationship between daily energy and temperature.  
+ 
+Figure 19: NY State Monthly Peak Demand vs. Peak Day CTHI (2006 to 2018) 
+ 
+ 
+For the purposes of modeling the monthly peak-demand, we calculated the CTHI on the day 
+of the historical peak.  That is, we determined the day on which the monthly peak demand 
+occurred, and we calculated the CTHI from that particular day.  We then utilized the CTHI as 
+the basis for the TDD (analogous to the CDD), rather than using the temperature solely, in 
+order to capture the effects of humidity.  Further, we applied a similar weighting as described 
+above for the monthly CDD and HDD variables, in order to capture non-linearities in the 
+effects of the TDD.  Figure 20 illustrates the NY State monthly peak TDD variable. 
+ 
+Figure 20: NY State Peak TDD History and Forecast 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 24 
+  
+ 
+Trended CDD, HDD, and CTHI are used in constructing drivers for the forecast models.  At 
+the end of the process, the monthly CDD values increase during the forecast horizon and the 
+monthly HDD values decrease during the forecast horizon, as shown in Figure 21 and Figure 
+22.  The CDD values exhibit an increase of 0.8% annually (with a faster increase during the 
+shoulder months than during the peak summer months), while the HDD values decrease by 
+0.5% annually.  
+ 
+Figure 21: NY State Weighted Monthly HDD 
+ 
+ 
+Figure 22: NY State Weighted Monthly CDD 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 25 
+  
+ 
+3.4 Accelerated Temperature Scenario 
+Average temperatures are trending upward by 0.6 to 0.9 degrees per decade at weather 
+stations across the state.  On average, New York temperatures are increasing 0.7 degrees per 
+decade.  Temperature trends are consistent with current and projected increases in 
+greenhouse gases at least through 2030.  Our reference case assumption is temperatures will 
+continue to trend at current rates.  AccuWeather, who worked with Itron on the study, 
+confirmed the reasonableness of projected temperature trends. 
+ 
+Climate-model projections are based on one of four RCP paths.  NYSERDA, New York City 
+and Consolidated Edison base their analysis on RCP 4.5 (as the low case) and RCP 8.5 (as 
+the high case). RCP 8.5 results in significantly higher long-term temperatures.  There is no 
+significant divergence in the RCP paths until 2030; the paths are roughly linear from 2000 
+through 2030.  After 2030, RCP 8.5 (the worst-case scenario) begins to significantly 
+accelerate. RCP 4.5 and RCP 6.0 trend at the current rate until 2060, at which point RCP 6.0 
+continues at the current trend while RCP 4.5 flattens out.  Greenhouse gas concentration 
+under RCP 2.6 (the best-case secnerio) starts declining after 2040.  On a long-term basis, 
+greenhouse gas concentrations are relatively consistent between RCP 4.5 and RCP 6.0. 
+ 
+We recognize that there is uncertainty as to which path we will ultimately follow.  To bound 
+this uncertainty, we developed an “accelerated” temperature case.  The accelerated scenario 
+doubles the average temperature increase from 0.7 degrees per decade to 1.4 degrees per 
+decade.  The high range is consistent with the state climate study high range temperature 
+projections.  AccuWeather confirmed that 1.4 degrees per decade represents an extreme 
+temperature outcome. 
+ 
+The accelerated daily temperature series is derived in a similar manner as that for the 
+trended-normal data series; we assume that the hottest temperatures and coldest day 
+temperatures are also increasing twice as fast as in the Reference Case.  The temperature 
+duration curve shifts out over time at 1.4 degrees per decade with results used in constructing 
+spline-weighed CDD, HDD and peak-day TDD. 
+ 
+Figure 23 through Figure 25 compare HDDs, CDDs, and peak-day TDDs for the Reference 
+Case and the accelerated weather trend scenario. 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 26 
+  
+ 
+Figure 23:  Heating Degree Days 
+ 
+Figure 24:  Cooling Degree Days 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 27 
+  
+ 
+Figure 25:  Peak-Day Cooling Degree Days (THI) 
+ 
+ 
+3.5 Load Impacts 
+System and zonal load forecasts are based on a set of models and assumptions on future 
+demographic, economic, structural, and weather conditions.  The models are described in 
+Section 4.  The reference case (one of the three forecast scenarios) is used to evaluate 
+climate-change impacts.  The reference case is based on the NYISO 2019 Gold Book forecast 
+assumptions and trended-normal (0.7 degrees per decade) temperature projections.  The 
+reference case model is also used to estimate energy and peak demand with accelerated (1.4 
+degrees per decade) and “normal” temperatures (temperatures held constant at the 2019 
+level).  Table 5 shows forecast results. 
+ 
+Table 5: System Peak Demand Impact 
+ 
+ 
+Reference case summer peak demand reaches 37,403 MW in 2040 and 43,317 MW in 2050. 
+Reference case peak demand is 1,007 MW higher than the normal case demand forecast by 
+2040, and over 1,600 MW higher by 2050.  Using the accelerated temperature projections 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 28 
+  
+ 
+more than doubles the demand impact.  With accelerated temperatures, peak demand reaches 
+45,479 MW by 2050 - 3,779 MW higher than the normal-weather forecast.   
+ 
+As a percent of total peak demand, the weather impacts do not appear to be all that 
+significant.  The impact is much more significant when compared against cooling load at 
+time of peak; roughly 40% of the peak load is cooling related.  Climate change accounts for 
+7% to 17% of projected cooling load by 2040 and 10% to 23% by 2050.   
+ 
+Projected demands are based on trended and accelerated weather projections. Even around 
+these trends, there are a range of possible outcomes due to uncertainty inherent in model 
+structure and statistical estimation process, economic and end-use intensity forecasts, and 
+with the largest contributor being variance in peak-day weather conditions.  To bound 
+forecast uncertain, a 90% confidence interval is statistically derived as the 45th percentile 
+above and below the 50th percentile demand forecast (corresponding to the 5th percentile and 
+95th percentile forecasts, respectively). Table 6 shows the 50% and 90% upper bound of the 
+demand forecasts for the Reference and Accelerated Cases. 
+ 
+ NYISO also performs analyses for a one-in-ten (90th percentile) possible load event. For 
+comparison, Table 6 also shows the current NYISO Gold Book forecasts.   
+ 
+Table 6: 50% and 90% Percentile Forecast 
+ 
+ 
+While the Reference Case forecast is based on the same set of underlying economic and end-
+use intensity projections, expected demand (50% probability) is also higher than Gold Book 
+Baseline forecast.  This is largely due to differences in peak-day temperature variable 
+construction, peak-day temperature trend, and approaches for modeling impact of solar and 
+electric vehicle loads on the system load profile.  
+ 
+ 
+ 
+Baseline
+90th
+50% Prob
+90% Prob
+50% Prob
+90% Prob
+2020
+32,202
+         
+33,990
+          
+32,696
+        
+34,273
+        
+33,205
+             
+34,806
+           
+2030
+31,066
+         
+32,776
+         
+33,405
+        
+34,975
+        
+34,393
+             
+36,010
+           
+2040
+33,006
+         
+34,810
+         
+37,403
+        
+38,944
+        
+38,911
+             
+40,513
+           
+2050
+35,595
+         
+37,539
+         
+43,317
+        
+44,885
+        
+45,479
+             
+47,125
+           
+Accelerated (MW)
+Reference Case (MW)
+Gold Book (MW)
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 29 
+  
+ 
+4. Model Overview 
+Despite moderate economic growth over the last ten years, state electric sales have been flat 
+to slightly declining.  This is primarily because improvements in end-use efficiency have 
+countered the impacts of customer and economic growth.  NYISO recognized this issue and 
+three years ago adopted an end-use modeling framework designed to explicitly account for 
+changes in energy efficiency as well as economic growth.  The NYISO modeling framework 
+is used in developing the climate impact forecasts. 
+ 
+For the system forecast, the approach starts at the customer-class level with monthly 
+forecasts of residential, commercial, industrial, and streetlight sales.  Residential and 
+commercial customer classes are modeled using an end-use framework that explicitly 
+incorporate end-use saturation and efficiency.  Generalized econometric models are used in 
+developing the industrial and street lighting forecast.  Non-weather sensitive end-use sales 
+estimates derived from class-level forecasts are used to forecast system peak.  Impact of 
+trending weather conditions on peak are captured through the peak model heating and 
+cooling variables that also incorporate heating and cooling end-use intensity projections, 
+population, and economic growth. 
+ 
+The peak forecast and energy forecast (derived by adjusting the sales forecast for line losses) 
+are combined with a system hourly profile load forecast.  The profile reflects expected daily 
+weather conditions, day of the week, seasons, and holidays.  The result is an 8,760 baseline 
+hourly load forecast through 2050.   
+ 
+Long-term hourly load forecasts for solar, electric vehicles, and electrification (e.g., cold 
+climate heat pumps) are layered on the baseline hourly load forecast.  Figure 26 shows the 
+modeling framework. 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 30 
+  
+ 
+Figure 26: System Load Model Overview 
+ 
+ 
+4.1 Sales and Energy Forecasts  
+In the long-term, both economic growth and structural changes drive energy and demand 
+requirements.  Structural changes are captured in the residential and commercial sales 
+forecast models through SAE (Statistically Adjusted End-Use) specifications.  The SAE 
+model explicitly incorporates end-use saturation and efficiency projections, thermal shell 
+integrity, as well as changes in population, economic activity, prices, and weather.  End-use 
+efficiency projections include the expected impact of standards, naturally occurring 
+efficiency gains, and utility efficiency (EE) programs such rebates and thermal shell 
+improvement programs.  Figure 27 shows the SAE model specification.  A detailed 
+description of the SAE model is included in Appendix B. 
+ 
+End-Use and
+Customer 
+Class 
+Energy 
+Forecast
+Economic Drivers
+Structural Changes
+Weather Conditions
+Electric Prices
+System 
+Hourly Load Data
+Normal Peak-
+Producing Weather
+End-Use Coincident 
+Peak Factors
+System Peak 
+Forecast Model
+System Peak
+And
+Energy 
+Forecast
+Technologies that impact the 
+system shape
+PV, EV, Cold Climate Heat Pumps
+Standards
+EE Programs
+Monthly sales models are 
+estimated for:
+•
+Residential
+•
+Commercial
+•
+Industrial
+•
+Street Lighting
+Monthly Peak Model
+System Hourly Load Model
+Heat Pump, PV, and 
+EV Shapes
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 31 
+  
+ 
+Figure 27: Statistically Adjusted End-Use (SAE) Model Overview 
+ 
+ 
+Monthly estimates of cooling (XCool), heating (XHeat), and other use (XOther) are derived 
+from historical and projected end-use saturation and stock efficiency (energy intensities), 
+economic drivers, and trended CDD and HDD.  A set of coefficients (bc, bh, and bo) are 
+estimated using linear regression that statistically calibrate end-use energy estimates to 
+monthly billed sales.  Models are estimated from reported state-level sales and customer data 
+from January 2009 through December 2018. 
+ 
+End-use intensities are derived from EIA’s Annual Energy Outlook (AEO).  EIA provides 
+historical and forecasted estimates of appliance saturation, average stock efficiency, and total 
+stock consumption.  In the residential sector there are three housing types (single family, 
+multi-family, and mobile home) and seventeen end-uses.  Indices are weighted for the state 
+and each transmission operating area based on the housing mix.  In the commercial sector 
+there are eleven building types and nine primary end-uses.  End-use saturations for the Mid-
+Atlantic Census Division are then calibrated to New York end-use saturation survey data.  
+Separate weighted commercial end-use intensities are estimated for New York City and Long 
+Island based on available commercial data for these regions. Figure 28 and Figure 29 show 
+end-use intensities for total heating, cooling, and base (non-weather sensitive) use. 
+ 
+Cooling
+End-Use Intensities
+•
+Room AC
+•
+Central AC
+•
+Heat Pumps
+Economic Drivers
+•
+Income/GDP
+•
+Households
+•
+Price
+Heating
+End-Use Intensities
+•
+Resistance
+•
+Heat Pumps
+Economic Drivers
+•
+Income/GDP
+•
+Households
+•
+Price
+Other
+End-Use Intensities
+•
+Lighting
+•
+Refrigeration
+•
+Cooking, …
+Economic Drivers
+•
+Income/GDP
+•
+Households
+•
+Price
+HDD 
+CDD
+Days
+XCool
+XHeat
+XOther
+𝑆𝑉𝑉𝑉𝑉𝑉𝑉𝐶𝐶𝑦𝑦= 𝑏𝑐𝑐× 𝑋𝐶𝐶𝐶𝐶𝐶𝐶𝑉𝑉𝑦𝑦+ 𝑏ℎ× 𝑋𝐻𝐻𝑉𝑉𝑉𝑉𝐶𝐶𝑦𝑦+ 𝑏𝑜× 𝑋𝑂𝐶𝐶ℎ𝑉𝑉𝑇𝑇𝑦𝑦+ 𝑉𝑉𝑦𝑦
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 32 
+  
+ 
+Figure 28: Residential Average Intensities 
+ 
+ 
+Figure 29: Commercial Average Intensities 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 33 
+  
+ 
+The strong decline in near-term residential intensity is largely the result of LED lighting 
+adoption.  After 2030, residential base-use shows slight positive growth as there are currently 
+no additional scheduled appliance standards.  Strong declines in commercial base intensities 
+are largely the outcome of improvements in commercial lighting (conversion to LED lighting 
+systems) and improvements in ventilation.  Heating is relatively small across the residential 
+and commercial sectors as the majority of state households and business heat with natural 
+gas.  
+ 
+4.2 Economic Projections 
+The economic forecast is based on Moody Analytics 2018 long-term economic outlook for 
+New York.  Economic drivers include the number of households and household income in 
+the residential sector, and GDP and employment in the commercial and industrial sectors.  
+The industrial model also includes a measure of efficiency (kWh per employee) derived from 
+the EIA’s annual U.S. industrial sales outlook.  Table 7 and Table 8 show the state economic 
+variables for the residential and non-residential sectors.  Transmission District level forecasts 
+are based on associated regional economic forecasts.  
+ 
+Table 7: Residential Economic Drivers 
+ 
+ 
+Table 8: Non-Residential Economic Drivers 
+ 
+ 
+Year Population (,000)
+Households (,000)
+ Income
+Per Household ($)
+2009
+19,365
+7,321
+133,050
+2018
+19,629
+7,357
+135,790
+2030
+19,815
+7,433
+138,630
+2040
+19,975
+7,481
+142,690
+2050
+20,136
+7,536
+141,820
+09-18
+0.15%
+0.06%
+0.23%
+18-30
+0.08%
+0.08%
+0.17%
+30-40
+0.08%
+0.06%
+0.29%
+40-50
+0.08%
+0.07%
+-0.06%
+Compound Annual Growth Rate
+Year Gross State Product(mil$)
+Employment (,000)
+Manuf Employ (,000)
+2009
+1,224,402
+8,551
+476.3
+2018
+1,456,436
+8,556
+457.3
+2030
+1,796,789
+8,701
+459.0
+2040
+2,092,292
+8,830
+459.7
+2050
+2,433,073
+8,968
+456.7
+09-18
+1.9%
+0.0%
+-0.4%
+18-30
+1.8%
+0.1%
+0.0%
+30-40
+1.5%
+0.1%
+0.0%
+40-50
+1.5%
+0.2%
+-0.1%
+Compounded Annual Growth Rate
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 34 
+  
+ 
+Projected state economic growth is simlar to the last ten years with little population, 
+household, and employment growth.  Long-term state GDP growth is positive but increases 
+at slower rate than the most recent ten years. 
+ 
+Declines in end-use energy intensities combined with moderate economic growth result in a 
+flat to slightly negative sales trend.  While increasing temperatures overall contribute to sales 
+growth, the increase in cooling loads are partially offset by decreases in heating-related sales. 
+Heating loads include a small amount of electric heat, backup electric heat, and fans and 
+pumps associated with gas and other fossil fuel heating systems.  Sales trend upward around 
+2045 as there are no additional impacts from end-use standards after this time.  Figure 30 
+shows the Reference Case baseline energy forecast. 
+ 
+Figure 30: Baseline Forecast (Includes Efficiency Impacts) 
+ 
+ 
+ 
+4.3 Peak Demand Forecast 
+Peak Demand is driven by underlying energy requirements.  A standard modeling approach 
+is to find the historical relationship between peak and energy (either a load factor or with a 
+linear regression model) and to assume this relationship holds through the forecast period.  
+While this is sufficient for a short-term period, the relationship between energy and peaks 
+changes further into the forecast horizon, as the peak hour load depends on the timing and 
+relative size of the underlying end-use loads.  We would expect increasing temperatures to 
+have a significant impact on summer peaks as approximately 40% of the load at time of peak 
+is cooling related.  Changes in lighting requirements as a result of LED market penetration 
+have a larger impact on winter peak than summer peak as there is more lighting use at time of 
+winter peak.  To the extent possible, we want to capture changing load dynamics in the peak 
+forecast.  Figure 31 shows the peak modeling framework. 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 35 
+  
+ 
+Figure 31: Peak Model Framework 
+ 
+ 
+Monthly peak demand is driven by end-use load estimates derived from the customer class 
+sales forecast models.  Other Use is disggregated to end-use estimates at time of peak 
+(PkOther).  The peak-day cooling (PkCool) and heating (PkHeat) variables are constructed 
+by combining residential and commercial cooling and heating requirements with trended 
+peak-day degree-days.  The coefficients bc, bh, and bo are estiamted with linear regression. 
+The model is estimated over the period January 2009 to December 2018.  Figure 32 shows 
+baseline peak demand forecast. 
+ 
+PKCool
+𝐵𝐵𝑉𝑉𝑉𝑉𝐵𝐵𝑦𝑦= 𝑉𝑉+ 𝑏𝑐𝑐× 𝐵𝐵𝐵𝐵𝐶𝐶𝐶𝐶𝐶𝐶𝑉𝑉𝑦𝑦+ 𝑏ℎ× 𝐵𝐵𝐵𝐵𝐻𝐻𝑉𝑉𝑉𝑉𝐶𝐶𝑦𝑦+ 𝑏𝑜× 𝐵𝐵𝐾𝑂𝐶𝐶ℎ𝑉𝑉𝑇𝑇𝑦𝑦+ 𝑉𝑉𝑦𝑦
+Peak-Day 
+Temperature
+(CDD)
+Cooling Load
+* Residential
+* Commercial
+Peak-Day
+Temperature
+(HDD)
+Share End-Use 
+Energy at Time of Peak
+Other Use
+* Residential
+* Commercial
+* Industrial
+* Street Lighting
+XOther
+Class Sales Forecast 
+Models
+PKHeat
+Heating Load 
+* Residential
+* Commercial
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 36 
+  
+ 
+Figure 32: Baseline Peak Forecast (Reference Case) 
+ 
+ 
+Increasing peak-day TDD contributes to strong summer peak demand growth while declining 
+peak-day HDD reduces winter peak demand. 
+ 
+Table 9 presents the baseline energy and peak forecast for the Reference Case.  Baseline 
+forecast includes state economic projections, EIA end-use intensity trends projections, and  
+increase in temperatures (0.7 degrees per decade). 
+ 
+Table 9: Baseline Forecast (Reference Case) 
+ 
+ 
+Total system energy is relatively flat as efficiency improvements counter household and 
+economic growth and the impact of increasing CDD are mitigated by decreasing HDD. 
+ 
+The baseline end-use forecast is adjusted downward for expected BTM solar adoption and 
+upward for electric vehicle charging loads.  BTM solar and electric vehicle charging 
+forecasts were developed as part of the NYISO 2019 Gold Book Forecast.   
+Forecast
+Actual
+Summer Peak
+Winter Peak
+Year
+Energy (GWh)
+Summer Peak (MW) Winter Peak (MW)
+2009
+158,578
+30,765
+24,344
+2018
+160,565
+31,802
+25,009
+2030
+154,756
+33,991
+22,653
+2040
+155,578
+35,325
+22,565
+2050
+158,575
+37,551
+22,820
+Compounded Annual Growth Rate
+09-18
+0.1%
+0.4%
+0.3%
+18-30
+-0.3%
+0.6%
+-0.8%
+30-40
+0.1%
+0.4%
+0.0%
+40-50
+0.2%
+0.6%
+0.1%
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 37 
+  
+ 
+A BTM solar forecast is developed for each load zone.  The forecast of installed solar PV 
+capacity is based on a model that fits historical adoption trends with a logistic S-shape curve. 
+GWh generation is then derived based on the expected solar PV installed capacity (MW) and 
+the solar PV annual capacity factor.  We expect to see strong solar adoption through 2030.  In 
+the Reference Case, solar generation doubles from 2,647 GWh in 2020 to 5,223 GWh in 
+2030.  BTM solar generation continues to increase in subsequent year but at a slower rate, as 
+the potential market flattens out.  
+ 
+The electric vehicle forecast starts with a projection of total registered vehicles. The 
+historical number of registered vehicles are first obtained from county registars. Future total 
+vehicles  are based on the historical relationship of the number of registered vehicles and 
+regional population.  Moody’s regional population forecasts then drive total vehicle forecast 
+forward. Electric vehicle saturation projections (the number of electric cars as a share of total 
+vehicles in a given year) are based on National Energy Renewable Laboratory (NREL) U.S. 
+electric vehicle projections for “all electric” (Battery Electric Vehicle or BEV) and hybrid 
+electric vehicles (Plug-in Hybrid Electric Vehicles or PHEV). PHEV have a much lower 
+kWh per mile input than BEV, since they also combust gasoline. 
+ 
+The changing mix of BEV and PHEV is reflected in the kWh per vehicle forecast. The kWh 
+per vehicle increases over time with increasing share of BEV adoption and decreasing share 
+of PHEV.  A simple model is used to translate electric vehicle purchases to annual charging 
+energy requirements: 
+𝐸𝐸𝐸𝐸 𝐺𝐺𝐺𝐺ℎ𝑡𝑡= 𝐸𝐸𝐸𝐸 𝑈𝑈𝑈𝑈𝑈𝑈𝑈𝑈𝑈𝑈𝑡𝑡 × 𝑉𝑉𝑉𝑉𝑉𝑉𝑡𝑡× ൬𝑘𝑘𝑘𝑘ℎ
+𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚 × 𝐸𝐸𝐸𝐸𝐸𝐸𝑡𝑡൰ 
+Where: 
+EV Units 
+= Forecasted number of electric vehicles by type 
+VMT   
+= Annual vehicle miles traveled 
+kWh/mile  
+= Expected annual kWh use per vehicle mile 
+weighted across vehicle class/type 
+EIF  
+= Efficiency Improvement Factor; an index that 
+reflects increased efficiency of electric vehicles 
+over time 
+t  
+= Index representing the year 
+ 
+ 
+By 2030 electric vehicles (both BEV and PHEV) account for 14% of passenger electric 
+vehicles and light duty trucks; this increases to nearly 40% by 2040.  With the additional 
+penetration of commercial electric vehicles (representing medium and heavy dutry trucks and 
+buses), the total EV sales reach 13,174 GWh by 2040 and 24,360 GWh by 2050.   
+Commercial electric vehicle sales are estimated using the same approach as that for 
+passenger vehicles. Estimates of bus and large vehicle mileage and required electricity input 
+(kWh/mile) are based on a number of data sources including Columbia University, National 
+Renewable Energy Laboratory (NREL), New York State Energy Research and Development 
+Agency (NYSERDA) and the California Energy Commission (CEC).  
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 38 
+  
+ 
+Table 10 summarizes the reference case results. 
+ 
+Table 10: Reference Case Energy Forecast (GWh) 
+ 
+ 
+ 
+4.4 Baseline Hourly Load Forecast 
+Adoption of new technologies including solar, electric vehicles, and cold climate heat pumps 
+will significantly impact the system hourly load and as a result the timing and level of system 
+peak demand.  Increases in solar load, for example, shift the summer peak later into the day 
+and eventually into the early evening.  Aggressive market penetration of cold climate heat 
+pumps could shift the system peak from summer to winter.  An hourly load modeling 
+approach is used to capture the changing load dynamics.  The process starts by first 
+developing a baseline hourly load forecast. 
+ 
+The system profile is estimated with historical system hourly load (adjusted for solar load 
+impacts).  The model relates hourly loads to daily degree-days, hours of light, and variables 
+that capture day of the week, holidays, and other seaonsal changes.  The baseline profiles 
+change over time with increasing CDD and HDD.  The system profile is extended through 
+2050.  The baseline hourly load forecast is then calculated by combining the system profile 
+forecast with the baseline energy and peak demand forecasts.  Figure 33 illustrates this 
+process.  
+ 
+Year
+Base
+EV
+PV Electrification
+Battery
+Adjusted
+2020
+158,047
+     
+371
+            
+(2,647)
+     
+-
+                     
+15
+            
+155,786
+       
+2030
+154,756
+     
+4,226
+         
+(5,223)
+     
+-
+                     
+200
+          
+153,959
+       
+2040
+155,578
+     
+13,174
+      
+(5,928)
+     
+-
+                     
+346
+          
+163,170
+       
+2050
+158,575
+     
+24,360
+      
+(6,398)
+     
+-
+                     
+416
+          
+176,952
+       
+Change
+20-30
+-0.2%
+-0.1%
+30-40
+0.1%
+0.6%
+40-50
+0.2%
+0.8%
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 39 
+  
+ 
+Figure 33: Baseline Hourly Load Forecast 
+ 
+ 
+4.5 Adjusting for New Technologies 
+In the Reference Case, the baseline hourly load forecast is adjusted for BTM PV, EV, and a 
+small amount of battery storage.  Forecasts are generated by combining these technology 
+energy forecasts with their hourly load profiles.  A typical solar load profile is derived from 
+National Renewable Energy Laboratory (NREL).  The electric vehicle charging profile is 
+based on measured charging data from a study completed by Idaho National Laboratories for 
+the Nashville Metropolitan Area.  Figure 34 and Figure 35 show summer BTM PV and EV 
+hourly load forecast for the week of July 22nd in 2040. 
+ 
+Figure 34: Solar Load Forecast 2040 (MW) 
+ 
+ 
+ 
+Energy
+Peak
+Shape
+Forecast (2040)
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 40 
+  
+ 
+Figure 35: Electric Vehicle Charging Load Forecast 2040 (MW) 
+ 
+ 
+The Reference Case adjusted system load forecast is calculated by adding the electric vehicle 
+hourly load forecast and subtracting out solar and battery hourly load forecasts.  Figure 36 
+shows how adjustments for BTM solar and electric vehicles reshape system load over time. 
+ 
+Figure 36: Reference Case System Load Forecast Comparison (2020 vs. 2040) 
+ 
+ 
+As the profile changes over time, so does the hour at which the system peaks.  
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 41 
+  
+ 
+Table 11 shows Reference Case adjusted peak demand and contribution by baseline load and 
+technology. 
+ 
+Table 11: Reference Case Coincident Peak Demand Forecast (MW) 
+ 
+(Peak time of the forecast is hour-beginning) 
+ 
+Note that by 2040, the solar load impact is insignificant as the peak demand has shifted later 
+into the evening largely as the result of increased EV charging.  For comparison to coincident 
+peaks, Table 12 shows the maximum baseline, solar, EV, and battery demand.  
+ 
+Table 12: Reference Case Maximum Demand (MW) 
+ 
+ 
+PeakTime
+Baseline
+Solar
+EV
+Battery Adjusted
+7/14/2020 16:00
+32,932
+            
+(228)
+             
+49
+            
+(57)
+        
+32,696
+    
+7/17/2030 18:00
+33,348
+            
+(504)
+             
+1,275
+       
+(714)
+      
+33,405
+    
+7/18/2040 19:00
+33,802
+            
+(118)
+             
+4,578
+       
+(859)
+      
+37,403
+    
+7/20/2050 19:00
+35,996
+            
+(128)
+             
+8,485
+       
+(1,036)
+   
+43,317
+    
+Year
+Baseline
+Solar
+EV
+Battery
+2020
+33,270
+         
+(1,619)
+        
+131
+         
+(57)
+              
+2030
+33,991
+         
+(3,206)
+        
+1,495
+      
+(714)
+            
+2040
+35,325
+         
+(3,629)
+        
+4,649
+      
+(859)
+            
+2050
+37,551
+         
+(3,926)
+        
+8,615
+      
+(1,036)
+         
+Maximum Demand (MW)
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 42 
+  
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 43 
+  
+ 
+ 
+5. Forecast Scenarios 
+Two forecast scenarios are designed to incorporate recent state policy goals.  The Policy 
+Scenario assumes the State Clean Energy Standards (CES) Goal is met.  In addition to 
+renewable generation targets, the CES sets new energy efficiency, solar capacity, and battery 
+storage targets for 2025.   
+ 
+The Policy Scenario includes: 
+ 
+• State average temperature trending 0.7 degrees per decade 
+• An additional 2,200 GWh per year in EE savings over the Reference Case 
+• A total of 6,000 MW of behind-the-meter solar capacity by 2025 and an additional 
+3,000 MW through 2050 
+• Implementation of state electrification programs with 25% of existing homes 
+converting from fossil fuel to cold climate heat pumps by 2050 
+• 3,000 MW of battery storage by 2030, 5,000 MW by 2050 (battery load impacts 
+included in the Reference Case will be treated as a resource during the system 
+planning phase of the study – not as a load reduction) 
+• Stronger electric vehicle market penetration than the Reference Case 
+ 
+In July 2019, the State passed the Climate Leadership & Community Protection Act 
+(CLCPA).  The CLCPA establishes aggressive greenhouse gas reduction goals with a target 
+of 85% reduction from 1990 levels by 2050.  The CLCPA Scenario is based on achieving 
+targeted emission reductions in the residential and commercial sectors.   
+ 
+The CLCPA Scenario builds on the Policy Case.  In addition to higher Policy Case efficiency 
+savings, solar capacity and electric vehicle penetration, the CLCPA adds aggressive 
+electrification in residential and commercial sectors. The largest targeted end-use is 
+residential fossil fuel heating; we assume gas, oil, and propane heating systems are replaced 
+with cold climate heat pumps with electric resistance backup to meet heating requirements on 
+the coldest days. Other targeted end-uses including water heating, clothes drying, and 
+cooking. 
+ 
+The process of estimating electricity gains from electrification programs starts with estimates 
+of sector-specific CO2 reduction goals.  In July 2019, NYSERDA updated the state 
+greenhouse gas inventory (New York State Greenhouse Gas Inventory 1990 – 2016. Final 
+Report. July 2019).  The report estimates greenhouse gas emissions associated with a wide 
+range of human-related activities.  Table 13 summarizes the NYSERDA greenhouse gas 
+emissions and trends.   
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 44 
+  
+ 
+Table 13: New York State Greenhouse Gas Inventory (NYSERDA) 
+ 
+New York State Greenhouse Gas Inventory 1990 – 2016. Final Report. July 2019 
+ 
+In 1990 (the target year), NYSERDA estimates that greenhouse gases in total were 236.19 
+million metric tons, with the Residential sector contributing 34.25 million metric tons.  By 
+2050, assuming that greenhouse gas reductions are evenly distributed across all levels of 
+activity, the residential greenhouse gas target reduction is 29.1 million metric tons (85% of 
+90 level) resulting in a 2050 emissions level of 5.1 million metric tons.  Fortunately, since 
+1990, greenhouse gas emissions have been decreasing.  By 2016, residential direct 
+greenhouse gas emissions were 30.89 million metric tons. This still leaves the need to reduce 
+residential greenhouse gas emissions by an additional 25.8 million tons by 2050. Figure 37 
+shows a possible path towards the reduction of greenhouse gases in the residential sector. 
+ 
+Metric Tons (Millions)
+1990
+1995
+2000
+2005
+2010
+2015
+2016
+Energy
+208.96
+206.87
+228.2
+230.69
+193.21
+180.69
+172.79
+Electric Generation
+63.02
+51.28
+55.68
+53.58
+37.31
+29.13
+27.72
+Residential (Non-Electric)
+34.25
+34.98
+40.28
+39.83
+31.7
+35.64
+30.89
+Commercial (Non-Electric)
+26.55
+27.04
+32.23
+28.66
+24.19
+21.87
+20.66
+Industrial (Non-Electric)
+20.02
+22.54
+17.52
+14.89
+10.27
+10.8
+10.23
+Transportation
+59.37
+61.82
+71.66
+79.23
+74.93
+74.15
+73.98
+Net Imported Electricity
+1.74
+4.52
+6.04
+7.35
+9.2
+3.37
+3.82
+Incineration of Waste
+1.27
+1.96
+2.05
+3.6
+2.35
+2.92
+2.79
+Natural Gas Systems
+2.74
+2.74
+2.73
+3.52
+3.25
+2.82
+2.73
+Non-Energy Sources
+27.22
+28.05
+30.28
+31.19
+31.56
+32.91
+32.82
+Agriculture
+8.37
+7.8
+8.55
+8.27
+8.73
+8.86
+8.86
+Waste
+14.86
+15.43
+15.62
+15.62
+14.29
+13.23
+12.8
+Industrial Processes & Product Use
+3.99
+4.83
+6.11
+7.3
+8.54
+10.82
+11.15
+Total
+236.19
+234.92
+258.48
+261.88
+224.77
+213.59
+205.61
+Fuel Combustion
+204.95
+202.17
+223.41
+223.57
+187.6
+174.95
+167.28
+NonFuel Combustion
+31.24
+32.75
+35.07
+38.31
+37.17
+38.65
+38.33
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 45 
+  
+ 
+Figure 37: Residential Greenhouse Gas Reduction Path 
+ 
+ 
+From the statewide estimates of gas end-use appliances and associated appliance usage, we 
+can back into the number of units that must be converted from fossil fuel to comparable 
+electric end-uses to achieve the CO2 targets.  Figure 38 shows the resulting number of 
+residential gas appliances converted to electric appliances. 
+ 
+Figure 38: Appliance Conversion Forecast 
+ 
+ -
+ 5.00
+ 10.00
+ 15.00
+ 20.00
+ 25.00
+ 30.00
+ 35.00
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+2027
+2028
+2029
+2030
+2031
+2032
+2033
+2034
+2035
+2036
+2037
+2038
+2039
+2040
+2041
+2042
+2043
+2044
+2045
+2046
+2047
+2048
+2049
+2050
+Residential Sector - Fossil Emissions (MMT CO2eq)
+Preliminary Results
+Base Case
+Climate Law Case
+0
+1,000,000
+2,000,000
+3,000,000
+4,000,000
+5,000,000
+6,000,000
+7,000,000
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+2027
+2028
+2029
+2030
+2031
+2032
+2033
+2034
+2035
+2036
+2037
+2038
+2039
+2040
+2041
+2042
+2043
+2044
+2045
+2046
+2047
+2048
+2049
+2050
+Residential Equipment Transfered from Fossil to Electric -
+Cumulative Units for Each End Use
+Dryers
+Cooking
+Water Heating
+Secondary Heating
+Space Heating
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 46 
+  
+ 
+ 
+5.1 Energy Impacts 
+To achieve the greenhouse gas emission target for the residential sector, over 6,000,000 
+households would have to switch from gas heat to electric heat by 2050. Other end-uses 
+would also need to be converted, including water heating, clothes drying and cooking. 
+ 
+We assume fossil fuel heating is converted to cold climate heat pumps with resistance heat 
+backup, gas water heaters are converted to electric water heaters, gas dryers are converted to 
+electric dryers, and gas stoves are converted to electric stoves.  Total electrification sales are 
+then estimated as the product of units converted to electricity times the end-use electricity 
+energy requirements (UEC). Electrification reflects improving end-use efficiency that is 
+embedded in the UEC forecast.  Figure 39 shows resulting end-use electric sales gains. 
+ 
+Figure 39: Residential Electrification Impact Forecast 
+ 
+ 
+By far, the largest impact is conversion of fossil fuel heating systems to heat pumps and 
+resistance heating backup or secondary heating.  Figure 40 compares residential average use 
+for the Reference, Policy, and CLCPA Scenarios. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 47 
+  
+ 
+ 
+Figure 40: Residential Average Use Forecast 
+ 
+ 
+The Reference Case average use (shown in blue) declines over the next ten years, as gains in 
+efficiency outweigh household income growth and rising temperatures.  Rising temperatures 
+impact on sales is minimal as increases in cooling use are countered with decreasing space 
+and water heating use.  After 2030 average use shows small, but positive increases largely 
+due to slower improvements in end-use stock efficiency.  For example, LED lighting 
+adoption is a major contributor to declining usage through 2030.  By 2030, LED is expected 
+to be the dominant lighting technology; the impact of additional lighting efficiency after this 
+point is small. 
+ 
+The Policy Scenario (shown in orange) is driven largely by CES efficiency targets; average 
+use falls significantly between 2020 and 2030 and then shows positive growth with 
+electrification.  The increase in usage due to electrification is still not large enough to counter 
+decreases in usage caused by energy efficiency savings. The CLPCA Scenario (in Green) 
+includes the Policy Scenario efficiency projections but incorporates a much more aggressive 
+electrification program.  Average use per household increases from approximately 7,000 
+kWh in 2020 to 11,000 kWh in 2050.   
+ 
+The residential sales forecast is calculated as the product of average use per customer and the 
+state household forecast (number of households).  Figure 41 shows the residential sales 
+forecast. 
+ 
+Year
+Reference
+Policy
+CLCPA
+09-18
+0.3%
+0.3%
+0.3%
+20-30
+-0.6%
+-1.8%
+-0.5%
+30-40
+0.3%
+0.5%
+3.9%
+40-50
+0.3%
+0.8%
+1.3%
+Compound Average Growth Rate
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 48 
+  
+ 
+Figure 41: Residential Sales Forecast 
+ 
+ 
+Project time constraints limited our ability to conduct the same CLCPA end-use impact study 
+for the commercial sector.  We assume electric sales gains from commercial gas conversions 
+are similar in proportion to residential electrification, based on similar size in total energy 
+usage in the two sectors, and similar proportions of heating and cooling end uses.  Figure 42 
+shows the commercial sales forecast. 
+ 
+Figure 42: Commercial Sales Forecast  
+ 
+ 
+Reference
+Policy
+CLCPA
+09-18
+0.8%
+0.8%
+0.8%
+20-30
+-0.2%
+-1.4%
+-0.1%
+30-40
+0.6%
+0.8%
+4.2%
+40-50
+0.6%
+1.1%
+1.6%
+Compound Average Growth Rate
+Reference
+Policy
+CLCPA
+09-18
+0.1%
+0.1%
+0.1%
+20-30
+-0.2%
+-1.4%
+-0.3%
+30-40
+-0.3%
+-0.6%
+2.5%
+40-50
+0.0%
+-0.1%
+0.9%
+Compound Average Growth Rate
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 49 
+  
+ 
+Reference Case commercial sales are consistent with historical sales; the impact of economic 
+growth and increasing temperatures are mitigated by increases in commercial efficiency. The 
+forecast reflects EIA’s projection for strong efficiency gains in commercial lighting, 
+ventilation, and other end-uses.  
+ 
+Declining sales in the Policy Scenario are again driven by CES energy efficiency savings 
+target; efficiency gains outweigh economic growth and increasing temperatures.  In the 
+CLCPA Scenario, sales increase dramatically after 2030 as a result of aggressive 
+electrification.  While we account for improving efficiency in the industrial sector, we make 
+no adjustment for electrification as we have little information on industrial end-use processes 
+and to what extent processes currently dependent on natural gas can be converted to electric 
+processes.  Figure 43 depicts system energy forecast including the current Gold Book 
+forecast. 
+ 
+Figure 43:  System Energy Forecast 
+ 
+ 
+The Reference Case is consistent with the current Gold Book forecast.  The Policy Case is 
+lower as additional EE savings and PV adoption outweigh gains from electric vehicles and 
+electrification.  After 2030, CLCPA forecast is significantly higher than the Reference Case 
+largely driven by aggressive statewide electrification.  
+ 
+Table 14 shows forecast results by technology.  Energy efficiency impacts are embedded in 
+the baseline energy forecasts. 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 50 
+  
+ 
+Table 14: System Energy Forecast 
+ 
+ 
+5.2 Demand Impacts 
+Demand impacts from the Policy and CLCPA scenarios are estimated by combining baseline, 
+BTM solar, electric vehicle, and electrification hourly load forecasts.  The derivation is 
+similar to the development of the Reference Case hourly load and peak demand forecast.  
+Additional CLCPA EE savings are captured in the baseline hourly load forecast, higher solar 
+load projections are derived by combining Policy Case solar generation forecast with the 
+solar hourly load profile, and EV hourly load forecast is calculated by combining higher EV 
+charging energy with EV charging profile. 
+ 
+As electrification has a significant impact on heating loads, electrification impacts are 
+modeled outside the baseline load forecast.  Separate end-use profiles are developed for 
+residential and commercial heating, cooling, and base-use.  Profiles are derived from AMI 
+data from an adjoining state.  Base, cooling, and heating load models are estimated with host 
+data and used to simulate load profiles with New York actual and trended degree-days.  This 
+is often referred to as a transfer model.  An electrification hourly load forecast is calculated 
+by combining heating, cooling, and base-use electrification sales with heating, cooling, and 
+base-use load profiles.  Figure 44 shows the electrification hourly load forecasts for 2040.  
+ 
+Year
+Base
+EV
+PV Electrification
+Battery
+Adjusted
+2020
+158,047
+              
+371
+                   
+(2,647)
+                   
+-
+                     
+15
+               
+155,786
+               
+2030
+154,756
+              
+4,226
+               
+(5,223)
+                   
+-
+                     
+200
+             
+153,959
+               
+2040
+155,578
+              
+13,174
+             
+(5,928)
+                   
+-
+                     
+346
+             
+163,170
+               
+2050
+158,575
+              
+24,360
+             
+(6,398)
+                   
+-
+                     
+416
+             
+176,952
+               
+Year
+Base
+EV
+PV Electrification
+Battery
+Adjusted
+2020
+153,647
+              
+420
+                   
+(2,647)
+                   
+755
+                    
+15
+               
+152,190
+               
+2030
+133,856
+              
+5,488
+               
+(8,081)
+                   
+4,952
+                
+200
+             
+136,416
+               
+2040
+129,178
+              
+16,361
+             
+(8,885)
+                   
+9,679
+                
+346
+             
+146,679
+               
+2050
+129,425
+              
+30,253
+             
+(9,662)
+                   
+14,614
+              
+416
+             
+165,046
+               
+Year
+Base
+EV
+PV Electrification
+Battery
+Adjusted
+2020
+153,647
+              
+420
+                   
+(2,647)
+                   
+3,961
+                
+15
+               
+155,396
+               
+2030
+133,856
+              
+5,488
+               
+(8,081)
+                   
+22,633
+              
+200
+             
+154,096
+               
+2040
+129,178
+              
+16,361
+             
+(8,885)
+                   
+75,594
+              
+346
+             
+212,594
+               
+2050
+129,425
+              
+30,253
+             
+(9,662)
+                   
+97,917
+              
+416
+             
+248,349
+               
+Policy Case (GWh)
+Reference Case (GWh)
+CLCPA Case (GWh)
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 51 
+  
+ 
+Figure 44: CLCPA Scenario Electrification Hourly Load Forecast (2040) 
+ 
+ 
+The electrification hourly load forecast is combined with the baseline, BTM solar, and 
+battery load forecasts.  Figure 45 shows the system hourly load forecast. 
+ 
+Figure 45: CLCPA Scenario System Hourly Load Forecast (2040) 
+ 
+ 
+Annual summer peaks are derived by finding the maximum hourly summer load.  Figure 46 
+compares the summer peak forecast scenarios. 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 52 
+  
+ 
+Figure 46: Summer Peak Forecast Comparison 
+ 
+ 
+While the Gold Book energy and Reference Case energy forecasts track each other, the 
+Reference Case peak demand is significantly higher than the Gold Book peak demand. This 
+is largely due to the trended peak-day TDD incorporated in the Reference Case Scenario.  
+The Policy Case summer demand declines through 2025 as a result of CES energy efficiency 
+targets.  With stronger EV adoption and electrification through in the later years, Policy peak 
+demand reaches the Reference Case peak demand by 2048. 
+ 
+The system peaks in the summer over the entire forecast horizon except for in the CLCPA 
+Scenario.  The CLCPA peak demand forecast switches to a winter peak in 2035. Figure 47 
+compares the winter peak forecasts.   
+ 
+Year
+Gold Book
+Reference
+Policy
+CLCPA
+2020
+32,202
+         
+32,696
+        
+32,013
+         
+32,604
+           
+2030
+31,066
+         
+33,405
+        
+30,936
+         
+33,978
+           
+2040
+33,006
+         
+37,403
+        
+35,866
+         
+47,465
+           
+2050
+35,598
+         
+43,317
+        
+43,563
+         
+57,109
+           
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 53 
+  
+ 
+Figure 47: Winter Peak Forecast Comparison 
+ 
+ 
+ 
+Year
+Gold Book
+Reference
+Policy
+CLCPA
+2020
+23,745
+         
+24,395
+        
+23,978
+         
+25,310
+           
+2030
+23,586
+         
+24,519
+        
+23,432
+         
+31,219
+           
+2040
+25,647
+         
+27,151
+        
+27,549
+         
+56,701
+           
+2050
+28,540
+         
+31,131
+        
+33,652
+         
+71,859
+           
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 54 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 55 
+  
+ 
+6. Zonal Load Forecasts 
+Hourly load forecasts are also developed for each of the NYISO Load Zones.  Hourly load 
+forecasts are first estimated for each of the Transmission Districts (TD) and then allocated to 
+NYISO planning zones based on a set of TD-to-zonal allocation factors. 
+ 
+Forecast structure is similar to the system forecast, but rather than build-up from class sales, 
+TD models are estimated at the total energy level, because the NYISO has total hourly loads 
+for each TD.  Forecast drivers account for regional economic growth, mix of residential and 
+non-residential customers, expected weather trends due to climate change. For Consolidated 
+Edison, the residential end-use intensity projections reflect the higher share of multi-family 
+housing in that system. Monthly energy, peak demand, and baseline hourly load profiles are 
+estimated for each TD.  Model inputs include: 
+ 
+• Historical TD hourly load data 
+• TD-specific historical and trended temperature projections 
+• Weighted residential and commercial heating, cooling, and other use energy 
+intensities 
+• TD-specific historical and projected monthly economic data from Moodys Analytics. 
+ 
+Figure 48 shows the TD/Zonal model structure. 
+Figure 48: Planning Area Model Structure 
+ 
+ 
+System Energy
+Economic Drivers
+Structural Changes
+Weather Conditions
+Electric Prices
+System 
+Hourly Load Data
+Normal Peak-
+Producing Weather
+End-Use Coincident 
+Peak Factors
+System Peak 
+System Shape
+Energy and 
+Peak Forecast
+PVs and EVs
+High Efficiency Heat 
+Pumps
+Standards
+EE Programs
+Monthly Peak Model
+System Hourly Load Model
+Heat Pump, PV, and 
+EV Shapes
+Monthly Energy Model
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 56 
+  
+ 
+Energy, peak demand, and hourly profile are combined to generate a baseline hourly load 
+forecast through 2050. TD baseline load forecasts are then calibrated to the system baseline 
+hourly load forecast, after which the zonal forecasts are produced. 
+Forecasts are also adjusted for PV, EV, and electrification impacts.  State-level PV 
+generation, EV charging load, and electrification sales are allocated to TDs based on the 
+NYISO 2019 Gold Book forecast.  Results are then allocated to the NYISO load zones.  
+Hourly load forecasts are generated for the Reference, Policy and CLCPA Scenarios.  Zonal 
+results are provided in Appendix A. 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 57 
+  
+ 
+Appendix A: Forecast Results 
+A-1: Reference Case 
+Table A-15: Zone A Energy – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 58 
+  
+ 
+Table A-16: Zone A Summer Peaks – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 59 
+  
+ 
+Table A-17: Zone A Winter Peaks – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 60 
+  
+ 
+Table A-18: Zone B Energy – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 61 
+  
+ 
+Table A-19: Zone B Summer Peak – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 62 
+  
+ 
+Table A-20: Zone B Winter Peak – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 63 
+  
+ 
+Table A-21: Zone C Energy – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 64 
+  
+ 
+Table A-22: Zone C Summer Peak – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 65 
+  
+ 
+Table A-23: Zone C Winter Peaks – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 66 
+  
+ 
+Table A-24: Zone D Energy – Reference Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 67 
+  
+ 
+Table A-25: Zone D Summer Peaks – Reference Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 68 
+  
+ 
+Table A-26: Zone D Winter Peaks – Reference Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 69 
+  
+ 
+Table A-27: Zone E Energy – Reference Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 70 
+  
+ 
+Table A-28: Zone E Summer Peaks – Reference Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 71 
+  
+ 
+Table A-29: Zone E Winter Peaks – Reference Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 72 
+  
+ 
+Table A-30: Zone F Energy – Reference Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 73 
+  
+ 
+Table A-31: Zone F Summer Peaks – Reference Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 74 
+  
+ 
+Table A-32: Zone F Winter Peaks – Reference Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 75 
+  
+ 
+Table A-33: Zone G Energy – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 76 
+  
+ 
+Table A-34: Zone G Summer Peaks – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 77 
+  
+ 
+Table A-35: Zone G Winter Peaks – Reference Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 78 
+  
+ 
+Table A-36: Zone H Energy – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 79 
+  
+ 
+Table A-37: Zone H Summer Peaks – Reference Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 80 
+  
+ 
+Table A-38: Zone H Winter Peaks – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 81 
+  
+ 
+Table A-39: Zone I Energy – Reference Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 82 
+  
+ 
+Table A-40: Zone I Summer Peaks – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 83 
+  
+ 
+Table A-41: Zone I Winter Peaks – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 84 
+  
+ 
+Table A-42: Zone J Energy – Reference Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 85 
+  
+ 
+Table A-43: Zone J Summer Peaks – Reference Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 86 
+  
+ 
+Table A-44: Zone J Winter Peaks – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 87 
+  
+ 
+Table A-45: Zone K Energy – Reference Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 88 
+  
+ 
+Table A-46: Zone K Summer Peaks – Reference Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 89 
+  
+ 
+Table A-47: Zone K Winter Peaks – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 90 
+  
+ 
+Table A-48: NYCA Energy – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 91 
+  
+ 
+Table A-49: NYCA Summer Peaks – Reference Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 92 
+  
+ 
+Table A-50: NYCA Winter Peaks – Reference Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 93 
+  
+ 
+A-2: Reference Case with Accelerated Weather Trend 
+Table A-51: Zone A Energy – Reference Case with Accelerated Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 94 
+  
+ 
+Table A-52: Zone A Summer Peaks – Reference Case with Accelerated 
+Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 95 
+  
+ 
+Table A-53: Zone A Winter Peaks – Reference Case with Accelerated Weather 
+Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 96 
+  
+ 
+Table A-54: Zone B Energy – Reference Case with Accelerated Weather Trend 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 97 
+  
+ 
+Table A-55: Zone B Summer Peaks – Reference Case with Accelerated 
+Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 98 
+  
+ 
+Table A-56: Zone B Winter Peaks – Reference Case with Accelerated Weather 
+Trend 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 99 
+  
+ 
+Table A-57: Zone C Energy – Reference Case with Accelerated Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 100 
+  
+ 
+Table A-58: Zone C Summer Peaks – Reference Case with Accelerated 
+Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 101 
+  
+ 
+Table A-59: Zone C Winter Peaks – Reference Case with Accelerated Weather 
+Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 102 
+  
+ 
+Table A-60: Zone D Energy – Reference Case with Accelerated Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 103 
+  
+ 
+Table A-61: Zone D Summer Peaks – Reference Case with Accelerated 
+Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 104 
+  
+ 
+Table A-62: Zone D Winter Peaks – Reference Case with Accelerated Weather 
+Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 105 
+  
+ 
+Table A-63: Zone E Energy – Reference Case with Accelerated Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 106 
+  
+ 
+Table A-64: Zone E Summer Peaks – Reference Case with Accelerated 
+Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 107 
+  
+ 
+Table A-65: Zone E Winter Peaks – Reference Case with Accelerated Weather 
+Trend 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 108 
+  
+ 
+Table A-66: Zone F Energy – Reference Case with Accelerated Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 109 
+  
+ 
+Table A-67: Zone F Summer Peaks – Reference Case with Accelerated Weather 
+Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 110 
+  
+ 
+Table A-68: Zone F Winter Peaks – Reference Case with Accelerated Weather 
+Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 111 
+  
+ 
+Table A-69: Zone G Energy – Reference Case with Accelerated Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 112 
+  
+ 
+Table A-70: Zone G Summer Peaks – Reference Case with Accelerated 
+Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 113 
+  
+ 
+Table A-71: Zone G Winter Peaks – Reference Case with Accelerated Weather 
+Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 114 
+  
+ 
+Table A-72: Zone H Energy – Reference Case with Accelerated Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 115 
+  
+ 
+Table A-73: Zone H Summer Peaks – Reference Case with Accelerated 
+Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 116 
+  
+ 
+Table A-74: Zone H Winter Peaks – Reference Case with Accelerated Weather 
+Trend 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 117 
+  
+ 
+Table A-75: Zone I Energy – Reference Case with Accelerated Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 118 
+  
+ 
+Table A-76: Zone I Summer Peaks – Reference Case with Accelerated Weather 
+Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 119 
+  
+ 
+Table A-77: Zone I Winter Peaks – Reference Case with Accelerated Weather 
+Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 120 
+  
+ 
+Table A-78: Zone J Energy – Reference Case with Accelerated Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 121 
+  
+ 
+Table A-79: Zone J Summer Peaks – Reference Case with Accelerated Weather 
+Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 122 
+  
+ 
+Table A-80: Zone J Winter Peaks – Reference Case with Accelerated Weather 
+Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 123 
+  
+ 
+Table A-81: Zone K Energy – Reference Case with Accelerated Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 124 
+  
+ 
+Table A-82: Zone K Summer Peaks – Reference Case with Accelerated 
+Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 125 
+  
+ 
+Table A-83: Zone K Winter Peaks – Reference Case with Accelerated Weather 
+Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 126 
+  
+ 
+Table A-84: NYCA Energy – Reference Case with Accelerated Weather Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 127 
+  
+ 
+Table A-85: NYCA Summer Peaks – Reference Case with Accelerated Weather 
+Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 128 
+  
+ 
+Table A-86: NYCA Winter Peaks – Reference Case with Accelerated Weather 
+Trend 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 129 
+  
+ 
+A-3: Policy Case 
+Table A-87: Zone A Energy – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 130 
+  
+ 
+Table A-88: Zone A Summer Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 131 
+  
+ 
+Table A-89: Zone A Winter Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 132 
+  
+ 
+Table A-90: Zone B Energy – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 133 
+  
+ 
+Table A-91: Zone B Summer Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 134 
+  
+ 
+Table A-92: Zone B Winter Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 135 
+  
+ 
+Table A-93: Zone C Energy – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 136 
+  
+ 
+Table A-94: Zone C Summer Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 137 
+  
+ 
+Table A-95: Zone C Winter Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 138 
+  
+ 
+Table A-96: Zone D Energy – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 139 
+  
+ 
+Table A-97: Zone D Summer Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 140 
+  
+ 
+Table A-98: Zone D Winter Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 141 
+  
+ 
+Table A-99: Zone E Energy – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 142 
+  
+ 
+Table A-100: Zone E Summer Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 143 
+  
+ 
+Table A-101: Zone E Winter Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 144 
+  
+ 
+Table A-102: Zone F Energy – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 145 
+  
+ 
+Table A-103: Zone F Summer Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 146 
+  
+ 
+Table A-104: Zone F Winter Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 147 
+  
+ 
+Table A-105: Zone G Energy – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 148 
+  
+ 
+Table A-106: Zone G Summer Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 149 
+  
+ 
+Table A-107: Zone G Winter Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 150 
+  
+ 
+Table A-108: Zone H Energy – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 151 
+  
+ 
+Table A-109: Zone H Summer Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 152 
+  
+ 
+Table A-110: Zone H Winter Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 153 
+  
+ 
+Table A-111: Zone I Energy – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 154 
+  
+ 
+Table A-112: Zone I Summer Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 155 
+  
+ 
+Table A-113: Zone I Winter Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 156 
+  
+ 
+Table A-114: Zone J Energy – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 157 
+  
+ 
+Table A-115: Zone J Summer Peaks – Policy Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 158 
+  
+ 
+Table A-116: Zone J Winter Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 159 
+  
+ 
+Table A-117: Zone K Energy – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 160 
+  
+ 
+Table A-118: Zone K Summer Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 161 
+  
+ 
+Table A-119: Zone K Winter Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 162 
+  
+ 
+Table A-120: NYCA Energy – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 163 
+  
+ 
+Table A-121: NYCA Summer Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 164 
+  
+ 
+Table A-122: NYCA Winter Peaks – Policy Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 165 
+  
+ 
+A-4: CLCPA Case 
+Table A-123: Zone A Energy – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 166 
+  
+ 
+Table A-124: Zone A Summer Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 167 
+  
+ 
+Table A-125: Zone A Winter Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 168 
+  
+ 
+Table A-126: Zone B Energy – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 169 
+  
+ 
+Table A-127: Zone B Summer Peak – CLCPA Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 170 
+  
+ 
+Table A-128: Zone B Winter Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 171 
+  
+ 
+Table A-129: Zone C Energy – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 172 
+  
+ 
+Table A-130: Zone C Summer Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 173 
+  
+ 
+Table A-131: Zone C Winter Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 174 
+  
+ 
+Table A-132: Zone D Energy – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 175 
+  
+ 
+Table A-133: Zone D Summer Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 176 
+  
+ 
+Table A-134: Zone D Winter Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 177 
+  
+ 
+Table A-135: Zone E Energy – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 178 
+  
+ 
+Table A-136: Zone E Summer Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 179 
+  
+ 
+Table A-137: Zone E Winter Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 180 
+  
+ 
+Table A-138: Zone F Energy – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 181 
+  
+ 
+Table A-139: Zone F Summer Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 182 
+  
+ 
+Table A-140: Zone F Winter Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 183 
+  
+ 
+Table A-141: Zone G Energy – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 184 
+  
+ 
+Table A-142: Zone G Summer Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 185 
+  
+ 
+Table A-143: Zone G Winter Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 186 
+  
+ 
+Table A-144: Zone H Energy – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 187 
+  
+ 
+Table A-145: Zone H Summer Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 188 
+  
+ 
+Table A-146: Zone H Winter Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 189 
+  
+ 
+Table A-147: Zone I Energy – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 190 
+  
+ 
+Table A-148: Zone I Summer Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 191 
+  
+ 
+Table A-149: Zone I Winter Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 192 
+  
+ 
+Table A-150: Zone J Energy – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 193 
+  
+ 
+Table A-151: Zone J Summer Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 194 
+  
+ 
+Table A-152: Zone J Winter Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 195 
+  
+ 
+Table A-153: Zone K Energy – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 196 
+  
+ 
+Table A-154: Zone K Summer Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 197 
+  
+ 
+Table A-155: Zone K Winter Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 198 
+  
+ 
+Table A-156: NYCA Energy – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 199 
+  
+ 
+Table A-157: NYCA Summer Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 200 
+  
+ 
+Table 158: NYCA Winter Peaks – CLCPA Case 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 201 
+  
+ 
+Appendix B:  SAE Modeling Framework  
+B-1 Residential Sector 
+The traditional approach to forecasting monthly sales for a customer class is to develop an 
+econometric model that relates monthly sales to weather, seasonal variables, and economic 
+conditions.  From a forecasting perspective, econometric models are well suited to identify 
+historical trends and to project these trends into the future.  In contrast, the strength of the 
+end-use modeling approach is the ability to identify the end-use factors that drive energy use.  
+By incorporating an end-use structure into an econometric model, the statistically adjusted 
+end-use (SAE) modeling framework exploits the strengths of both approaches.  
+ 
+There are several advantages to this approach. 
+ 
+• The equipment efficiency and saturation trends, dwelling square footage, and 
+thermal shell integrity changes embodied in the long-run end-use forecasts are 
+introduced explicitly into the short-term monthly sales forecast.  This provides a 
+strong bridge between the two forecasts. 
+• By explicitly introducing trends in equipment saturations, equipment efficiency, 
+dwelling square footage, and thermal integrity levels, it is easier to explain 
+changes in usage levels and changes in weather-sensitivity over time. 
+• Data for short-term models are often not sufficiently robust to support estimation 
+of a full set of price, economic, and demographic effects.  By bundling these 
+factors with equipment-oriented drivers, a rich set of elasticities can be 
+incorporated into the final model. 
+ 
+This section describes the SAE approach, the associated supporting SAE spreadsheets, and 
+the MetrixND project files that are used in the implementation.  The initial source for the SAE 
+spreadsheets is the 2019 Annual Energy Outlook (AEO) database provided by the Energy 
+Information Administration (EIA), with further adjustments to data specific to New York 
+when that is available. 
+ 
+B-1.1 Residential Statistically Adjusted End-Use Modeling Framework 
+The statistically adjusted end-use modeling framework begins by defining energy use 
+(USEy,m) in year (y) and month (m) as the sum of energy used by heating equipment (Heaty,m), 
+cooling equipment (Cooly,m), and other equipment (Othery,m).  Formally, 
+ 
+m
+,y
+m
+,y
+m
+,y
+m
+,y
+Other
+Cool
+Heat
+USE
++
++
+=
+ 
+(1) 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 202 
+  
+ 
+Although monthly sales are measured for individual customers, the end-use components are 
+not.  Substituting estimates for the end-use elements gives the following econometric 
+equation. 
+ 
+m
+m
+3
+m
+2
+m
+1
+m
+XOther
+b
+XCool
+b
+XHeat
+b
+a
+USE
+ε
++
+×
++
+×
++
+×
++
+=
+ 
+(2) 
+ 
+XHeatm, XCoolm, and XOtherm are explanatory variables constructed from end-use 
+information, dwelling data, weather data, and market data.  As will be shown below, the 
+equations used to construct these X-variables are simplified end-use models, and the X-
+variables are the estimated usage levels for each of the major end uses based on these 
+models.  The estimated model can then be thought of as a statistically adjusted end-use 
+model, where the estimated slopes are the adjustment factors. 
+ 
+B-1.2 Constructing XHeat 
+As represented in the SAE spreadsheets, energy use by space heating systems depends on the 
+following types of variables. 
+ 
+• Heating degree days 
+• Heating equipment saturation levels 
+• Heating equipment operating efficiencies 
+• Average number of days in the billing cycle for each month 
+• Thermal integrity and footage of homes 
+• Average household size, household income, and energy prices 
+ 
+The heating variable is represented as the product of an annual equipment index and a 
+monthly usage multiplier.  That is,   
+ 
+m
+y
+m
+y
+m
+y
+HeatUse
+HeatIndex
+XHeat
+,
+,
+,
+×
+=
+ 
+(3) 
+Where: 
+• XHeaty,m  is estimated heating energy use in year (y) and month (m)  
+• HeatIndexy,m  is the monthly index of heating equipment 
+• HeatUsey,m  is the monthly usage multiplier 
+ 
+The heating equipment index is defined as a weighted average across equipment types of 
+equipment saturation levels normalized by operating efficiency levels.  Given a set of fixed 
+weights, the index will change over time with changes in equipment saturations (Sat), 
+operating efficiencies (Eff), building structural index (StructuralIndex), and energy prices.  
+Formally, the equipment index is defined as: 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 203 
+  
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+×
+×
+=
+∑
+Type
+Type
+Type
+y
+Type
+y
+Type
+Type
+y
+y
+Eff
+Sat
+Eff
+Sat
+Weight
+Index
+Structural
+HeatIndex
+15
+15
+ 
+(4) 
+ 
+The StructuralIndex is constructed by combining the EIA’s building shell efficiency index 
+trends with surface area estimates, and then it is indexed to the 2015 value:  
+ 
+15
+15
+a
+SurfaceAre
+ncyIndex
+ellEfficie
+BuildingSh
+a
+SurfaceAre
+ncyIndex
+ellEfficie
+BuildingSh
+Index
+Structural
+y
+y
+y
+×
+×
+=
+ 
+(5) 
+ 
+The StructuralIndex is defined on the StructuralVars tab of the SAE spreadsheets.  Surface 
+area is derived to account for roof and wall area of a standard dwelling based on the regional 
+average square footage data obtained from EIA.  The relationship between the square footage 
+and surface area is constructed assuming an aspect ratio of 0.75 and an average of 25% two-
+story and 75% single-story.  Given these assumptions, the approximate linear relationship for 
+surface area is:  
+ 
+y
+y
+Footage
+a
+SurfaceAre
+×
++
+=
+44
+.1
+892
+ 
+(6) 
+ 
+In Equation 4, 2015 is used as a base year for normalizing the index.  As a result, the ratio on 
+the right is equal to 1.0 in 2015.  In other years, it will be greater than 1.0 if equipment 
+saturation levels are above their 2015 level.  This will be counteracted by higher efficiency 
+levels, which will drive the index downward.  The weights are defined as follows. 
+ 
+Type
+Type
+Type
+HeatShare
+HH
+Energy
+Weight
+15
+15
+15
+×
+=
+ 
+(7) 
+ 
+In the SAE spreadsheets, these weights are referred to as Intensities and are defined on the 
+EIAData tab.  With these weights, the HeatIndex value in 2015 will be equal to estimated 
+annual heating intensity per household in that year.  Variations from this value in other years 
+will be proportional to saturation and efficiency variations around their base values. 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 204 
+  
+ 
+ 
+For electric heating equipment, the SAE spreadsheets contain several equipment types 
+including electric resistance furnaces, secondary heating equipment (such as portable 
+heaters), and electric space heating heat pumps. 
+ 
+Data for the equipment saturation and efficiency trends are presented on the Shares and 
+Efficiencies tabs of the SAE spreadsheets.  The efficiency for electric space heating heat 
+pumps is given in terms of Heating Seasonal Performance Factor [BTU/Wh], and the 
+efficiencies for electric furnaces and room units are estimated as 100%, which is equivalent 
+to 3.41 BTU/Wh. 
+ 
+Heating system usage levels are impacted on a monthly basis by several factors, including 
+weather, household size, income levels, prices, and billing days.  The estimates for space 
+heating equipment usage levels are computed as follows: 
+ 
+10
+.0
+15
+10
+.0
+15
+15
+,
+,
+
+
+
+
+
+
+×
+
+
+
+
+
+
+×
+
+
+
+
+
+
+=
+Income
+Income
+HHSize
+HHSize
+RHD
+RHD
+HeatUse
+y
+y
+m
+y
+m
+y
+ 
+(8) 
+Where: 
+ 
+• RHD is the number of heating degree days in year (y) and month (m) for the 
+residential model.  
+• HHSize is average persons per household in a year (y) 
+• Income is average real income per household in year (y) 
+ 
+By construction, the HeatUsey,m variable has an annual sum that is close to 1.0 in the base 
+year (2015).  The heating degree days serve to allocate annual values to months of the year.  
+The remaining terms average to 1.0 in the base year.  In other years, the values will reflect 
+changes in the economic drivers, as transformed through the end-use elasticity parameters.  
+The income impacts captured by the Usage equation represent short-term income response. 
+ 
+B-1.3 Constructing XCool 
+The explanatory variable for cooling loads is constructed in a similar manner.  The amount of 
+energy used by cooling systems depends on the following types of variables.   
+ 
+• Cooling degree days 
+• Cooling equipment saturation levels 
+• Cooling equipment operating efficiencies 
+• Average number of days in the billing cycle for each month  
+• Thermal integrity and footage of homes 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 205 
+  
+ 
+• Average household size, household income, and energy prices 
+ 
+The cooling variable is represented as the product of an equipment-based index and monthly 
+usage multiplier.  That is,   
+ 
+m
+y
+y
+m
+y
+CoolUse
+CoolIndex
+XCool
+,
+,
+×
+=
+ 
+(9) 
+Where 
+ 
+• XCooly,m is estimated cooling energy use in year (y) and month (m) 
+• CoolIndexy is an index of cooling equipment 
+• CoolUsey,m is the monthly usage multiplier 
+ 
+As with heating, the cooling equipment index is defined as a weighted average across 
+equipment types of equipment saturation levels normalized by operating efficiency levels. 
+Formally, the cooling equipment index is defined as: 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+×
+×
+=
+∑
+Type
+Type
+Type
+y
+Type
+y
+Type
+Type
+y
+y
+Eff
+Sat
+Eff
+Sat
+Weight
+Index
+Structural
+CoolIndex
+15
+15
+ 
+(10) 
+ 
+Data values in 2015 are used as a base year for normalizing the index, and the ratio on the 
+right is equal to 1.0 in 2015.  In other years, it will be greater than 1.0 if equipment saturation 
+levels are above their 2015 level.  This will be counteracted by higher efficiency levels, 
+which will drive the index downward.  The weights are defined as follows. 
+ 
+Type
+Type
+Type
+CoolShare
+HH
+Energy
+Weight
+15
+15
+15
+×
+=
+ 
+(11) 
+ 
+In the SAE spreadsheets, these weights are referred to as Intensities and are defined on the 
+EIAData tab.  With these weights, the CoolIndex value in 2015 will be equal to estimated 
+annual cooling intensity per household in that year.  Variations from this value in other years 
+will be proportional to saturation and efficiency variations around their base values. 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 206 
+  
+ 
+For cooling equipment, the SAE spreadsheets contain several equipment types including 
+central air conditioners, space cooling heat pumps, and room air conditioners.   
+ 
+The equipment saturation and efficiency trends data are presented on the Shares and 
+Efficiencies tabs of the SAE spreadsheets.  The efficiency for space cooling heat pumps and 
+central air conditioning (A/C) units are given in terms of Seasonal Energy Efficiency Ratio 
+[BTU/Wh], and room A/C units efficiencies are given in terms of Energy Efficiency Ratio 
+[BTU/Wh]. 
+ 
+Cooling system usage levels are impacted on a monthly basis by several factors, including 
+weather, household size, income levels, and prices.  The estimates of cooling equipment 
+usage levels are computed as follows: 
+ 
+10
+.0
+15
+10
+.0
+15
+15
+,
+,
+
+
+
+
+
+
+×
+
+
+
+
+
+
+×
+
+
+
+
+
+
+=
+Income
+Income
+HHSize
+HHSize
+RCD
+RCD
+CoolUse
+y
+y
+m
+y
+m
+y
+ 
+(12) 
+Where: 
+ 
+• RCD is the number of cooling degree days in year (y) and month (m). 
+ 
+By construction, the CoolUse variable has an annual sum that is close to 1.0 in the base year 
+(2015).  The cooling degree days serve to allocate annual values to months of the year.  The 
+remaining terms average to 1.0 in the base year.  In other years, the values will change to 
+reflect changes in the economic driver changes. 
+ 
+B-1.4 Constructing XOther 
+Monthly estimates of non-weather sensitive sales can be derived in a similar fashion to space 
+heating and cooling.  Based on end-use concepts, other sales are driven by: 
+ 
+• Appliance and equipment saturation levels 
+• Appliance efficiency levels 
+• Average number of days in the billing cycle for each month 
+• Average household size, real income, and real prices 
+ 
+The explanatory variable for other uses is defined as follows: 
+ 
+m
+y
+m
+y
+m
+y
+OtherUse
+dex
+OtherEqpIn
+XOther
+,
+,
+,
+×
+=
+ 
+(13) 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 207 
+  
+ 
+The first term on the right hand side of this expression (OtherEqpIndexy) embodies 
+information about appliance saturation and efficiency levels and monthly usage multipliers. 
+The second term (OtherUse) captures the impact of changes in prices, income, household 
+size, and number of billing-days on appliance utilization.   
+ 
+End-use indices are constructed in the SAE models.  A separate end-use index is constructed 
+for each end-use equipment type using the following function form. 
+ 
+Type
+m
+Type
+Type
+Type
+y
+Type
+y
+Type
+m
+y
+MoMult
+UEC
+Sat
+UEC
+Sat
+Weight
+ndex
+ApplianceI
+×
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+×
+=
+15
+15
+,
+1
+1
+ 
+(14) 
+Where: 
+ 
+• Weight is the weight for each appliance type 
+• Sat represents the fraction of households, who own an appliance type 
+• MoMultm is a monthly multiplier for the appliance type in month (m) 
+• Eff is the average operating efficiency the appliance 
+• UEC is the unit energy consumption for appliances 
+ 
+This index combines information about trends in saturation levels and efficiency levels for 
+the main appliance categories with monthly multipliers for lighting, water heating, and 
+refrigeration. 
+ 
+The appliance saturation and efficiency trends data are presented on the Shares and 
+Efficiencies tabs of the SAE spreadsheets.  
+ 
+Further monthly variation is introduced by multiplying by usage factors that cut across all 
+end uses, constructed as follows: 
+ 
+10
+.0
+15
+10
+.0
+15
+,
+,
+5.
+30
+
+
+
+
+
+
+×
+
+
+
+
+
+
+×
+
+
+
+
+
+
+=
+Income
+Income
+HHSize
+HHSize
+Days
+se
+ApplianceU
+y
+y
+m
+y
+m
+y
+ 
+(15) 
+Where: 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 208 
+  
+ 
+• Days is the number of days in year (y) and month (m). 
+ 
+The index for other uses is derived then by summing across the appliances: 
+ 
+∑
+×
+=
+k
+m
+y
+m
+y
+m
+y
+se
+ApplianceU
+ndex
+ApplianceI
+dex
+OtherEqpIn
+,
+,
+,
+ 
+(16) 
+ 
+B-2 Commercial Sector 
+The traditional approach to forecasting monthly sales for a customer class is to develop an 
+econometric model that relates monthly sales to weather, seasonal variables, and economic 
+conditions.  From a forecasting perspective, the strength of econometric models is that they 
+are well suited to identifying historical trends and to projecting these trends into the future.  
+In contrast, the strength of the end-use modeling approach is the ability to identify the end-
+use factors that are driving energy use.  By incorporating an end-use structure into an 
+econometric model, the statistically adjusted end-use (SAE) modeling framework exploits 
+the strengths of both approaches.  
+ 
+There are several advantages to this approach. 
+ 
+• The equipment efficiency trends and saturation changes embodied in the long-run 
+end-use forecasts are introduced explicitly into the short-term monthly sales 
+forecast.  This provides a strong bridge between the two forecasts. 
+ 
+• By explicitly introducing trends in equipment saturations and equipment efficiency 
+levels, it is easier to explain changes in usage levels and changes in weather-
+sensitivity over time.  
+ 
+• Data for short-term models are often not sufficiently robust to support estimation 
+of a full set of price, economic, and demographic effects.  By bundling these 
+factors with equipment-oriented drivers, a rich set of elasticities can be built into 
+the final model. 
+ 
+This document describes this approach, the associated supporting Commercial SAE 
+spreadsheets, and MetrixND project files that are used in the implementation. The source for 
+the commercial SAE spreadsheets is the 2019 Annual Energy Outlook (AEO) database 
+provided by the Energy Information Administration (EIA), with further adjustments to data 
+specific to New York when that is available. 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 209 
+  
+ 
+B-2.1 Commercial Statistically Adjusted End-Use Model Framework 
+The commercial statistically adjusted end-use model framework begins by defining energy 
+use (USEy,m) in year (y) and month (m) as the sum of energy used by heating equipment 
+(Heaty,m), cooling equipment (Cooly,m) and other equipment (Othery,m).  Formally, 
+ 
+m
+,y
+m
+,y
+m
+,y
+m
+,y
+Other
+Cool
+Heat
+USE
++
++
+=
+ 
+(1) 
+ 
+Although monthly sales are measured for individual customers, the end-use components are 
+not.  Substituting estimates for the end-use elements gives the following econometric 
+equation. 
+ 
+m
+m
+3
+m
+2
+m
+1
+m
+XOther
+b
+XCool
+b
+XHeat
+b
+a
+USE
+ε
++
+×
++
+×
++
+×
++
+=
+ 
+(2) 
+ 
+Here, XHeatm, XCoolm, and XOtherm are explanatory variables constructed from end-use 
+information, weather data, and market data.  As will be shown below, the equations used to 
+construct these X-variables are simplified end-use models, and the X-variables are the 
+estimated usage levels for each of the major end uses based on these models.  The estimated 
+model can then be thought of as a statistically adjusted end-use model, where the estimated 
+slopes are the adjustment factors.   
+ 
+ 
+B-2.2 Constructing XHeat 
+As represented in the Commercial SAE spreadsheets, energy use by space heating systems 
+depends on the following types of variables.   
+ 
+ 
+Heating degree days, 
+ 
+Heating equipment saturation levels, 
+ 
+Heating equipment operating efficiencies, 
+ 
+Average number of days in the billing cycle for each month, and 
+ 
+Commercial output and energy price. 
+ 
+The heating variable is represented as the product of an annual equipment index and a 
+monthly usage multiplier.  That is,   
+ 
+m
+,
+y
+y
+m
+,
+y
+HeatUse
+HeatIndex
+XHeat
+×
+=
+ 
+(3) 
+ 
+where, XHeaty,m is estimated heating energy use in year (y) and month (m),  
+HeatIndexy is the annual index of heating equipment, and  
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 210 
+  
+ 
+HeatUsey,m is the monthly usage multiplier. 
+ 
+The heating equipment index is composed of electric space heating equipment saturation 
+levels normalized by operating efficiency levels.  The index will change over time with 
+changes in heating equipment saturations (HeatShare) and operating efficiencies (Eff).  
+Formally, the equipment index is defined as: 
+ 
+
+
+
+
+
+
+
+
+
+
+×
+=
+13
+13
+13
+Eff
+HeatShare
+Eff
+HeatShare
+HeatSales
+HeatIndex
+y
+y
+y
+ 
+(4) 
+ 
+In this expression, 2013 is used as a base year for normalizing the index.  The ratio on the 
+right is equal to 1.0 in 2013.  In other years, it will be greater than one if equipment 
+saturation levels are above their 2013 level.  This will be counteracted by higher efficiency 
+levels, which will drive the index downward.  Base year space heating sales are defined as 
+follows. 
+ 
+
+
+
+
+
+
+
+
+
+
+×
+
+
+
+
+
+
+=
+∑
+e
+e
+Heating
+Sqft
+kWh
+Sales
+Commercial
+Sqft
+kWh
+HeatSales
+13
+13
+ 
+(5) 
+ 
+Here, base-year sales for space heating is the product of the average space heating intensity 
+value and the ratio of total commercial sales in the base year over the sum of the end-use 
+intensity values.  In the Commercial SAE Spreadsheets, the space heating sales value is 
+defined on the BaseYrInput tab.  The resulting HeatIndexy value in 2013 will be equal to the 
+estimated annual heating sales in that year.  Variations from this value in other years will be 
+proportional to saturation and efficiency variations around their base values.   
+ 
+Heating system usage levels are impacted on a monthly basis by several factors, including 
+weather, commercial level economic activity, prices and billing days.  Using the EPRI 
+COMMEND model’s default elasticity parameters, the estimates for space heating equipment 
+usage levels are computed as follows: 
+ 
+
+
+
+
+
+
+×
+
+
+
+
+
+
+=
+13
+13
+,
+,
+CEcon
+CEcon
+CHD
+CHD
+HeatUse
+y
+m
+y
+m
+y
+ 
+(6) 
+ 
+where, CHD is the number of heating degree days in year (y) and month (m),  
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 211 
+  
+ 
+CEcon is a commercial economic driver, combining real commercial output and 
+employment in year (y).  Output is assigned a weight of 0.30 and employment of 
+0.70. (These values may also be modified by the individual user.) 
+ 
+By construction, the HeatUsey,m variable has an annual sum that is close to one in the base 
+year (2013).  The heating degree days serve to allocate annual values to months of the year.  
+The remaining terms average to one in the base year.  In other years, the values will reflect 
+changes in commercial economic driver.   
+ 
+ 
+B-2.3 Constructing XCool 
+The explanatory variable for cooling loads is constructed in a similar manner.  The amount of 
+energy used by cooling systems depends on the following types of variables.   
+ 
+ 
+Cooling degree days, 
+ 
+Cooling equipment saturation levels, 
+ 
+Cooling equipment operating efficiencies,  
+ 
+Average number of days in the billing cycle for each month, and 
+ 
+Commercial output and energy price. 
+ 
+The cooling variable is represented as the product of an equipment-based index and monthly 
+usage multiplier.  That is,   
+ 
+ 
+(7) 
+where, XCooly,m is estimated cooling energy use in year (y) and month (m),  
+CoolIndexy is an index of cooling equipment, and  
+CoolUsey,m is the monthly usage multiplier. 
+ 
+As with heating, the cooling equipment index depends on equipment saturation levels 
+(CoolShare) normalized by operating efficiency levels (Eff). Formally, the cooling equipment 
+index is defined as: 
+ 
+
+
+
+
+
+
+
+
+
+
+×
+=
+13
+13
+13
+Eff
+CoolShare
+Eff
+CoolShare
+CoolSales
+CoolIndex
+y
+y
+y
+ 
+(8) 
+ 
+m
+,
+y
+y
+m
+,
+y
+CoolUse
+CoolIndex
+XCool
+×
+=
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 212 
+  
+ 
+Data values in 2013 are used as a base year for normalizing the index, and the ratio on the 
+right is equal to 1.0 in 2013.  In other years, it will be greater than one if equipment 
+saturation levels are above their 2013 level.  This will be counteracted by higher efficiency 
+levels, which will drive the index downward.  Estimates of base year cooling sales are 
+defined as follows. 
+ 
+
+
+
+
+
+
+
+
+
+
+×
+
+
+
+
+
+
+=
+∑
+e
+e
+Cooling
+Sqft
+kWh
+Sales
+Commercial
+Sqft
+kWh
+CoolSales
+13
+13
+ 
+(9) 
+ 
+Here, base-year sales for space cooling is the product of the average space cooling intensity 
+value and the ratio of total commercial sales in the base year over the sum of the end-use 
+intensity values.  In the Commercial SAE Spreadsheets, the space cooling sales value is 
+defined on the BaseYrInput tab.  The resulting CoolIndex value in 2013 will be equal to the 
+estimated annual cooling sales in that year.  Variations from this value in other years will be 
+proportional to saturation and efficiency variations around their base values.   
+ 
+Cooling system usage levels are impacted on a monthly basis by several factors, including 
+weather, economic activity levels and prices.  Using the COMMEND default parameters, the 
+estimates of cooling equipment usage levels are computed as follows: 
+ 
+
+
+
+
+
+
+×
+
+
+
+
+
+
+=
+13
+13
+,
+,
+CEcon
+CEcon
+CCD
+CCD
+CoolUse
+y
+m
+y
+m
+y
+ 
+(10) 
+ 
+where,  CCD is the number of cooling degree days in year (y) and month (m).  
+ 
+By construction, the CoolUse variable has an annual sum that is close to one in the base year 
+(2013).  The first two terms, which involve billing days and cooling degree days, serve to 
+allocate annual values to months of the year.  The remaining terms average to one in the base 
+year.  In other years, the values will change to reflect changes in commercial output and 
+prices.   
+ 
+ 
+B-2.4 Constructing XOther 
+Monthly estimates of non-weather sensitive sales can be derived in a similar fashion to space 
+heating and cooling.  Based on end-use concepts, other sales are driven by: 
+ 
+ 
+Equipment saturation levels, 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 213 
+  
+ 
+ 
+Equipment efficiency levels, 
+ 
+Average number of days in the billing cycle for each month, and 
+ 
+Real commercial output and real prices. 
+ 
+The explanatory variable for other uses is defined as follows: 
+ 
+m
+,y
+m
+,y
+m
+,y
+OtherUse
+OtherIndex
+XOther
+×
+=
+ 
+(11) 
+ 
+The second term on the right hand side of this expression embodies information about 
+equipment saturation levels and efficiency levels.  The equipment index for other uses is 
+defined as follows: 
+ 
+∑
+
+
+
+
+
+
+
+
+
+
+
+
+×
+=
+Type
+Type
+Type
+Type
+y
+Type
+y
+Type
+m
+y
+Eff
+Share
+Eff
+Share
+Weight
+OtherIndex
+13
+13
+13
+,
+ 
+(12) 
+ 
+where,  Weight is the weight for each equipment type, 
+Share represents the fraction of floor stock with an equipment type, and  
+Eff is the average operating efficiency. 
+ 
+This index combines information about trends in saturation levels and efficiency levels for 
+the main equipment categories.  The weights are defined as follows.  
+ 
+
+
+
+
+
+
+
+
+
+
+×
+
+
+
+
+
+
+=
+∑
+e
+e
+Type
+Type
+Sqft
+kWh
+Sales
+Commercial
+Sqft
+kWh
+Weight
+13
+13
+ 
+(13) 
+ 
+Further monthly variation is introduced by multiplying by usage factors that cut across all 
+end uses, constructed as follows: 
+ 
+
+
+
+
+
+
+×
+
+
+
+
+
+
+=
+13
+,
+,
+5.
+30
+CEcon
+CEcon
+Days
+OtherUse
+y
+m
+y
+m
+y
+ 
+(14) 
+ 
+where,  Days is the number of days in year (y) and month (m).  
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 214 
+  
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 215 
+  
+ 
+Appendix C:  Weather Station Weights & State Maps 
+A set of weights were used to allocate weather stations to each Transmission District (TD) 
+and system.   
+ 
+Table C-1 summarizes these weights for the TD’s and Table C-2 for the system. 
+ 
+Table C-1: Transmission District Weather Station Weights 
+ 
+Transmission District
+Weight
+STNID
+Transmission District
+Weight
+STNID
+Central Hudson
+0.2000
+ALB
+New York Power Authority
+0.2000
+MSS
+Central Hudson
+0.6000
+POU
+New York Power Authority
+0.8000
+PLB
+Central Hudson
+0.2000
+SWF
+New York State Electric & Gas
+0.0300
+ALB
+Consolidated Edison
+0.0800
+HPN
+New York State Electric & Gas
+0.1600
+BGM
+Consolidated Edison
+0.2600
+JFK
+New York State Electric & Gas
+0.1300
+BUF
+Consolidated Edison
+0.1200
+LGA
+New York State Electric & Gas
+0.1800
+ELM
+Consolidated Edison
+0.5200
+NYC
+New York State Electric & Gas
+0.0200
+ELZ
+Consolidated Edison
+0.0200
+POU
+New York State Electric & Gas
+0.0100
+GFL
+Long Island Power Authority
+0.3500
+FRG
+New York State Electric & Gas
+0.0500
+HPN
+Long Island Power Authority
+0.6500
+ISP
+New York State Electric & Gas
+0.0100
+MSS
+National Grid
+0.2000
+ALB
+New York State Electric & Gas
+0.0200
+MSV
+National Grid
+0.0700
+BGM
+New York State Electric & Gas
+0.0400
+PLB
+National Grid
+0.2300
+BUF
+New York State Electric & Gas
+0.0500
+POU
+National Grid
+0.0700
+ELM
+New York State Electric & Gas
+0.0400
+ROC
+National Grid
+0.0300
+ELZ
+New York State Electric & Gas
+0.1600
+SYR
+National Grid
+0.0400
+GFL
+New York State Electric & Gas
+0.1000
+UCA
+National Grid
+0.0200
+MSV
+Orange & Rockland
+0.2000
+HPN
+National Grid
+0.0400
+PLB
+Orange & Rockland
+0.1000
+MSV
+National Grid
+0.0300
+POU
+Orange & Rockland
+0.7000
+SWF
+National Grid
+0.1100
+ROC
+Rochester Gas & Electric
+0.1200
+ELZ
+National Grid
+0.0600
+SYR
+Rochester Gas & Electric
+0.8300
+ROC
+National Grid
+0.1000
+UCA
+Rochester Gas & Electric
+0.0500
+SYR
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 216 
+  
+ 
+Table C-2: System Weather Station Weights 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+ 
+ 
+ 
+ 
+Page 217 
+ 
+ 
+Fig. C-1: New York State Electric System Map – Transmission District Boundaries 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+ 
+ 
+ 
+ 
+Page 218 
+ 
+ 
+Fig. C-2: New York State Electric System Map – Zone Boundaries 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+ 
+ 
+ 
+ 
+Page 219 
+ 
+ 
+Fig. C-3: New York State Electric System Map – Weather Station Locations 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+ 
+ 
+ 
+ 
+Page 220 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 221 
+ 
+ 
+ 
+ 
+ 
+ 
+NYISO Climate Change Impact Study – Phase 1 
+Page 222 
+ 

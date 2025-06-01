@@ -1,0 +1,2107 @@
+ 
+ 
+New York State Climate Change Projections 
+Methodology Report 
+ 
+ 
+Technical Document  
+of the 
+New York State Climate Impacts Assessment 
+ 
+ 
+ 
+ 
+Prepared by: 
+ 
+Columbia University 
+ 
+ 
+Daniel Bader 
+Senior Staff Associate  
+Lamont-Doherty Earth Observatory  
+Columbia Climate School  
+ 
+ 
+Radley Horton 
+Professor of Climate 
+Columbia Climate School  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+September 2023 
+1 
+ 
+Contents 
+1. 
+Introduction ................................................................................................................................. 2 
+2. 
+New York State Climatology ......................................................................................................... 2 
+2.1. 
+Climate Description .............................................................................................................. 2 
+2.2. 
+Climate Regions and Weather Stations ................................................................................. 7 
+3. 
+Historical Analysis ........................................................................................................................ 9 
+3.1. 
+Trends in Annual Average Temperature.............................................................................. 10 
+3.2. 
+Trends in Annual Precipitation ............................................................................................ 12 
+3.3. 
+Trends in Sea Level and Coastal Flooding ............................................................................ 15 
+4. 
+Climate Projections .................................................................................................................... 16 
+4.1. 
+Methods ............................................................................................................................ 16 
+4.2. 
+Projected Mean Annual Changes ........................................................................................ 27 
+4.3. 
+Projected Changes in Extreme Events ................................................................................. 29 
+5. 
+Conclusion and Research Needs ................................................................................................. 38 
+6. 
+References ................................................................................................................................. 39 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We acknowledge Cuihua Li at the Lamont-Doherty Earth Observatory, Columbia Climate School, for her 
+work on the historical climate data analysis and future climate projections in this report. 
+ 
+ 
+ 
+ 
+ 
+ 
+Preferred citation:  
+Bader, D., R. Horton. 2023. New York State Climate Change Projections Methodology Report. Prepared 
+for the New York State Climate Impacts Assessment. 
+ 
+ 
+2 
+ 
+1. Introduction  
+Since the first ClimAID report in 2011, it has become clear that a changing climate is already causing 
+major impacts in New York State. It is also now evident that if global greenhouse gas emissions are not 
+cut dramatically, some climate change impacts in the state may exceed the capacity to adapt.  
+This statewide knowledge is anchored in the changes observed at global and national scales. The 2010s 
+was the warmest decade on record globally. Since reliable recordkeeping began late in the 19th century, 
+the warmest years globally have all occurred since 2005, with 9 of the 10 warmest years occurring since 
+2011 (IPCC, 2021). The year 2012 saw a record drop in summer arctic sea ice extent, far exceeding 
+climate model projections, and 18% below the previous lowest record low in 2007 (NOAA, 2012). Recent 
+years have seen unprecedented heat waves globally and, in the U.S., heat that has been associated with 
+severe impacts including excess mortality of people and animals, severe forest fires, and crop losses. 
+Meanwhile, extreme precipitation events and coastal flooding pose an increasing menace across many 
+populous land areas globally and nationally. In 2020 alone, a record number of events (22) that caused 
+more than a billion dollars in damages occurred (Smith, 2021). Indeed, the wave of extreme events of 
+unprecedented frequency and intensity has helped engender a growing branch of climate science 
+focused on attributing recent events to emissions that have already occurred (Burger et. Al 2020). It is 
+clearer than ever that climate change and its impacts are already here.  
+This realization has led to new urgency to not exceed global temperature and emissions targets, such as 
+1.5°C (2.7°F) of global warming relative to preindustrial conditions. Warming above 1.5°C, for example, 
+could pose an existential threat to much of the world’s coral reefs and lead to irreversible changes in 
+high-latitude regions (IPCC, 2018). A recent study found that further emissions of more than 420 
+GtCO2—equivalent to 10 years of current emissions—would more likely than not lead to warming in 
+excess of 1.5°C (Matthews et al. 2021). While there have been great advances in greenhouse gas 
+emissions reductions, many spearheaded by New York State, it remains an open question whether these 
+innovations will be fast enough to keep up with accelerating climate change impacts. It is also 
+increasingly clear that New York State will be impacted by climate changes outside the state, through 
+diverse mechanisms ranging from supply chain disruptions (Chee Wai and Wongsurawat, 2013), to 
+pollution from western U.S. wildfires (Shrestha et al. 2022), to climate-influenced migration patterns 
+(Raymond et al. 2020; Horton et al., 2021).  
+Section 2 of this report summarizes the climate of New York State and describes the weather stations 
+used and regions defined in the analyses throughout this report. Section 3 is a historical analysis of 
+climate trends for key variables, by region and station. Section 4 begins with projection methods, 
+followed by the projections of how climate change will modify climate metrics ranging from creeping 
+changes in time-averaged conditions to the frequency of currently rare extreme events. The final section 
+summarizes the findings, highlights key uncertainties, and proposes topics for future work. 
+2. New York State Climatology  
+2.1. Climate Description  
+New York State experiences extreme geographical variations in climate due to the large latitudinal 
+extent, elevation differences, and the influence of the Great Lakes and the Atlantic Ocean. Several 
+climate variables are described below. 
+3 
+ 
+2.1.1. Average Temperature and Precipitation  
+The climate of New York State is best described as humid continental, with some areas of New York City 
+and Long Island classified as humid subtropical (Peel et al., 2007). Across the state, annual average 
+temperatures, based on the 1981–2010 climate normals, range from approximately 42°F in the 
+northernmost areas of the state to 52°F in the New York City metropolitan region. While the southern 
+part of New York State is the warmest on average, coastal temperatures along the immediate shoreline 
+are moderated in summer due to the influence of sea breezes (Figure 1). 
+Figure 1. Annual Average Temperature for the 1981–2010 Base Period for Portions of the 
+Northeastern United States, Including New York State  
+Source: NOAA, Northeast Regional Climate Center at Cornell University  
+ 
+Annual precipitation is generally evenly distributed across the year in most locations in New York State. 
+Average annual precipitation is the greatest downwind of Lake Ontario and Lake Erie due to enhanced 
+precipitation from the Great Lakes and along the coastal plain due to the influence of coastal storms in 
+both the warm and cool season (Figure 2). Locations in these areas average approximately 46 inches per 
+year1. In the relatively drier parts of New York, which include the west-central part of the state, annual 
+average precipitation is closer to 35 inches per year2. 
+ 
+ 
+ 
+1 Average calculated using station data from Watertown, Oswego, Buffalo, New York City, Bridgehampton, 
+Setauket, and Dobbs Ferry.  
+2 Average calculated using station data from Elmira, Ithaca, Dansville, and Rochester. 
+4 
+ 
+Figure 2. Average Annual Precipitation Totals for the 1981–2010 Base Period for Portions of the 
+Northeastern United States, Including New York State  
+Source: NOAA, Northeast Regional Climate Center at Cornell University 
+ 
+2.1.2. Snowfall  
+Snowfall varies dramatically across New York State based on topography and the proximity to the Great 
+Lakes and the Atlantic Ocean (Figure 3). In parts of the Tug Hill Plateau downwind of Lake Ontario and 
+western New York near Lake Erie, average annual snowfall exceeds 150 inches due to lake-effect snow. 
+Closer to the coastal plain, the warming influence of the Atlantic Ocean suppresses average annual 
+snowfall to around 30 inches. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5 
+ 
+Figure 3. Average Annual Snowfall Totals for the 1981–2010 Base Period for Portions of the 
+Northeastern United States, Including New York State  
+Source: NOAA, Northeast Regional Climate Center at Cornell University 
+ 
+2.1.3. Extreme Events  
+A variety of climate extremes affect locations across New York State. These include hot and cold days, 
+heat waves, intense precipitation, and coastal flooding caused by tropical cyclones and extratropical 
+cyclones, including nor’easters, which are storm systems that move along the Atlantic coast and are 
+named based on the prevailing direction of the wind flow. In all locations, the number of extreme events 
+from year to year is highly variable. 
+2.1.3.1. Extreme Temperature and Heat Waves  
+Extreme hot days and heat waves can be defined in multiple ways to reflect the diversity of conditions 
+experienced across the different regions in New York State. Hot days and heat waves are most common 
+from June through August, although temperatures can exceed 90°F as early as April and as late as 
+October. The urban heat island further elevates temperature extremes in the New York City 
+metropolitan region and, to a lesser extent, other highly populated regions of New York State. 
+Specific hot-day metrics include individual days with maximum temperatures at or above thresholds 
+such as 90°F or 95°F. For this report, heat waves are defined as three or more consecutive days with 
+maximum temperatures at or above 90°F. 
+Extreme cold days are also defined to reflect the state's regional climate variations. In the coldest parts 
+of New York State, temperatures falling below 0°F are not uncommon. Lake Placid, for example, 
+averages 30 days below 0°F each year. Farther south, temperatures falling below 0°F are rare. Since 
+6 
+ 
+1900, there have been 37 days at Central Park where the minimum temperature was at or below 0°F. 
+However, only 9 of those days have occurred within the past 60 years.  
+2.1.3.2. Extreme Precipitation and Flooding  
+Inland areas across New York experience frequent (non-snow) precipitation, with a peak in intensity in 
+the summer. Coastal areas in New York State typically experience fewer precipitation events. However, 
+those events are often more intense and tend to peak in the late spring as well as early fall. (Agel et al., 
+2015). This reflects the different mechanisms that can cause extreme precipitation, which include small-
+scale thunderstorms, most common in the warmer months, and large-scale coastal storms in both the 
+warm and cool seasons.  
+Heavy precipitation can cause flooding in all seasons across New York State. In central and northern New 
+York, flooding is most frequent in the spring, when rainfall and snowmelt lead to runoff. Farther south, 
+inland flooding is more common during the summer. Larger river systems in New York State are at risk of 
+flooding associated with the moisture from tropical cyclones. Along the coastal plain, flooding can be 
+exacerbated by the combined effect of rainfall and coastal flooding. Urban environments face unique 
+flood risks since the built environment limits absorption of water by underlying soils. In September 
+2021, deadly flooding caused by the remnants of Hurricane Ida, which produced more than 3 inches of 
+rain at Central Park in an hour—shattering by over 50% a record set just two weeks earlier—points to 
+the severity of the risk.  
+2.1.3.3. Extratropical and Tropical Cyclones  
+The two types of storms with the largest impact on New York State are tropical cyclones and 
+extratropical cyclones/nor’easters. Along the coast, these storms are responsible for large storm surge 
+events, as well as a large percentage of the occurrences of other significant impacts that can extend far 
+inland (e.g., high winds and extreme precipitation). Mid-latitude weather systems (extratropical 
+cyclones) can approach the state from multiple directions, causing a variety of weather events, including 
+thunderstorms, heavy rainfall, strong winds, and frozen precipitation (e.g., snow, sleet, and freezing 
+rain). Tropical cyclones typically approach the region from the waters to the south. However, severe 
+impacts can extend far inland, as evidenced by recent events such as Hurricane Irene and Tropical Storm 
+Lee in 2011, which brought heavy rainfall and flooding into inland areas of New York.  
+Extratropical cyclones affect the state far more frequently than tropical cyclones and are of longer 
+duration. They generally occur in the cool season (November through April) and are associated with 
+smaller storm surges and weaker winds along the coast as compared to the strongest tropical cyclones. 
+Nevertheless, nor’easter flood effects can be large, since their long duration can extend the period of 
+high winds, high water, and wave action over multiple tidal cycles. Notable recent events include a 
+series of nor’easters in early March 2018, which brought heavy precipitation (rainfall and snowfall), high 
+winds, and coastal flooding in consecutive events. 
+Landfalling tropical cyclones along the coast of New York State are uncommon, as prevailing westerly 
+winds generally steer hurricanes away from the coast as the storms approach the northeastern United 
+States. They generally impact the state in the warm season from July to October. The impacts of these 
+storms are, in part, dependent on the track they take. Those that pass to the east of Long Island typically 
+have higher wind speeds, especially for coastal locations. Those that make landfall over southeastern 
+New York or track farther inland can produce heavy rainfall totals through central and western New 
+York.  
+ 
+7 
+ 
+In July 2021, Tropical Storm Elsa made landfall over Long Island, bringing heavy rain and gusty winds to 
+coastal locations. In late August 2021, Tropical Storm Henri made landfall in Rhode Island, and despite 
+the center of the storm passing well to the east of New York City and Long Island, heavy rain fell across 
+the region.  
+Approximately one week later in early September 2021, the remnants of Hurricane Ida brought 
+catastrophic flooding to New York City. LaGuardia Airport and Central Park experienced 8.44 inches and 
+7.19 inches of rainfall from this storm, much of it falling within a matter of a few hours, with peak 
+rainfall rates estimated between 0.08 and 0.12 inches per minute.  
+Prior to these recent events, the summer of 2020 saw two tropical cyclones that impacted New York 
+State: Tropical Storm Fay and Hurricane Isaias. Before that, significant impacts occurred in 2012 from 
+Hurricane Sandy and in 2011 from Hurricane Irene and Tropical Storm Lee. 
+2.1.3.4. Snowstorms 
+Intense lake-enhanced snowfall events occur downwind of the Great Lakes, with some storms producing 
+up to 60 inches of snow. These events can last anywhere from a few hours to several days. Lake-effect 
+snow is localized, and areas within miles of each other can experience large differences in snowfall 
+totals. Locations downwind of Lake Erie and Lake Ontario experience these events most frequently, 
+while they also occur to a lesser extent in areas in the Finger Lakes. A November 2014 event dropped 
+over 5 feet of snow in some locations east of Buffalo (off Lake Erie), while in this same event, close to 2 
+feet of snow fell downwind of Lake Ontario. More recently, in late November 2022, a significant, long-
+duration/multi-day lake-effect event impacted locations downwind of both Lake Erie and Lake Ontario. 
+The highest snowfall reports were from locations just south of Buffalo, with Hamburg seeing close to 80 
+inches of snow.  
+In southern parts of New York State, closer to the coastal plain, snowfall amounts occasionally exceed 20 
+inches during nor'easters. These events occur, on average, approximately once every 20 years. However, 
+five of the top ten biggest snowstorms in New York City (as measured in Central Park) have occurred 
+since 2010, with the highest total (27.5 inches) occurring on January 22–24, 2016. 
+2.2. Climate Regions and Weather Stations  
+The climate analyses and projections in this report are provided for individual regions across New York. 
+The number of regions has expanded from seven in the prior assessment (Horton et al., 2011; 2014) to 
+twelve, and the areas now align more closely with the U.S. Climate Divisions (Figure 4). These changes 
+also take into consideration feedback from the Climate Needs Assessment (NYSERDA, 2020), and some 
+modifications have been made to align regions more closely with existing boundaries (e.g., NYSDEC 
+regions and economic development regions). The prior climate regions were constrained to county 
+borders and while that generally remains the case here, 7 of the state’s 62 counties now span multiple 
+regions. Of the 12 regions, 5 include counties that span more than one region. The intent is to highlight 
+that some counties encompass diverse geographies and climates, and therefore may experience varied 
+climate change impacts. For example, parts of Essex County in the Champlain Valley may experience a 
+different climate than areas of the county deeper within the Adirondack Mountains. 
+Ultimately, it is the weather stations within each region, rather than the precise boundaries and county 
+delineations, that differentiate the 12 regional climates described here. Historical observations for a 
+total of 27 stations across New York State were used in the historical and future analyses in this project. 
+These stations were selected based on availability of long-term daily data and to be reflective of the 
+8 
+ 
+diversity of conditions across the entire state. A complete breakdown of the stations within each of the 
+regions is shown in (Table 1). Because the available stations are not evenly distributed across the state, 
+and due to differences in topography and proximity to water bodies, in some instances a location within 
+one region might be best represented by a climate station from another nearby region.  
+Figure 4. New York State Climate Regions as Defined in this Assessment  
+ 
+ 
+Table 1. New York State Climate Regions and Observed Weather Stations Used in Projections Analyses 
+Region 
+Observed Weather Stations 
+Adirondacks  
+Indian Lake, Lake Placid*, Wanakena, 
+Catskill Mountains  
+Mohonk*, Port Jervis  
+Central/Finger Lakes 
+Dansville, Ithaca, Syracuse* 
+Champlain Valley 
+Dannemora* 
+9 
+ 
+Great Lakes  
+Buffalo*, Fredonia*, Oswego*, Rochester*, 
+Watertown* 
+Long Island  
+Bridgehampton*, Setauket 
+Mohawk River Valley  
+Cooperstown*  
+New York City  
+New York City/Central Park* 
+North Hudson River Valley  
+Albany*, Saratoga Springs*  
+Southern Tier  
+Alfred, Binghamton*, Elmira*, Norwich* 
+South Hudson River Valley  
+Dobbs Ferry*, Poughkeepsie  
+St. Lawrence River Valley  
+Canton*  
+ 
+Of the 27 stations, only a select group had sufficient data available (at the daily timescale) to complete 
+the extreme events analysis. The * indicates that the station had sufficient data and was included in the 
+extreme events work.  
+3. Historical Analysis  
+An analysis of historical trends in annual average temperature and precipitation was conducted for each 
+of the 27 stations across New York State. The observed monthly data source used in this analysis is 
+Version 2.5 of the United States Historical Climatology Network 
+(ftp://ftp.ncdc.noaa.gov/pub/data/ushcn/v2.5, Menne et al. 2009). USHCN Version 2.5 data is 
+constructed using a process that favors monthly data calculated directly from the latest version of the 
+daily global historical climatology network (GHCN) data. The data are quality controlled and, if possible, 
+adjustments are performed where inhomogeneities are identified. 
+The trends and their significance were computed for the 1901–2020 time period3. Use of a long data 
+record helps distinguish the climate change signal associated with increasing greenhouse gas 
+concentrations from interannual and interdecadal variability. 
+Trends in sea level at stations on New York’s coastline are also presented. 
+ 
+ 
+3 Significance of trends in annual average temperature and precipitation were computed using the Mann-Kendall 
+test.  
+10 
+ 
+3.1. Trends in Annual Average Temperature  
+Across New York State, annual average temperatures have warmed over the past century at an average 
+rate of approximately 0.20°F per decade (Figure 5)4.  Over the past 40 years, annual average 
+temperature has increased at a faster rate of 0.50°F inches per decade. All 27 stations for which the 
+historical analysis was completed experienced warming, and 24 had trends that were significant at the 
+99% level over the 1901–2020 time period (see Table 2). This rate of warming across the northeastern 
+United States over the same time period is also 0.20°F per decade. Winter warming is greatest, at a rate 
+(0.33°F per decade) that is nearly double each of the other seasons.  
+Figure 5. Trend in New York State Annual Average Temperature from 1901–2020 
+The NOAA climate division values are weighted by area to compute the statewide average (Karl and 
+Koss, 1984). Source: NOAA 
+ 
+ 
+Table 2. Trends in Annual Average Temperature from 1901–2020 for Observed Weather Stations in 
+New York State 
+Observed Weather Station 
+Temperature Trend (°F/decade) 
+Adirondacks – Indian Lake 
+0.18** 
+Adirondacks – Lake Placid  
+0.30** 
+ 
+4 The trend for New York State is taken from NOAA’s Climate at a Glance tool. The trend, when averaging the 
+individual results across the 27 stations used in the analysis, is 0.23°F per decade.  
+11 
+ 
+Adirondacks – Wanakena  
+0.29** 
+Catskill Mountains – Mohonk 
+0.21** 
+Catskill Mountains – Port Jervis 
+0.35** 
+Central/Finger Lakes – Dansville 
+0.15** 
+Central/Finger Lakes – Ithaca 
+0.13** 
+Central/Finger Lakes – Syracuse  
+0.22** 
+Champlain Valley – Dannemora 
+0.34** 
+Great Lakes – Buffalo 
+0.19** 
+Great Lakes – Fredonia 
+0.11* 
+Great Lakes – Oswego 
+0.34** 
+Great Lakes – Rochester 
+0.22** 
+Great Lakes – Watertown  
+0.19** 
+Long Island – Bridgehampton 
+0.34** 
+Long Island – Setauket 
+0.36** 
+Mohawk River Valley – Cooperstown 
+0.15** 
+New York City – New York City/Central Park  
+0.34** 
+North Hudson River Valley – Albany  
+0.28** 
+North Hudson River Valley – Saratoga Springs 
+0.09 
+12 
+ 
+Southern Tier – Alfred 
+0.14** 
+Southern Tier – Binghamton  
+0.22** 
+Southern Tier – Elmira  
+0.12** 
+Southern Tier – Norwich  
+0.08 
+Southern Hudson River Valley – Dobbs Ferry 
+0.34** 
+Southern Hudson River Valley – Poughkeepsie 
+0.42** 
+St. Lawrence River Valley – Canton 
+0.24** 
+*Trend is significant at the 95% significance level. ** Trend is significant at the 99% significance level.  
+ 
+3.2. Trends in Annual Precipitation  
+The average rate of change for annual precipitation across New York State is an increase of 
+approximately 0.46 inches per decade for the 1901–2020 period (Figure 6)5. Over the past 40 years, 
+annual precipitation has increased at a faster rate of 1.19 inches per decade. Out of the 27 stations in 
+New York State used for the trend analysis, 26 saw increases in annual precipitation (Table 3). Of those 
+26 stations that have increasing precipitation, 15 had increases that are statistically significant at the 
+99% level for the 1901–2020 time period. This rate of annual precipitation change is the same as the 
+trend across the Northeast over the same time period, which is also about 0.46 inches per decade. 
+Precipitation trends do not show significant differences among seasons. 
+In addition to increased annual precipitation, year-to-year precipitation variability has become more 
+pronounced. The standard deviation of annual precipitation (a measure of variability) was greater over 
+the 1961–2020 period compared to 1901–1960 for 24 of the 27 stations in New York State. At the state 
+level, the increased variability is significant at the 95% level.  
+  
+ 
+ 
+ 
+ 
+ 
+5 The trend for New York State is taken from NOAA’s Climate at a Glance tool. The trend when averaging the 
+individual results across the 27 stations used in the analysis is 0.50 inches per decade. 
+13 
+ 
+Figure 6. Trend in New York State Average Annual Precipitation from 1901–2020  
+The NOAA climate division values are weighted by area to compute the statewide average (Karl and 
+Koss, 1984). Source: NOAA 
+ 
+Table 3. Trends in Annual Precipitation from 1901–2020 for Observed Weather Stations in New York 
+State 
+Observed Weather Station 
+Precipitation Trend (inches/decade) 
+Adirondacks – Indian Lake 
+0.37 
+Adirondacks – Lake Placid  
+0.45** 
+Adirondacks – Wanakena  
+0.20 
+Catskill Mountains – Mohonk 
+0.63* 
+Catskill Mountains – Port Jervis 
+0.30 
+Central/Finger Lakes – Dansville 
+0.35** 
+Central/Finger Lakes – Ithaca 
+0.55** 
+Central/Finger Lakes – Syracuse  
+0.57** 
+14 
+ 
+Observed Weather Station 
+Precipitation Trend (inches/decade) 
+Champlain Valley – Dannemora 
+0.72** 
+Great Lakes – Buffalo 
+0.88** 
+Great Lakes – Fredonia 
+0.39* 
+Great Lakes – Oswego 
+1.03** 
+Great Lakes – Rochester 
+0.40** 
+Great Lakes – Watertown  
+0.57** 
+Long Island – Bridgehampton 
+0.53** 
+Long Island – Setauket 
+-0.16 
+Mohawk River Valley – Cooperstown 
+0.34 
+New York City – New York City/Central Park  
+0.71** 
+North Hudson River Valley – Albany  
+0.88** 
+North Hudson River Valley – Saratoga Springs 
+0.59** 
+Southern Tier – Alfred 
+0.31* 
+Southern Tier – Binghamton  
+0.86** 
+Southern Tier – Elmira  
+0.60** 
+Southern Tier – Norwich  
+0.37 
+Southern Hudson River Valley – Dobbs Ferry 
+0.39 
+15 
+ 
+Observed Weather Station 
+Precipitation Trend (inches/decade) 
+Southern Hudson River Valley – Poughkeepsie 
+0.32 
+St. Lawrence River Valley – Canton 
+0.27* 
+*Trend is significant at the 95% significance level. ** Trend is significant at the 99% significance level. 
+ 
+3.3. Trends in Sea Level and Coastal Flooding  
+Areas on the coastal plain—defined as Long Island, New York City, lands near the southern Hudson 
+River, and small portions of southeastern Westchester County—are at risk from rising sea levels and 
+enhanced coastal flooding. Sea levels in coastal New York are rising at rates faster than the global 
+average. In recent years, accelerated sea level rise globally can be attributed to the expansion of oceans 
+as they warm and melting of land-based ice, and some studies have suggested additional local 
+acceleration due to changing ocean currents in the Atlantic (Yin, et al. 2009; Piecuch et al., 2018). The 
+rate of local or relative sea level rise in New York City has averaged 0.12 inches per year from 1901 to 
+2020 as measured by the tide gauge at the Battery. The Montauk Point station on eastern Long Island 
+has seen sea levels rise at a rate of 0.13 inches per year for the 1947–2020 period. Both rates are nearly 
+double the 1920–2022 mean global rate (Sweet et al., 2022), in part due to local land subsidence. This 
+land subsidence is primarily due to local glacial isostatic adjustment, a process whereby land, once 
+covered by or adjacent to glacial ice sheets, is still responding to the melting of that ice at the end of the 
+last ice age. New York’s coastal region, and much of the U.S. East Coast, continues to sink as land farther 
+inland that was covered by more ice rises (Engelhart et al., 2011; Engelhart and Horton, 2012). More 
+recently, over the past 40 years, the rate of sea level rise at the Battery has accelerated to 
+approximately 0.17 inches per year.  
+Rising sea level along coastal New York State has increased the magnitude and frequency of coastal 
+floods. In some locations, flooding now occurs at times of high astronomical tides, even in the absence 
+of coastal storms. At the Battery, the frequency of this "nuisance flooding" (high-tide flooding) has more 
+than doubled since the 1950s (Gornitz et al., 2019; Orton et al., 2019). When coastal storms do occur, 
+they now flood larger areas and feature deeper—and thus more damaging and dangerous—water 
+(Strauss et al., 2021). 
+16 
+ 
+Figure 7. Trend in Sea Level at the Battery, New York 
+Source of data: NOAA 
+ 
+ 
+4. Climate Projections  
+Most of the quantitative results described below are based on the latest generation of global climate 
+models (CMIP6) and an updated scenario framework, known as the Shared Socioeconomic Pathways 
+(SSPs). Previous projections developed for New York State were based on CMIP5 and the RCPs or CMIP3 
+and SRES. In addition to modeling and methodological advances, emerging research and expanded 
+observational data availability since the last update in 2014 have also contributed to refinements of the 
+projections. 
+4.1. Methods 
+The global climate model (GCM) simulations for the projections in this report are from the latest 
+iteration of the World Climate Research Programme’s Coupled Model Intercomparison Project (CMIP6; 
+https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip6) (Table 4). CMIP assesses past, present, and 
+future climate changes from natural and anthropogenic sources by looking at a range of models (Eyring 
+et al., 2016). The Scenario Model Intercomparison Project (ScenarioMIP) is the central CMIP6 initiative, 
+providing multimodel climate projections based on alternative scenarios of future emissions and land-
+use changes produced by integrated assessment models (O’Neill et al., 2016). 
+ 
+Table 4. List of GCMs Used in Climate Projections 
+GCM Name 
+Monthly 
+Temperature and 
+Precipitation 
+Daily 
+Temperature 
+Daily 
+Precipitation 
+ACCESS-CM2  
+* 
+* 
+* 
+17 
+ 
+GCM Name 
+Monthly 
+Temperature and 
+Precipitation 
+Daily 
+Temperature 
+Daily 
+Precipitation 
+ACCESS-ESM1-5 
+* 
+* 
+* 
+AWI-CM-1-1-MR 
+* 
+* 
+ 
+BCC-CSM2-MR 
+* 
+* 
+* 
+CAMS-CSM1-0 
+* 
+ 
+ 
+CanESM5-CanOE 
+* 
+ 
+ 
+CanESM5 
+* 
+* 
+* 
+CESM2 
+* 
+ 
+ 
+CESM2-WACCM 
+* 
+ 
+* 
+CIESM 
+* 
+ 
+ 
+CMCC-CM2-SR5 
+* 
+ 
+ 
+CNRM-CM6-1 
+* 
+* 
+* 
+CNRM-CM6-1-HR 
+* 
+ 
+ 
+CNRM-ESM2-1 
+* 
+* 
+* 
+EC-Earth3 
+* 
+ 
+ 
+EC-Earth3-Veg 
+* 
+ 
+ 
+FGOALS-g3 
+* 
+ 
+ 
+18 
+ 
+GCM Name 
+Monthly 
+Temperature and 
+Precipitation 
+Daily 
+Temperature 
+Daily 
+Precipitation 
+FGOALS-f3-L 
+* 
+ 
+ 
+FIO-ESM-2-0 
+* 
+ 
+ 
+GFDL-CM4 
+* 
+* 
+* 
+GFDL-ESM4 
+* 
+* 
+* 
+GISS-E2-1-G 
+* 
+ 
+ 
+HadGEM3-GC31-LL 
+* 
+* 
+* 
+INM-CM4-8 
+* 
+* 
+* 
+INM-CM5-0 
+* 
+* 
+* 
+IPSL-CM6A-LR 
+* 
+ 
+ 
+KACE-1-0-G 
+* 
+* 
+* 
+MCM-UA-1-0 
+* 
+ 
+ 
+MIROC6 
+* 
+ 
+ 
+MPI-ESM1-2-HR 
+* 
+ 
+ 
+MRI-ESM2-0 
+* 
+ 
+ 
+NESM3 
+* 
+ 
+ 
+NorESM2-LM 
+* 
+* 
+* 
+19 
+ 
+GCM Name 
+Monthly 
+Temperature and 
+Precipitation 
+Daily 
+Temperature 
+Daily 
+Precipitation 
+NorESM2-MM 
+* 
+* 
+* 
+UKESM1-0-LL 
+* 
+* 
+* 
+ 
+This project follows two prior NYSERDA projects that developed climate projections for New York State. 
+Presented here is a brief summary of how the key components of the projections have changed over 
+time. Maintaining consistency with prior efforts, a preference of many stakeholders across the state 
+based on the findings of the Climate Needs Assessment (NYSERDA, 2020), is balanced with updating the 
+climate science to ensure it aligns with cutting-edge research and national and international climate 
+assessments (e.g., IPCC, 2021). Table 5 below demonstrates how our methodologies have stayed the 
+same, and changed, over time. In response to stakeholder feedback focused on increasing the utility and 
+relevance of our projections for decision-making, key advances have included increasing the number of 
+regions in the state, providing projections centered around each decade this century, and including 
+compound/multivariate extremes such as humidity and heat rather than focusing on single variables like 
+temperature only. Scientific advances have also led to improved and higher-resolution climate models. 
+Scientific advances also encouraged us to modify projection methods to assess whether some days may, 
+for example, warm more than others, a possibility not captured by the more homogenous delta method 
+used in prior NYSERDA assessments. 
+ 
+Table 5. Comparison of New York State Climate Projection Methods  
+ 
+ClimAID, 2011 
+ClimAID Update, 2014 
+New York State Climate 
+Impacts Assessment, 
+2023 
+Climate Regions and 
+Observing Stations  
+7 Regions, 22 Stations  
+7 Regions, 7 Stations  
+12 Regions, 27 Stations  
+Baseline Years  
+1971–2000 
+1971–2000 
+1981–2010  
+20 
+ 
+ 
+ClimAID, 2011 
+ClimAID Update, 2014 
+New York State Climate 
+Impacts Assessment, 
+2023 
+Future Timeslices  
+2020s  
+2050s 
+2080s 
+2020s 
+2050s 
+2080s 
+2100  
+2030s 
+2040s 
+2050s 
+2060s 
+2070s 
+2080s  
+2100  
+Methods – Emissions 
+Scenarios  
+3 SRES  
+A1B, A2, B1  
+2 RCPs 
+RCP4.5, RCP8.5 
+2 SSPs 
+SSP2-4.5, SSP5-8.5 
+Methods – Global 
+Climate Models (GCMs) 
+CMIP3  
+16 Global Climate 
+Models, Monthly  
+CMIP5 
+35 Global Climate 
+Models, Monthly  
+CMIP6 
+35 Global Climate 
+Models, Monthly  
+16 Global Climate 
+Models, Daily  
+Methods – Percentiles  
+Minimum, Central 
+Range (16th to 83rd 
+percentile), Maximum  
+Low estimate (10th 
+percentile), Middle 
+Range (25th to 75th 
+percentile), High 
+estimate (90th 
+percentile)  
+Low estimate (10th 
+percentile), Middle 
+Range (25th to 75th 
+percentile), High 
+estimate (90th 
+percentile)  
+Methods – Downscaling  Single gridbox, delta 
+method used for GCM 
+bias correction 
+Single gridbox, delta 
+method used for GCM 
+bias correction 
+Single gridbox, PDF 
+fitting of changes in 
+future minus baseline 
+GCM in 1 percentile 
+bins, onto observed 1 
+percentile bins  
+ 
+21 
+ 
+ 
+4.1.1. Shared Socioeconomic Pathways (SSPs)  
+For CMIP6, there is a new framework that has been used to design scenarios that combine 
+socioeconomic and technological developments, known as the Shared Socioeconomic Pathways (SSPs; 
+Raihi 2017). The SSPs are scenarios of projected socioeconomic changes across the globe through 2100 
+and are used to develop the emissions scenarios. The SSPs are built upon five socioeconomic 
+development narratives: sustainable development, regional rivalry, inequality, fossil-fueled 
+development, and middle-of-the-road development. Each SSP is consistent with multiple radiative 
+forcing targets based on the timing that policies are implemented (during this century) at different 
+spatial scales (Figure 8). 
+The ScenarioMIP experiment developed a set of nine scenarios of future greenhouse gas emissions 
+trajectories (Gidden et al., 2019). These nine scenarios are broken down into two smaller groups: four 
+scenarios that update the RCPs from CMIP5, achieving equivalent forcing levels of 2.5, 4.5, 6.0, and 8.5 
+Wm−2, and five new scenarios that were not included as part of the prior RCPs. One of the new scenarios 
+is a lower bound of 1.9 Wm−2 scenario, which corresponds to the most optimistic case/outcome of the 
+Paris Climate Agreement.  
+This report uses two SSPs: SSP2-4.5 and SSP5-8.5. There have been some arguments made among 
+scientists and policy makers that the greenhouse gas forcing/concentrations associated with RCP8.5 may 
+be unrealistic. Here, we enumerate some of the reasons we chose to include these two RCPs and RCP 
+8.5 especially. First, these scenarios have the same end-of-century radiative forcing as the two RCPs 
+used in previous New York State projections, providing continuity with that work. Second, they match 
+the pathways of greatest interest to stakeholders based on the Needs Assessment responses (NYSERDA, 
+2020). Third, relative to many other scenarios, there were also a large number of climate models 
+available for these two SSPs. Fourth, they span a broad range of what we consider plausible climate 
+outcomes, including the high-consequence outcomes that are critical for risk management Wuebbles 
+2023). The IPCC has never assigned likelihoods to any of the RCPs, which should instead be thought of as 
+scenarios. Fifth, while most would probably argue that the balance of evidence may suggest that lower 
+greenhouse gas (GHG) forcing/concentrations are more likely than those associated with RCP8.5, that 
+does not mean that the changes in extreme-event statistics, or climate impacts, associated with RCP8.5 
+are unrealistically high. As it becomes clearer that current climate impact models underestimate 
+plausible high tails even when driven by only moderate GHG levels, it follows that using projections of 
+only moderate GHG forcing would unrealistically narrow the upper bounds for the model-based 
+distributions for impacts like heat waves and extreme precipitation. 
+ 
+22 
+ 
+Figure 8. Future Carbon Dioxide Emissions (from All Sources) Consistent with Five Shared 
+Socioeconomic Pathways (SSPs) 
+The projections in this report are based on SSP2-4.5 and SSP5-8.5, shown in the solid lines. Source: 
+image adapted from Riahi et al. (2017), licensed under CC BY 4.0. 
+  
+4.1.2. Mean Temperature and Precipitation Methods: Model-based Distributions 
+Projections for annual (as well as monthly and seasonal) average temperature and average annual (as 
+well as monthly and seasonal) precipitation for all 27 stations were computed using 35 GCMs and two 
+SSPs6. As a result of using the 35 GCMs and two SSPs, the combination produces a 70-member matrix of 
+outputs. Keeping consistent both with the 2014 ClimAID update and stakeholder requests within New 
+York State, results are presented across this range of outcomes at selected points in the distribution: the 
+10th, 25th, 75th, and 90th percentiles; the 50th percentile is also available. For each time period, the 
+results constitute a model-based range of outcomes, which can be used to inform risk-based decision 
+making. This approach gives equal weight to each GCM and to each of the two RCPs selected. 
+Mean annual temperature and precipitation projections are calculated using the delta method, used in 
+both the 2011 and 2014 ClimAID reports. This method, which is a simple form of bias correction, 
+compares the results for future time periods from a model to the same model’s results for the baseline 
+ 
+6 For all projections described in this report, only the first ensemble member/initialization was used from each 
+GCM.  
+23 
+ 
+period (1981–2010). It should also be noted that geographical differences in historical climate are a 
+much larger driver of projected geographical differences in future climate than are differential changes 
+across regions with warming. The relatively low spatial resolution of the global climate models leads to 
+shared grid boxes across some regions, and thus similar amounts of climate change. 
+4.1.3. Extreme Event Methods  
+For projections of extreme events, daily data from the weather stations and GCMs are used. A total of 
+16 models had daily data available for both SSPs at the time of analysis. Projections were developed for 
+the 19 stations deemed to have sufficient daily data available for the 1981–2010 base period (see Table 
+1). 
+Projections of daily temperature (maximum and minimum) and precipitation were computed using a 
+method known as quantile mapping. Quantile mapping adjusts a model value by mapping percentiles of 
+the model’s distribution onto percentiles of the observations (Cannon et al., 2015; Thrasher et al., 2012; 
+Zhao et al., 2017). When applying a quantile-mapping-based bias correction to daily temperature 
+extremes and daily precipitation, the approach uses a base period where both daily observations and 
+daily GCM-simulated values are available. The quantile mapping was performed by defining the 
+percentiles based on the entire 12-month calendar year. The analysis was run separately with 
+percentiles defined by season, to test whether differential warming by season could skew the results if 
+all 12 calendar months were drawn from together. Results were almost identical, and thus drawing from 
+the full 12 months appears justified for this region. 
+The quantile-mapping approach in this report uses one-percentile bins in order to strike a balance 
+between 1) capturing rich information about how baseline bias and projected change can differ across 
+the distribution of a variable and 2) including a sufficient number of days per bin (over 100 days across 
+the 30-year period) to minimize the role of random variability associated with small sample sizes. While 
+more advanced downscaling techniques could in principle sample the farthest tails of the distribution, 
+the primary impediment to improved projections of the most rare events is unrelated to downscaling 
+and instead reflects limits to fundamental understanding—even at the largest spatial scales—of the 
+rarest extremes. This limited understanding inevitably manifests as imperfect sampling of these events 
+even at large spatial scales in GCMs. Bartusek et al. (2022) describe the example of the 2021 Pacific 
+Northwest heat wave, and 2023 is sadly offering sundry examples.   
+For each 30-year time period, model, SSP, and station, the bias correction and downscaling approach 
+was conducted as follows, using temperature in the illustrative example below. 
+Each observed day between 1981 and 2010 was assigned a temperature percentile. The same procedure 
+was applied separately to the GCM data in the base period and in a future period. For example, if 
+October 8, 1984, was ranked in the 33rd percentile of days for temperature in the observations, the 
+warming experienced in the GCM at the 33rd percentile of temperatures in the two time periods (e.g., 
+4.0°F) was applied to the observed day. The resulting dataset can be thought of as a synthetic time 
+series, based on the sequence of weather experienced at the station historically but modified by the 
+amount of warming projected by each GCM in the temperature percentile associated with each day. 
+This approach yields results that hew closely to the sequences of weather experienced over the 
+observational period, but could underestimate the risk of sequences of events, such as a long-duration 
+heat wave, if the observational record underestimates the true historical variability or if climate change 
+modifies the sequences of hot days. We deem this approach superior for our application to an alternate 
+approach—whereby the quantile bias between the GCM baseline period and observations is mapped 
+onto the GCM future data—due to limitations in GCM ability to capture daily sequences of weather in 
+24 
+ 
+the region. However, to the extent that models can capture changes in sequences with climate change, 
+the alternate approach would have merit.   
+The synthetic time series were then used to calculate the metrics of extreme temperatures and 
+precipitation. 
+4.1.4. Downscaling and Regional Changes  
+The projections for each of the regions of New York State are based on the GCM output from each 
+model's single land-based model grid box covering the center of each region. Because each GCM has a 
+different spatial resolution, the specific coordinates of each model's grid boxes differ. Most GCMs have 
+resolution on the order of 100km, which does not capture local processes and topography; therefore, 
+additional analysis is needed to make the GCM data useful for local climate assessment. 
+Climate downscaling broadly refers to the process of using information known at large scales to make 
+predictions at local scales. Downscaling helps to overcome the limitations of the coarse GCM resolution 
+and can remove biases in the GCM data. There are two primary forms of downscaling. One form is 
+dynamical downscaling, where output from the GCM is used to drive a regional climate model (RCM) at 
+higher spatial resolution, improving the ability to simulate local processes (e.g., sea breezes) with 
+greater detail. The other form is statistical downscaling, where a statistical relationship is established 
+from observations between large-scale variables and a local variable. The relationship is then applied to 
+the GCM data to obtain the localized changes from the GCM output. Hybrid approaches combining both 
+statistical and dynamical techniques are now also being considered (Madaus et al., 2020). 
+As described in the earlier section, the primary method of downscaling used in this project for changes 
+in annual average temperature and precipitation is a statistical approach known as the delta method, 
+and the statistical method known as quantile mapping is used for projected changes in extreme events. 
+Other statistical approaches (e.g., localized constructed analogs [LOCA]) are available and offer finer-
+resolution data; however, they were only beginning to be released with CMIP6 data at the time these 
+projections were prepared. 
+Dynamical downscaling, using RCMs, is not employed for this update, but will ultimately have useful 
+applications for specific climate variables of interest for New York. For example, RCMs can be used to 
+simulate fine-scale features of the climate of New York State, including extreme heat, the urban heat 
+island, the sea breeze, and lake-effect snow (Notaro et al., 2015; Ortiz et al., 2019). 
+4.1.5. Timeslices  
+GCMs are valuable tools for projections of the likely range of change over multidecadal time periods. 
+These projections, known as timeslices, are expressed relative to a baseline period of 1981–2010 for 
+temperature and precipitation. This base period has been revised since the 2014 ClimAID update to be 
+more consistent with U.S. climate normals, NOAA’s periodic update of its baseline observed climate.7  
+Projections are provided for 30-year timeslices with the time periods centered on a given decade. Thirty-
+year timeslices are used to provide an indication of the climate normals for those decades. By averaging 
+over this period, much of the random year-to-year variability—or noise—is cancelled out, while the 
+long-term influence of increasing greenhouse gases—or signal—remains. 
+ 
+7 While this report was being written, NOAA updated their climate normal period to 1991–2020. The 1981–2010 
+period is maintained in part due to the GCM historical runs ending in 2014.  
+25 
+ 
+Projections are provided for each decade from the 2030s through the 2080s. (The 2020s and 2090s are 
+excluded, as there is insufficient model output to complete a 30-year average.)8 For certain basic 
+quantitative projections (e.g., annual average temperature and annual precipitation) the projections are 
+extended to 2100 using an alternate method developed for the 2014 report based on a hybrid of 
+timeslices and earlier trend extrapolation. Please see Horton et al. (2014) for a more detailed 
+description of this method.  
+4.1.6. Sea Level Rise Methods  
+Since the 2014 ClimAID update, there have been advances in sea level rise understanding and projection 
+methodologies, including new approaches to capture the possibility of rapid ice melt from land-based 
+ice sheets (Bamber et al., 2019; Gornitz et al., 2019; Fox-Kemper et al., 2021). Several recent studies 
+confirm the plausibility of high-end sea level rise scenarios (e.g., Slangen et al., 2017) and offer 
+techniques to adapt projections to the regional/local scale (Carson et al., 2016; Fox-Kemper et al., 2021). 
+As noted earlier, coastal areas of New York State continue to experience faster rates of sea level rise 
+when compared to the global average, a trend that is generally expected for the foreseeable future 
+(Ezer, 2015). 
+There is growing evidence that supports the plausibility of higher-end sea level rise projections, primarily 
+based on observations of land-based ice loss and advances in climate modeling. Probabilistic sea level 
+rise associated with high emissions scenarios, such as those presented in Kopp et al. (2017), may 
+represent possible future outcomes. These projections are similar to those presented in the most recent 
+National Climate Assessment (Fourth National Climate Assessment; USGCRP, 2018) and the 
+accompanying technical report (Sweet et al., 2017). These two studies, along with several others, 
+informed the development of an Antarctic rapid ice melt (ARIM) scenario as part of the 2019 New York 
+City Panel on Climate Change Report (Gornitz et al., 2019). The ARIM scenario represents a high-impact, 
+low-probability future event. The scenario incorporates the latest science on changes in land-based ice, 
+including glaciers, the Greenland Ice Sheet, and the Antarctic Ice Sheet. 
+Our report includes updated projections based on those developed for the IPCC 6th Assessment report. 
+These projections are based on the CMIP6 models and SSP framework, and they incorporate advances in 
+process understanding, improved and lengthened observational records, and improved ice-sheet 
+modeling. Three scenarios used by the IPCC—SSP2-4.5-medium confidence, SSP5-8.5-medium 
+confidence, and SSP5-8.5-low confidence—are selected for use here, since they span a broad range of 
+plausible outcomes. For each scenario, the IPCC provides a full set of percentiles in 1% increments for 
+tide gauges (e.g., the Battery), as well as a grid (used for Montauk Point). Because these data are 
+available for years at the start of each decade (e.g., 2050), we interpolated the values to the middle year 
+(e.g., 2055) of the decade to align with the 10-year timeslices previously used for sea level rise 
+projections. Ten-year timeslices, rather than the 30-year timeslices used for other variables, are 
+appropriate here, given the small year-to-year variability of sea level rise relative to its accelerating 
+trend.  After adjusting to the midpoint of each decade, the individual one-percentile distributions of 
+samples for each of the three scenarios from the IPCC are combined. This results in a distribution of 297 
+values (3 scenarios x 99 quantiles)9 for each location. The percentile values are taken across this 
+distribution to form the updated sea level rise projections. These projections are provided for three 
+ 
+8 The 2030s decade is the period from 2020 to 2049, the 2040s decade is the period from 2030 to 2059 . . . the 
+2070s decade is the period from 2060 to 2089 and the 2080s decade is the period from 2070 to 2099. 
+9 The IPCC provides 107 quantiles for each scenario. This analysis removes the 0 and 100 quantiles, along with 6 
+other quantiles that are not full percentile values. 
+26 
+ 
+locations: the Battery, Montauk Point, and Albany/Troy Dam10.  
+Our results also reference the higher-end ARIM scenario projection developed in 2019 for New York 
+City. We deem this to still represent a low probability, but possible, outcome that may be worth 
+considering in certain decision contexts, where consequences would be particularly high. 
+4.1.7. Differences between CMIP6 and CMIP5 
+The CMIP6 models have a higher spatial resolution than CMIP5; grid box sizes for many models are on 
+the order of approximately 70 miles by 70 miles horizontally, whereas a common resolution for CMIP5 
+was approximately 140 miles by 140 miles. CMIP6 models also feature more advanced characterization 
+of key system components, such as stratospheric chemistry, and more dynamic coupling across system 
+components. The climate sensitivity—a measure of how sensitive global average temperatures are to 
+changes in greenhouse gas concentrations—is higher in approximately one-fourth of CMIP6 models than 
+in CMIP5 and earlier CMIP generations (Zelinka et al. 2019). Some studies (e.g., Wang et al. 2021) have 
+argued that projections from these high-sensitivity models are less reliable than other models. The 
+approach taken in this project, as in prior assessments, is that all models deserve equal weight. Reasons 
+include 1) consistency with prior New York State assessment methods, 2) preference for a risk-
+management-based approach that produces a large range of possible outcomes rather than a best 
+estimate, and 3) concern that models may fail to sample lower-probability, high-consequence outcomes 
+(see Horton et al. 2011 and section 4.1.1 here for more information about the pros and cons of model 
+weighting and the discarding of purportedly unrealistic high-end outcomes).  
+For the first time, the development of a comprehensive approach to sea level rise in the latest IPCC 
+report offered the opportunity to rely on IPCC methods, rather than methods we had to generate 
+ourselves. Therefore, there are too many differences in methodology to allow for simple explanations of 
+why results differ from one assessment to the next. Below are key similarities and changes in sea level 
+rise methods between this and ClimAID.  
+Sea level rise projections for this report incorporate the same four components as used in the 2014 
+ClimAID projections update: 1) sterodynamic sea level; 2) land-based ice loss from Antarctica, 
+Greenland, and glaciers and ice caps; 3) land water storage; and 4) vertical land motion. In 2014, sea 
+level rise was calculated as a sum of the individual components, derived from using different sources of 
+information (e.g., set of climate models) and assumptions (e.g., for vertical land motion and ice sheet 
+mass loss). With this method, the results were calculated at each of the percentiles of interest (and for 
+some components, those were the only values computed or available). The distribution across the two 
+emissions scenarios was only based on the model-based dynamic sea level and thermal expansion term. 
+With this current update (2023), the numerical values for the full distribution for each the individual 
+components are available from the IPCC. These projections are not the sum of the individual 
+ 
+10 Projections for the Albany/Troy Dam are calculated using the data for the Battery and are adjusted for the 
+appropriate rate of vertical land motion. The values for vertical land motion at the Battery are removed and then 
+the local rate at the Albany/Troy Dam is added in. This is consistent with prior methods used in Horton et al. (2011 
+and 2014). A recent study by Parsons et al. (2023) noted that highly developed parts of New York City’s coastline 
+that are not situated on bedrock have experienced somewhat higher rates of land subsidence than used in our 
+analysis and could continue to in the future. While these results are highly localized and neighborhood specific, 
+rather than at the scale of our state-level analysis, they provide an example of how vulnerability can be highly 
+concentrated spatially and why seemingly low-probability outcomes (such as very high sea level rise, very high 
+storm surge, very severe drought, or a global financial crisis exacerbated by climate change) should never be ruled 
+out entirely.  
+27 
+ 
+components at each distribution point but rather the total sea level change projection from the IPCC at 
+that point.  
+4.2. Projected Mean Annual Changes 
+Presented here are the projected mean changes in annual average temperature, precipitation, and sea 
+level rise. Table 6 includes results that span across all regions of New York State for average 
+temperature and Table 7 for average precipitation. The 10th and 25th percentiles are the lowest of the 
+12 regional values; the 50th percentile is the average across the 12 regions; and the 75th and 90th 
+percentiles are the highest values across the 12 regions. The projected changes in this table are 
+representative of the direction of change and approximate order of magnitude for all regions of New 
+York State, with some regional differences described below.  
+Tables of projected mean annual changes for each region can be found in the appendix to this report, 
+including projections of monthly and seasonal changes. The ensemble average across each of the SSPs is 
+also included in the appendix.  
+4.2.1. Temperature  
+Annual average temperatures are projected to increase across New York State by 2.5°F–4.4°F by the 
+2030s, 3.8°F–6.7°F by the 2050s, and 5.1°F–10.9°F by the 2080s, relative to the 1981–2010 base 
+period.11 Warming is projected to be greatest in the northern regions of the state. The projected 
+changes are similar for both SSPs until approximately the 2040s, when they begin to deviate and SSP5-
+8.5 has greater warming for the remainder of the century. Although observed trends have shown 
+greater winter warming than other seasons, there is too much uncertainty in the climate models to draw 
+this conclusion for the future. For the state as a whole, projections suggest that each season will 
+experience a comparable amount of warming in the future relative to the baseline period. 
+4.2.2. Precipitation  
+Regional annual precipitation is projected to increase by approximately 1%–8% by the 2020s, 2%–12% 
+by the 2050s, and 6%–17% by the 2080s, relative to the 1981–2010 base period.12 Projections show the 
+greatest increases for areas in the southeast part of the state, although that pattern does not clearly 
+emerge until late in the century. Although seasonal projections are less certain than annual results, the 
+greatest increases in precipitation are projected to occur during the winter months. In the summer and 
+fall seasons, smaller increases are generally projected. In summer, some models project reductions in 
+precipitation. 
+ 
+ 
+ 
+ 
+11 Results described in text are the middle range (25th to 75th percentile of outcomes) across the 35 GCMs and 2 
+SSPs. The low and high estimates (10th and 90th percentile) can be found in the appendix. These are results across 
+all 12 regions of New York State.  
+12 Results described in text are the middle range (25th to 75th percentile of outcomes) across the 35 GCMs and 2 
+SSPs. The low and high estimates (10th and 90th percentile) can be found in the appendix. These are results across 
+all 12 regions of New York State. 
+28 
+ 
+Table 6. Projected Mean Annual Changes in Annual Average Temperature for New York State (°F) 
+Note: Based on 35 GCMs and two SSPs. Projections are relative to the 1981–2010 base period. Shown 
+are the low estimate (10th percentile), middle range (25th to 75th percentile), the median (50th 
+percentile), and high estimate (90th percentile), across all 12 regions. 
+ 
+10th Percentile 
+25th Percentile 
+50th Percentile 
+75th Percentile 
+90th Percentile 
+2030s 
++2.0°F 
++2.5°F  
++3.4°F  
++4.4°F 
++5.4°F 
+2050s 
++2.8°F  
++3.8°F 
++5.3°F  
++6.7°F 
++8.0°F 
+2080s 
++4.2°F   
++5.1°F  
++8.0°F  
++10.9°F 
++13.0°F 
+2100 
++5.6°F 
++5.8°F 
++8.7°F  
++12.5°F 
++15.3°F 
+ 
+Table 7. Projected Changes in Annual Average Precipitation for New York State (percent) 
+Note: Based on 35 GCMs and two SSPs. Projections are relative to the 1981–2010 base period. Shown 
+are the low estimate (10th percentile), middle range (25th to 75th percentile), the median (50th 
+percentile), and high estimate (90th percentile), across all 12 regions. 
+ 
+10th Percentile 
+25th Percentile 
+50th Percentile 
+75th Percentile 
+90th Percentile 
+2030s 
+-2% 
++1% 
++4% 
++8% 
++11% 
+2050s 
+-2% 
++2% 
++7% 
++12% 
++14% 
+2080s 
++1%  
++6% 
++11% 
++17% 
++22% 
+2100 
+-4% 
++4% 
++11% 
++21% 
++30% 
+ 
+4.2.3. Sea Level Rise  
+Using the middle range (25th to 75th percentiles) across all three locations and all three scenarios, sea 
+level is projected to rise along the New York State coastline and in the tidal Hudson by 7–12 inches by 
+the 2030s, 12–21 inches by the 2050s, and 21–41 inches by the 2080s, relative to the 1995–2014 base 
+period. The high-end estimate (90th percentile) for sea level rise by the 2080s is 48 inches. By 2100, sea 
+29 
+ 
+levels are projected to rise by as much as 69 inches (Table 8). The 10th and 25th percentiles shown in 
+Table 8 are the lowest across all three locations, the 50th percentile is the average of all three locations, 
+and the 75th and 90th percentiles are the highest values across the three locations. Full results for all 
+three stations can be found in the appendix.  
+Based on the ARIM scenario from the 2019 New York City Panel on Climate Change report, accelerated 
+loss of land-based ice could lead to sea level rise of up to 81 inches by the 2080s and 114 inches by 2100 
+under a plausible worst-case scenario. While unlikely, these projections are included here because they 
+cannot entirely be ruled out and would have very high consequences, should they occur. Such low-
+probability, high-consequence scenarios may be of interest for some risk-management decisions.  
+ 
+Table 8. Sea Level Rise Projections for New York State (inches) 
+ 
+10th 
+Percentile 
+25th 
+Percentile 
+50th 
+Percentile 
+75th 
+Percentile 
+90th 
+Percentile 
+ARIM 
+2030s 
+5 
+7 
+9 
+12 
+14 
+ 
+2050s 
+11 
+12 
+16 
+21 
+25 
+ 
+2080s 
+18 
+21 
+30 
+41 
+48 
+81 
+2100 
+21 
+25 
+36 
+54 
+69 
+114  
+2150 
+32 
+41 
+59 
+94 
+185 
+ 
+Note: Projections are shown for the low estimate (10th percentile), middle range (25th–75th percentile), 
+the median (50th percentile), and high estimate (90th percentile), across all stations. Projections are 
+relative to the 1995–2014 base period. These projections are based on the results from the IPCC 6th 
+Assessment report. Also shown are the NPCC 2019 results for the Antarctic Rapid Ice Melt (ARIM) 
+scenario. ARIM represents a physically plausible upper-end, low-probability (significantly less than 10% 
+likelihood of occurring) scenario for the late 21st century, derived from recent modeling of ice sheet–
+ocean behavior. The ARIM scenario contains uncertainties stemming from incomplete knowledge of ice-
+sheet processes and interactions among the atmosphere, ocean, and icesheets. 
+Rising sea levels, absent of changes in coastal storms, will profoundly increase the frequency and extent 
+of coastal flooding. By mid-century, some coastal and estuarine locations in New York State may 
+experience monthly tidal flooding ("sunny day" flood events). If New York City experiences high-end sea 
+level rise, for example, monthly tidal flooding will begin to affect coastal neighborhoods such as those 
+surrounding Jamaica Bay by the 2050s and many other areas by the 2080s. 
+4.3. Projected Changes in Extreme Events  
+This section describes quantitative projections for events where confidence in model outputs is 
+relatively high and qualitative projections for those types of events where uncertainties make precise 
+30 
+ 
+quantitative projections unwise.  
+4.3.1. Quantitative Changes in Extreme Events  
+For quantitative extremes, presented here are the results for a single station in New York State (Table 9), 
+with full results for all stations with daily data available in the appendix. The direction of change for this 
+location is representative of all areas across the state, while the specific number of events will vary by 
+station due to differing baseline climate values. 
+ 
+Table 9. Projected Changes in Extreme Events for Dobbs Ferry, New York  
+Note: Projections are based on 16 GCMs (14 for heat index) and 2 SSPs and are relative to the 1981–
+2010 base period. Baseline data are for the 1981–2010 base period and are from the NOAA National 
+Centers for Environmental Information (NCEI). Shown are middle range (25th to 75th percentile) of 30-
+year mean values from model-based outcomes. Decimal places are shown for values less than 1, 
+although this does not indicate higher precision or certainty. Heat waves are defined as three or more 
+consecutive days with maximum temperatures at or above 90°F. A degree day is defined as the 
+difference between the daily average temperature and 65°F. Heating degree days occur when the daily 
+average temperature is below 65°F, while cooling degree days occur when the daily average 
+temperature is above 65°F. Heat index was computed using the formula from the National Weather 
+Service. 
+Extreme Event 
+Baseline 
+2030s 
+2050s 
+2080s 
+# of days/year with 
+maximum temperature at 
+or above:  
+90°F 
+95°F 
+ 
+ 
+18 
+4 
+ 
+ 
+29 to 48 
+10 to 18 
+ 
+ 
+41 to 64 
+13 to 29  
+ 
+ 
+48 to 87  
+18 to 57  
+# of heat waves/year 
+Average length of heat 
+waves (in days) 
+2 
+4  
+4 to 6 
+5 to 5  
+6 to 9  
+5 to 6  
+6 to 10  
+5 to 8  
+# of days/year with heat 
+index at or above:  
+85°F 
+95°F 
+ 
+ 
+33 
+5 
+ 
+ 
+56 to 68 
+17 to 25 
+ 
+ 
+68 to 86 
+26 to 40 
+ 
+ 
+83 to 113 
+34 to 72  
+31 
+ 
+Extreme Event 
+Baseline 
+2030s 
+2050s 
+2080s 
+Maximum heat index 
+100°F 
+107°F to 
+111°F 
+112°F to 
+118°F 
+115°F to 
+130°F 
+Cooling Degree Days  
+903 
+1199 to 1463 
+1411 to 1800 
+1627 to 2399 
+# of days/year with 
+minimum temperature at 
+or below 32°F 
+105 
+74 to 90  
+54 to 82  
+25 to 67 
+# of days/year with 
+minimum temperature at 
+or below 0°F 
+0.6 
+0 to 0 
+0 to 0 
+0 to 0 
+Heating Degree Days  
+5181 
+4232 to 4536 
+3834 to 4234 
+3133 to 3883 
+# of days per year with 
+precipitation exceeding:  
+1 inch 
+2 inches  
+4 inches  
+ 
+ 
+15 
+3 
+0.2 
+ 
+ 
+15 to 15  
+4 to 4  
+0.2 to 0.2  
+ 
+ 
+15 to 17 
+4 to 5  
+0.2 to 0.2  
+ 
+ 
+16 to 18  
+4 to 6  
+0.2 to 0.5  
+ 
+4.3.1.1. Heat Waves and Cold Events  
+The total number of hot days in New York State is expected to increase as this century progresses. The 
+frequency and duration of heat waves, defined as three or more consecutive days with maximum 
+temperatures at or above 90°F, are also expected to increase. In contrast, extreme cold events, defined 
+as the number of days per year with minimum temperature at or below 32°F and days per year with 
+minimum temperature at or below 0°F, are expected to decrease.   
+4.3.1.2. Cooling and Heating Degree Days  
+Cooling degree days (CDD) and heating degree days (HDD) are computed by taking the daily averaged 
+temperature and finding the departures above and below 65°F, respectively. Degree days are a measure 
+that estimates the amount of heating or cooling needed for a building using 65°F as a baseline. Cooling 
+degree days are used to estimate energy requirements for air conditioning, whereas heating degree 
+days are used to estimate energy requirements for heating. 
+The results presented here are calculated by summing the daily values for the year and season to find 
+the total value. Across New York State, heating degree days are projected to decrease as the century 
+continues, while cooling degree days are projected to increase, reflecting the warming that is projected.  
+32 
+ 
+4.3.1.3. Heat Index  
+This report includes projections that measure the combined effects of high temperature and 
+atmospheric moisture. The combination of extreme heat and humidity can lead to particularly 
+dangerous impacts on human health, especially for vulnerable populations such as the elderly, those 
+with certain preexisting health conditions, and those exerting themselves outdoors. Heat and humidity 
+also lead to increased energy demand and reduced productivity. Projections are provided for the heat 
+index, which is computed using the National Weather Service formula (Weather Prediction Center, 
+2022). Because of the lack of observed station data for humidity, the analysis used data from the ERA5 
+gridded reanalysis dataset for the calculation of historical heat index. The projections were calculated 
+using the same methods (quantile mapping) as the other daily extreme events, using outputs from the 
+GCMs for both temperature (daily) and humidity (changes in monthly climatology). Projections are 
+provided for the annual maximum value of heat index and for the number of days per year with the heat 
+index exceeding certain thresholds (e.g., days with heat index at or above 85°F and 95°F).  
+Across all stations in New York State, heat index values are expected to increase dramatically in the 
+future, due in part to the nonlinear nature of the heat index, which leads to larger and larger increases 
+in the heat index as temperatures and atmospheric moisture reach higher and higher levels. 
+4.3.1.4. Extreme Precipitation and Flooding  
+Although the percent increase in total annual precipitation is projected to be relatively small, models 
+project somewhat larger percentage increases in the frequency of extreme precipitation events (defined 
+as events with more than 1, 2, or 4 inches of precipitation at daily timescales). The projections for 
+changes in extreme precipitation in New York State are consistent with global projections (Ranasinghe, 
+2021).  
+Projecting future precipitation extremes (at daily and sub-daily scales) remains a challenge. We 
+therefore apply a hybrid approach for extreme precipitation, where we supplement the model-based 
+quantitative projections presented earlier with qualitative projections here. One method currently being 
+investigated relies on the relationship between temperature and water-holding capacity of the 
+environment. The capacity increases approximately 7% for every 1°C of warming, indicating a strong 
+potential for more intense rainfall events as the climate warms. A recent study projected changes in 
+precipitation extremes, where the changes are proportional to the change in atmospheric moisture 
+content near the surface (Lenderink and Attema, 2015). A similar scaling approach, using the 
+relationship between temperature and precipitation, was considered by Zhang et al. (2017). That study 
+found that while the relationship between water-holding capacity and temperature may be suitable for 
+some of the midlatitudes for some applications, large uncertainties exist. Further research shows that 
+scaling rates (the relationship between warming and moisture) differ by region, temperature, and 
+moisture availability (Thibeault & Seth, 2014). This research found that extreme precipitation is 
+increasing with temperature in moist, energy-limited environments, which could include the Northeast.   
+While the above approaches are reasonable, the possibility that the most extreme precipitation events 
+could increase far more in intensity cannot be ruled out. Specifically, changes in atmospheric dynamics 
+(i.e., motion in the atmosphere) could lead to stronger upward flow in convective storms, opening the 
+door to the possibility of precipitation increases of 30%or more during the most extreme events. Some 
+ultra-high-resolution regional climate model simulations have supported this idea (Fowler et al. 2021 
+and references therein). Furthermore, should troughs in the jet stream become stronger and/or locked 
+in place more often in the future, there is the possibility that the duration of rain events could increase 
+along with their intensity. Research on possible changes in the jet stream is continuing, with some 
+33 
+ 
+studies (e.g., Kornhuber et al. 2020 and Kossin, 2018) finding evidence for increased stalling and slower 
+movement with climate change and others suggesting that any apparent trends are due more to natural 
+variability than anthropogenic warming (e.g., Screen 2021 and Barnes and Screen 2015). Observed 
+trends in extreme precipitation—such as the reported roughly 50%increase in daily precipitation since 
+the middle of the 20th century over the entire Northeast—support the idea that large changes in 
+extreme precipitation, far in excess of 7% per degree of warming, may need to be planned for. However, 
+as noted above, the possibility that natural variability explains a sizable portion of the observed trends 
+cannot be entirely ruled out. It is also important to note that different storm types can respond to 
+climate change in different ways. For example, a hurricane’s rainfall is driven by somewhat different 
+mechanisms than a typical cool-season storm. 
+Whether or not extreme precipitation increases at a faster rate than climate models suggest, extreme 
+riverine flooding has the potential to increase more rapidly than extreme precipitation, especially in 
+small catchments and areas with extensive impervious surfaces, such as urban environments. While all 
+watersheds are unique, many could be subject to changes in the timing and magnitude of peak flows 
+due to factors other than increases in precipitation, including 1) less snow and earlier snow melt, 2) 
+higher evapotranspiration, 3) changes in land and water management decisions, and 4) responses of 
+vegetation to climate change. The flood threat posed by ice jams may also change in certain watersheds. 
+Furthermore, rivers near the coast will be affected by increases in sea level and changes in storm surge. 
+In general, local hydrological modeling may be required to tease out the relative impact of the above 
+factors on future water availability and flood risk.  
+4.3.2. Qualitative Changes in Extreme Events  
+This section presents projections of extreme events where uncertainties make any precise quantitative 
+projections difficult. For these events, direction of change and order of magnitude are provided, where 
+possible. Because local projections of some of these climate extremes are challenging to make, the 
+projections in this section are for the highest spatial resolution available, which in some cases, for 
+example, is the northeastern United States or the North Atlantic Basin.  
+4.3.2.1. Extratropical Cyclones  
+Projecting future changes in extratropical storms remains challenging. Projections and, to a lesser 
+extent, observations support the idea of storm tracks shifting north with climate change at a 
+hemispheric scale, but the implications for storms in the region are less clear (Senevirate et al. 2021). In 
+contrast, it is expected that the amount of precipitation in a storm of a given intensity will increase, with 
+one study (Zhang & Colle, 2017) finding East Coast extratropical cyclones could become 5%–25% wetter 
+in the future relative to present-day storms. Precipitation type (i.e., rainfall vs. frozen precipitation) 
+associated with nor’easters is determined by air temperatures, and models project that snowstorms are 
+expected to decrease in frequency over the coming century in a warming climate. However, this 
+decrease is nonlinear across storm intensity. This means that while the likelihood of a given nor’easter 
+producing snow instead of rain will decrease in the future, if atmospheric conditions are cold enough to 
+support frozen precipitation, storms will produce more snow (or ice) than during the present day 
+(Zarzycki, 2018).  
+4.3.2.2. Tropical Cyclones  
+Historical trends and climate model projections generally support the idea of increased tropical cyclone 
+hazards—specifically winds and coastal and inland flooding—over New York State as the century 
+progresses, although the random nature of individual storm tracks will continue to dominate on the 
+decadal timescale. Confidence has grown that intense tropical cyclones of Category 3 and higher will 
+34 
+ 
+become more frequent in the North Atlantic, and confidence is now very high that the amount of 
+precipitation will (on average) increase for storms of a given intensity (Seneviratne et al. 2021; Knutson 
+et al. 2020). Both projections and historical data also show a persistent northward migration of the 
+location of hurricane maximum intensity, increasing the chances that a hurricane exceeding Category 2 
+status could approach coastal New York State in the future (Kossin et al., 2017). The balance of evidence 
+suggests that the total number of tropical cyclones in the North Atlantic will be effectively unchanged or 
+perhaps decrease slightly (Kossin et al. 2017). 
+One recent study (Lee et al., 2022) focused specifically on tropical cyclones in New York State projects 
+that storm intensity will increase by the end of the century. This same research also projects a 
+decreasing trend in storm translation speed and increasing trend in heading, which would increase the 
+chances of storms approaching New York from the east at slower speeds. (Lee et al., 2022) However, 
+compared to projected changes in storm intensity and precipitation rates, these changes are less 
+certain. 
+4.3.2.3. Thunderstorms 
+A group of studies, primarily focused on the continental United States but with some regional examples, 
+project an increase in the atmospheric conditions favorable for severe thunderstorm development 
+(Seeley and Romps, 2015; Diffenbaugh et al., 2013; Trapp et al., 2007). The two primary drivers are 
+convective available potential energy (CAPE) and wind shear (Brooks et al., 2003). Research shows that 
+both of these factors are projected to increase in the future, although the relative contribution of each 
+to changes in the overall environment for thunderstorms remains uncertain (Seeley and Romps, 2015; 
+Diffenbaugh et al., 2013). Trapp et al. (2007) projected changes in the number of days favorable for 
+severe thunderstorm development for a select group of cities in the United States, including New York. 
+This single study projected a 100% increase the number of days for New York City.  
+There are some studies that project increases in lightning in a warmer climate (Clark et al., 2017; Romps 
+et al., 2014; Price and Rind, 1994). One study estimates that for each degree Celsius of warming, 
+lightning may increase by approximately 12% in the United States (Romps et al., 2014). However, the 
+results of more recent research, using new methods to model lightning in the future, indicate that 
+decreases are also possible in the future (Finney et al., 2018). Therefore, it is unknown how lightning 
+may change later in the century.  
+Projections of individual thunderstorms or elements within them (e.g., hail and tornadoes) remain highly 
+uncertain.  
+4.3.2.4. Drought  
+The projected increases in average annual precipitation suggest the possibility of decreasing drought 
+risk, but this is far from certain for multiple reasons, including the fact that there are multiple sector-
+specific types of drought. First, there may be large changes in the distribution of precipitation toward 
+more-intense precipitation events, beyond the small changes suggested by GCMs. That is, movement 
+toward larger rainfall events with fewer small events in between could imply longer dry spells that could 
+encourage short-term (weeks to months) drought in some more vulnerable parts of the state, such as 
+portions of the Finger Lakes region. Any tendency of the jet stream toward stronger or more prolonged 
+ridges of high pressure—with their associated high temperatures, sunny skies, and lack of rainfall—
+would increase the risk of rapid-onset drought, or “flash droughts.” Second, higher average 
+temperatures in the warm season without increases in atmospheric humidity could lead to large 
+increases in potential evapotranspiration, meaning that more precipitation is required just to maintain 
+the soil moisture levels associated with the previously cooler climate. Third, reductions in snow cover 
+35 
+ 
+associated with warming would increase flood risk in the cold season but would increase drought risk in 
+the warm season as soils dry out earlier, potentially inducing feedbacks through warming soil 
+temperatures as they dry, fostering further drying. To summarize, while projected increases in average 
+annual precipitation suggest that multiyear drought risk of most interest to large municipal water 
+managers will not increase, results for shorter term, less than one-year droughts of most import to 
+agriculture and water supplies for smaller communities may depend on just how much summer 
+temperatures warm as well as how quickly precipitation runs off in the future. Finally, it should be kept 
+in mind that the 1960’s drought and paleoclimate reconstructions (Pederson et al. 2013) demonstrated 
+that, independent of climate change, a broad range of outcomes are possible in the region, even over 
+multiyear timescales.  
+4.3.2.5. Snowfall 
+Warmer winters, a trend that has been observed in the Northeast, can mean less early-winter snowfall, 
+more precipitation falling as rain rather than snow, and earlier snowmelt, which can affect water 
+availability throughout the spring and summer seasons (Easterling et al., 2017, citing Notaro et al., 2014, 
+and Demaria et al., 2016). Recent trends reveal a gradual northward migration of the average rain–snow 
+transition zone across the United States (Easterling et al., 2017). As a result, portions of New York State 
+could see a 10%–50% reduction in the frequency of snowfall by the end of century, under a high 
+emissions scenario (Ning and Bradley, 2015). While projected temperature increases may reduce the 
+likelihood of snow, future changes in frozen precipitation are also dependent upon changes in winter 
+storm intensity and track. On balance, most of New York State is likely to see a shorter snow season, 
+reduced snow cover and snow depth, and fewer snow events. However, for extratropical cyclones, the 
+largest snow events of all types could grow in magnitude since a warmer atmosphere can hold more 
+moisture.  
+In a warmer climate, increased water temperatures in the Great Lakes and Finger Lakes are projected to 
+lead to delayed refreezing in fall and winter. As cold air flows over the lakes to form localized snowfall 
+events, a longer season without ice could increase the amount of lake-effect snow, at least in the short 
+term (Burnett et al., 2013). However, as the climate warms, the air flowing over the lakes will warm, 
+thereby decreasing the vertical temperature gradient needed to form precipitation. High temperatures 
+will eventually change precipitation currently falling as snow to rain in the future. It is important to note 
+that global climate models have difficulty simulating lake-effect snow events due to their localized 
+nature. One study found that reduced ice coverage on the lakes leads to a decrease in precipitation 
+(Vavrus et al., 2013), and another study showed that by the middle of the century, while precipitation 
+downwind of the lake may increase, temperatures more often may be too warm to support snowfall 
+(Notaro et al., 2015). 
+4.3.2.6. Extreme Cold 
+Some research has raised the prospect that extreme cold-air outbreaks connected with the polar vortex, 
+a large area of low pressure that is typically centered on the North Pole, may paradoxically become 
+more common as high-latitude regions warm (Liu et al. 2012; Francis and Vavrus 2012). Possible changes 
+in cold-air outbreaks remain a topic of active research (Screen et al., 2015; Lyons et al., 2018) linked to 
+discussions about the loss of Arctic sea ice, increases in atmospheric blocking events, and changes in the 
+jet stream (Screen and Simmonds, 2010; Liu et al. 2012; Overland et al., 2015). Increased high-latitude 
+blocking and a more "wavy" jet stream can allow for cold air to flow down from the Arctic deep into the 
+midlatitudes. Some research has shown that there is a relationship between the melting of sea ice and 
+cold-weather outbreaks (Overland et al., 2015; Screen et al., 2018,) and studies have found that climate 
+models can simulate similar results (Zhang et al., 2018). These changes are consistent with recent 
+36 
+ 
+observations that polar-vortex events are on the rise (Kretschmer et al., 2018). However, additional 
+research suggests that such consistent changes in the jet stream are unlikely (e.g., Barnes and Screen, 
+2015). The most recent IPCC report found low confidence in the relative contribution of Arctic warming 
+to midlatitude atmospheric changes (Doblas-Reyes et al., 2021). There is also no evidence that cold-air 
+outbreaks in the United States have increased because of this (the polar vortex) or other phenomena 
+(Screen et al., 2015). Furthermore, as climate change steadily increases average winter temperatures, it 
+will become more and more difficult for even anomalously strong jet stream perturbations to yield 
+record-breaking winter weather.   
+4.3.2.7. Great Lakes Water Levels and Ice Cover 
+Great Lakes water levels, including Lake Erie and Lake Ontario, fluctuate frequently and experience high 
+variability at annual and sub-annual time scales. The period 1998–2013 had below-normal water levels 
+(Assel et al., 2003), while recent years (2014–2020) have seen above-normal levels. Record-high water 
+levels were set in the spring of 2017 for Lake Ontario and in 2018 and again in 2019 for Lake Erie.  
+Factors that contribute to lake levels include precipitation, runoff, and evaporation; precipitation over 
+the lakes and runoff from the shore add to the water supply of the basin and increase water levels, 
+while evaporation does the opposite. These processes compete with each other to influence lake levels 
+in the absence of other non-climatic factors.  
+The most recent studies project increasing water levels in the Great Lakes, including Lake Erie and Lake 
+Ontario (VanDeWeghe et al. 2022; Kayastha et al. 2022). This differs from prior modeling studies that 
+projected slight declines by the middle to end of century in water levels, including Lake Erie and Lake 
+Ontario (Notaro et al., 2015; Lofgren and Rouhana, 2016). These studies did indicate that slightly higher 
+water levels are still possible in the future. Over time, research has shown that projected declines in 
+water levels are not likely to be as great as once thought. It is also important to note that in the future, 
+large variability at seasonal, annual, and multiyear timescales is expected to continue. These projections 
+are thus characterized by large uncertainty, and fluctuating periods of high and low water levels are still 
+expected in the future. 
+Recent trends in Great Lake ice cover show a decline in the number of days with ice cover over the past 
+half century. For Lake Erie and Lake Ontario, the decrease in ice coverage for the 1973–2010 period was 
+50% and 88%, respectively (Wang et al., 2012). The shift to less ice cover has tended to occur abruptly, 
+rather than through gradual decline (Mason et al., 2016). Lake ice coverage also experiences high 
+variability, and year-to-year fluctuations can be high depending on environmental conditions, such as 
+temperature and evaporation. Winter 2022–2023 saw far below normal ice coverage on both Lake Erie 
+and Lake Ontario. 
+Looking into the future, continued declines in lake ice coverage are projected as temperatures warm. 
+However, there will likely be periods of high ice coverage that deviate from the long-term downward 
+trend. These periods are expected to coincide with winters with strong cold-air outbreaks. The recent 
+winters of 2014 and 2019 are examples of years with very ice high cover and cold conditions. While the 
+multiple factors that influence lake ice cover, including larger patterns of atmospheric circulation, 
+introduce some uncertainties, on balance, ice cover is projected to continue to decrease in the future as 
+water and air temperatures warm. 
+4.3.2.8. Compound Extreme Events  
+Compound weather or climate events are combinations of multiple climate drivers or hazards that have 
+a larger or different impact than an individual driver or hazard would have on its own. Recent research 
+37 
+ 
+in this area has concentrated on both understanding the different classes or categories of compound 
+events and investigating these specific extremes. Some studies have focused on the nonlinear impacts of 
+compound extremes and the failure of entities to properly conceptualize and understand these complex 
+impacts or develop resilience strategies tailored to them (Raymond et al. 2020). Some authors have 
+considered cases in which compounding goes beyond climate hazards to include other aspects of human 
+and natural systems (Raymond et al. 2020), such as the risk of power failures and poor air quality, both 
+of which are correlated with extreme heat and can have serious effects on human health. Another study 
+has categorized compound extremes into four primary categories, each of which is applicable in New 
+York State: 1) preconditioned, 2) multivariate, 3) temporally compounding, and 4) spatially 
+compounding (Zscheischler et al., 2020). 
+Preconditioned events describe when one or more hazards can cause an impact, or lead to an amplified 
+impact, only because of a preexisting, climate-driven condition. Examples include heavy rainfall on top 
+of snow, and false spring (when typical cold conditions return after unseasonable warmth). Rain-on-
+snow events are not uncommon in the Northeast (Cohen et al., 2015). Recent examples of false spring 
+events have damaged agricultural crops and forest products in the Northeast, including maple syrup 
+(Hufkens et al., 2012) and fruit crops (Wolfe et al., 2018). 
+Multivariate events refer to the co-occurrence of multiple climate drivers or hazards in the same 
+geographical region. Examples include the combined effects of heat and humidity, or heavy rain, strong 
+winds, and storm surge that result in flooding events during coastal storms. As an example, a paper by 
+Coffel et al. (2017) found that under RCP 8.5, dangerous humidity and heat events in the northeastern 
+U.S. could become approximately 30 times more common than they are today within two generations.  
+Temporally compounding events refer to a succession of hazards that affect a given geographical region, 
+amplifying an impact or leading to additional impacts when compared with a single hazard. One 
+example is a heat wave following a strong thunderstorm event that knocks out power, and therefore air 
+conditioning. In recent years, events like this have occurred in the Mid-Atlantic, in particular in the 
+Washington D.C., metropolitan area. This particular combination of strong storms and power outages 
+followed by extreme heat may be of increasing concern in the future with climate change (Matthews et 
+al., 2019). Another example is sequences of extreme winter weather, such as back-to-back nor’easters, 
+often intertwined with extended cold-air outbreaks. Consecutive nor’easters impacted southern parts of 
+New York State in March 2018. The consecutive nature of these storms caused prolonged periods of 
+high tides and coastal flooding on Long Island and New York City. Locations in upstate New York 
+experienced heavy snowfall and blizzard conditions from this same event. Such sequences can be 
+associated with persistent troughs in the jet stream to the west and in New York State, sometimes 
+linked physically and in popular media with the polar vortex described above. 
+Spatially compounding events occur when multiple connected locations are affected by the same or 
+different hazards within a limited time window, thereby causing an impact. For example, atmospheric 
+blocking could cause an unusually large portion of northeastern watersheds to experience heavy 
+precipitation over the same time period, leading to nonlinear increases in riverine flood risk in New York 
+State and beyond. In some instances, the climate extremes occurring in New York State will occur over a 
+larger area, potentially leading indirectly to increased impacts in New York State. For example, energy 
+demand for cooling during the more geographically expansive heat waves associated with climate 
+change (Lyon et al., 2019) could lead to less available supply for New York State. As another example, 
+certain configurations of the jet stream are associated with increased risk of simultaneous breadbasket 
+crop failures, especially due to heat and drought, with implications for global food prices and food 
+security (Kornhuber et al. 2020). 
+38 
+ 
+5. Conclusion and Research Needs  
+Across New York State, trends toward higher temperatures and more precipitation have become more 
+robust in the decade since the first New York State climate assessment. As the availability and 
+complexity of climate model simulations have expanded, projections for temperature and precipitation 
+have remained relatively similar to a decade ago. It remains clear that even small increases in average 
+temperatures will be associated with large changes in the statistics—that is, the frequency, intensity, 
+and duration—of many types of extreme events. Across a range of variables, the upper tail of 
+projections has grown higher in the past decade even as the lower bound has tended to remain similar.  
+Like all projections, these climate projections include irreducible uncertainties (Hawkins and Sutton, 
+2009). Sources of uncertainty include future concentrations of greenhouse gases and other forcing 
+agents, data limitations, the random nature of some parts of the climate system, and physical system 
+response, including but not limited to climate sensitivity as radiative forcing changes. Uncertainties 
+associated with future greenhouse gas concentrations and physical system response dominate as the 
+century progresses. Uncertainty is assessed using state-of-the-art climate models, multiple scenarios of 
+future greenhouse gas concentrations, and recent peer-reviewed literature. Even so, the projections are 
+not true probabilities, so the general range of results rather than the specific numbers should be 
+emphasized, and the potential for outcomes outside the range presented here cannot be ruled out. 
+Moving forward, there is a need for further research in several areas. First and most fundamentally, 
+more and improved observational data and modeling are essential. Additional weather stations, plus 
+additional data sources on information like soil moisture are high priority. Higher resolution global 
+models, as well as regional models at convection-permitting spatial scales, will also yield new insights 
+over time.  Second, a better understanding of how extreme events may change across the state is 
+needed. While there is no single agreed upon method to achieve this, a combination of observational 
+and modeling studies is needed focused on 1) large-scale drivers of extreme events, such as remote 
+ocean temperature anomalies that can influence the jet stream; and 2) fine-scale processes, such as 
+urban heat islands and convective precipitation. Third, the last decade has revealed the importance of 
+compound extreme events, something that most assessments to date have not considered rigorously, 
+and that has not been extensively evaluated yet for GCMs. Finally, further work is also needed on 
+identifying climate metrics of particular use to decision-makers and those with climate impact expertise, 
+building on but going beyond the work conducted for the 2020 NYSERDA needs assessment. Continuing 
+to support applied climate research will ensure that climate science will continue to inform cutting-edge 
+solutions in adaptation and greenhouse gas mitigation for New York State. 
+ 
+ 
+39 
+ 
+  
+6. References  
+Agel, L., Barlow, M., Qian, J.-H., Colby, F., Douglas, E., & Eichler, T. (2015). Climatology of Daily 
+Precipitation and Extreme Precipitation Events in the Northeast United States. Journal of 
+Hydrometeorology, 16(6), 2537–2557. https://doi.org/10.1175/JHM-D-14-0147.1 
+Assel, R. A., Quinn, F. H., & Sellinger, C. E. (2004). Hydroclimatic Factors of the Recent Record Drop in 
+Laurentian Great Lakes Water Levels. Bulletin of the American Meteorological Society, 85(8), 
+1143–1152. https://doi.org/10.1175/BAMS-85-8-1143 
+Bamber, J. L., Oppenheimer, M., Kopp, R. E., Aspinall, W. P., & Cooke, R. M. (2019). Ice sheet 
+contributions to future sea-level rise from structured expert judgment. Proceedings of the 
+National Academy of Sciences, 116(23), 11195–11200. 
+https://doi.org/10.1073/pnas.1817205116 
+Barnes, E. A., & Screen, J. A. (2015). The impact of Arctic warming on the midlatitude jet-stream: Can it? 
+Has it? Will it? WIREs Climate Change, 6(3), 277–286. https://doi.org/10.1002/wcc.337 
+Bartusek, S., Kornhuber, K., & Ting, M. (2022). 2021 North American heatwave amplified by climate 
+change-driven nonlinear interactions. Nature Climate Change, 12(12), 1143–1150. 
+https://doi.org/10.1038/s41558-022-01520-4 
+Burger, M., Wentz, J., & Horton, R. M. (2020). The Law and Science of Climate Change Attribution. 
+Columbia Journal of Environmental Law, Vol. 45 No. 1 (2020): Volume 45.1. 
+https://doi.org/10.7916/CJEL.V45I1.4730 
+Burnett, A. W., Kirby, M. E., Mullins, H. T., & Patterson, W. P. (2003). Increasing Great Lake–Effect 
+Snowfall during the Twentieth Century: A Regional Response to Global Warming? Journal of 
+Climate, 16(21), 3535–3542. https://doi.org/10.1175/1520-
+0442(2003)016<3535:IGLSDT>2.0.CO;2 
+Cannon, A. J., Sobie, S. R., & Murdock, T. Q. (2015). Bias Correction of GCM Precipitation by Quantile 
+Mapping: How Well Do Methods Preserve Changes in Quantiles and Extremes? Journal of 
+Climate, 28(17), 6938–6959. https://doi.org/10.1175/JCLI-D-14-00754.1 
+Carson, M., Köhl, A., Stammer, D., A. Slangen, A. B., Katsman, C. A., W. van de Wal, R. S., Church, J., & 
+White, N. (2016). Coastal sea level changes, observed and projected during the 20th and 21st 
+century. Climatic Change, 134(1–2), 269–281. https://doi.org/10.1007/s10584-015-1520-1 
+Changnon, S. A., & Karl, T. R. (2003). Temporal and Spatial Variations of Freezing Rain in the Contiguous 
+United States: 1948–2000. Journal of Applied Meteorology and Climatology, 42(9), 1302–1315. 
+https://doi.org/10.1175/1520-0450(2003)042<1302:TASVOF>2.0.CO;2 
+Chee Wai, L., & Wongsurawat, W. (2013). Crisis management: Western Digital’s 46‐day recovery from 
+the 2011 flood disaster in Thailand. Strategy & Leadership, 41(1), 34–38. 
+https://doi.org/10.1108/10878571311290061 
+Clark, S. K., Ward, D. S., & Mahowald, N. M. (2017). Parameterization-based uncertainty in future 
+lightning flash density. Geophysical Research Letters, 44(6), 2893–2901. 
+https://doi.org/10.1002/2017GL073017 
+Coffel, E. D., Horton, R. M., & Sherbinin, A. de. (2017). Temperature and humidity based projections of a 
+rapid rise in global heat stress exposure during the 21st century. Environmental Research 
+Letters, 13(1), 014001. https://doi.org/10.1088/1748-9326/aaa00e 
+Cohen, J., Ye, H., & Jones, J. (2015). Trends and variability in rain-on-snow events. Geophysical Research 
+Letters, 42(17), 7115–7122. https://doi.org/10.1002/2015GL065320 
+40 
+ 
+Demaria, E. M. C., Roundy, J. K., Wi, S., & Palmer, R. N. (2016). The Effects of Climate Change on 
+Seasonal Snowpack and the Hydrology of the Northeastern and Upper Midwest United States. 
+Journal of Climate, 29(18), 6527–6541. https://doi.org/10.1175/JCLI-D-15-0632.1 
+Diffenbaugh, N. S., Scherer, M., & Trapp, R. J. (2013). Robust increases in severe thunderstorm 
+environments in response to greenhouse forcing. Proceedings of the National Academy of 
+Sciences, 110(41), 16361–16366. https://doi.org/10.1073/pnas.1307758110 
+Easterling, D. R., Arnold, J. R., Knutson, T., Kunkel, K. E., LeGrande, A. N., Leung, L. R., Vose, R. S., Waliser, 
+D. E., & Wehner, M. F. (2017). Ch. 7: Precipitation Change in the United States. Climate Science 
+Special Report: Fourth National Climate Assessment, Volume I. U.S. Global Change Research 
+Program. https://doi.org/10.7930/J0H993CC 
+Eyring, V., Bony, S., Meehl, G. A., Senior, C. A., Stevens, B., Stouffer, R. J., & Taylor, K. E. (2016). Overview 
+of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and 
+organization. Geoscientific Model Development, 9(5), 1937–1958. https://doi.org/10.5194/gmd-
+9-1937-2016 
+Ezer, T. (2015). Detecting Changes in the Transport of the Gulf Stream and the Atlantic Overturning 
+Circulation from Coastal Sea Level Data: The Extreme Decline in 2009-2010 and Estimated 
+Variations for 1935-2012. Global and Planetary Change, 129. 
+https://doi.org/10.1016/j.gloplacha.2015.03.002 
+Finney, D. L., Doherty, R. M., Wild, O., Stevenson, D. S., MacKenzie, I. A., & Blyth, A. M. (2018). A 
+projected decrease in lightning under climate change. Nature Climate Change, 8(3), Article 3. 
+https://doi.org/10.1038/s41558-018-0072-6 
+Fowler, H. J., Lenderink, G., Prein, A. F., Westra, S., Allan, R. P., Ban, N., Barbero, R., Berg, P., Blenkinsop, 
+S., Do, H. X., Guerreiro, S., Haerter, J. O., Kendon, E. J., Lewis, E., Schaer, C., Sharma, A., Villarini, 
+G., Wasko, C., & Zhang, X. (2021). Anthropogenic intensification of short-duration rainfall 
+extremes. Nature Reviews Earth & Environment, 2(2), 107–122. https://doi.org/10.1038/s43017-
+020-00128-6 
+Fox-Kemper, B., Hewitt, H. T., Xiao, C., Aðalgeirsdóttir, G., Drijfhout, S. S., Edwards, T. L., Golledge, N. R., 
+Hemer, M., Kopp, R. E., Krinner, G., Mix, A., Notz, D., Nowicki, S., Nurhati, I. S., Ruiz, L., Sallé, J.-
+B., Slangen, A. B. A., & Yu, Y. (2021). Ocean, Cryosphere and Sea Level Chance. In V. Masson-
+Delmotte, P. Zhai, A. Pirani, Connors, S.L., C. Péan, S. Berger, N. Caud, Y. Chen, L. Goldfarb, M. I. 
+Gomis, M. Huang, K. Leitzell, E. Lonnoy, J. B. R. Matthews, T. K. Maycock, T. Waterfield, O. 
+Yelekci, R. Yu, & B. Zhou (Eds.), Climate Change 2021: The Physical Science Basis. Contribution of 
+Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate 
+Change. (pp. 1211–1362). Cambridge University Press. 
+Francis, J. A., & Vavrus, S. J. (2012). Evidence linking Arctic amplification to extreme weather in mid-
+latitudes. Geophysical Research Letters, 39(6). https://doi.org/10.1029/2012GL051000 
+Gidden, M., Riahi, K., Smith, S., Fujimori, S., Luderer, G., Kriegler, E., van Vuuren, D. P., van den Berg, M., 
+Feng, L., Klein, D., Calvin, K., Doelman, J., Frank, S., Fricko, O., Harmsen, M., Hasegawa, T., Havlik, 
+P., Hilaire, J., Hoesly, R., … Takahashi, K. (2019). Global emissions pathways under different 
+socioeconomic scenarios for use in CMIP6: A dataset of harmonized emissions trajectories 
+through the end of the century. Geoscientific Model Development Discussions, 12(4), Article 4. 
+Gornitz, V., Oppenheimer, M., Kopp, R., Orton, P., Buchanan, M., Lin, N., Horton, R., & Bader, D. (2019). 
+New York City Panel on Climate Change 2019 Report Chapter 3: Sea Level Rise. Annals of the 
+New York Academy of Sciences, 1439(1), 71–94. https://doi.org/10.1111/nyas.14006 
+Hawkins, E., & Sutton, R. (2009). The Potential to Narrow Uncertainty in Regional Climate Predictions. 
+Bulletin of the American Meteorological Society, 90(8), 1095–1108. 
+https://doi.org/10.1175/2009BAMS2607.1 
+41 
+ 
+Horton, R. M., de Sherbinin, A., Wrathall, D., & Oppenheimer, M. (2021). Assessing human habitability 
+and migration. Science, 372(6548), 1279–1283. https://doi.org/10.1126/science.abi8603 
+Horton, R. M., Gornitz, V., Bader, D. A., Ruane, A. C., Goldberg, R., & Rosenzweig, C. (2011). Climate 
+Hazard Assessment for Stakeholder Adaptation Planning in New York City. Journal of Applied 
+Meteorology and Climatology, 50(11), 2247–2266. https://doi.org/10.1175/2011JAMC2521.1 
+Hufkens, K., Friedl, M. A., Keenan, T. F., Sonnentag, O., Bailey, A., O’Keefe, J., & Richardson, A. D. (2012). 
+Ecological impacts of a widespread frost event following early spring leaf-out. Global Change 
+Biology, 18(7), 2365–2377. https://doi.org/10.1111/j.1365-2486.2012.02712.x 
+IPCC. (2018). Global warming of 1.5°C. An IPCC Special Report on the impacts of global warming of 1.5°C 
+above pre-industrial levels and related global greenhouse gas emission pathways, in the context 
+of strengthening the global response to the threat of climate change, sustainable development, 
+and efforts to eradicate poverty. Cambridge University Press. 
+IPCC. (2021). Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the 
+Sixth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge 
+University Press. 
+Karl, T., & Koss, W. J., 1931-. (1984). Regional and national monthly, seasonal, and annual temperature 
+weighted by area, 1895-1983 (noaa:10238). 
+https://repository.library.noaa.gov/view/noaa/10238 
+Kayastha, M. B., Ye, X., Huang, C., & Xue, P. (2022). Future rise of the Great Lakes water levels under 
+climate change. Journal of Hydrology, 612, 128205. 
+https://doi.org/10.1016/j.jhydrol.2022.128205 
+Knutson, T., Camargo, S. J., Chan, J. C. L., Emanuel, K., Ho, C.-H., Kossin, J., Mohapatra, M., Satoh, M., 
+Sugi, M., Walsh, K., & Wu, L. (2020). Tropical Cyclones and Climate Change Assessment: Part II: 
+Projected Response to Anthropogenic Warming. Bulletin of the American Meteorological 
+Society, 101(3), E303–E322. https://doi.org/10.1175/BAMS-D-18-0194.1 
+Kornhuber, K., Coumou, D., Vogel, E., Lesk, C., Donges, J. F., Lehmann, J., & Horton, R. M. (2020). 
+Amplified Rossby waves enhance risk of concurrent heatwaves in major breadbasket regions. 
+Nature Climate Change, 10(1), 48–53. https://doi.org/10.1038/s41558-019-0637-z 
+Kossin, J. P. (2018). A global slowdown of tropical-cyclone translation speed. Nature, 558(7708), 104–
+107. https://doi.org/10.1038/s41586-018-0158-3 
+Kossin, J. P., Hall, T., Knutson, T., Kunkel, K. E., Trapp, R. J., Waliser, D. E., Wehner, M. F., Wuebbles, D. J., 
+Fahey, D. W., Hibbard, K. A., Dokken, D. J., Stewart, B. C., & Maycock, T. K. (2017). Ch. 9: Extreme 
+Storms. Climate Science Special Report: Fourth National Climate Assessment, Volume I. U.S. 
+Global Change Research Program. https://doi.org/10.7930/J07S7KXX 
+Kretschmer, M., Coumou, D., Agel, L., Barlow, M., Tziperman, E., & Cohen, J. (2018). More-Persistent 
+Weak Stratospheric Polar Vortex States Linked to Cold Extremes. Bulletin of the American 
+Meteorological Society, 99(1), 49–60. https://doi.org/10.1175/BAMS-D-16-0259.1 
+Lee, C.-Y., Sobel, A. H., Camargo, S. J., Tippett, M. K., & Yang, Q. (2022). New York State Hurricane 
+Hazard: History and Future Projections. Journal of Applied Meteorology and Climatology, 61(6), 
+613–629. https://doi.org/10.1175/JAMC-D-21-0173.1 
+Lenderink, G., & Attema, J. (2015). A simple scaling approach to produce climate scenarios of local 
+precipitation extremes for the Netherlands. Environmental Research Letters, 10(8), 085001. 
+https://doi.org/10.1088/1748-9326/10/8/085001 
+Liu, J., Curry, J. A., Wang, H., Song, M., & Horton, R. M. (2012). Impact of declining Arctic sea ice on 
+winter snowfall. Proceedings of the National Academy of Sciences, 109(11), 4074–4079. 
+https://doi.org/10.1073/pnas.1114910109 
+42 
+ 
+Lofgren, B. M., & Rouhana, J. (2016). Physically Plausible Methods for Projecting Changes in Great Lakes 
+Water Levels under Climate Change Scenarios. Journal of Hydrometeorology, 17(8), 2209–2223. 
+https://doi.org/10.1175/JHM-D-15-0220.1 
+Lyon, B., Barnston, A. G., Coffel, E., & Horton, R. M. (2019). Projected increase in the spatial extent of 
+contiguous US summer heat waves and associated attributes. Environmental Research Letters, 
+14(11), 114029. https://doi.org/10.1088/1748-9326/ab4b41 
+Lyons, B. A., Hasell, A., & Stroud, N. J. (2018). Enduring Extremes? Polar Vortex, Drought, and Climate 
+Change Beliefs. Environmental Communication, 12(7), 876–894. 
+https://doi.org/10.1080/17524032.2018.1520735 
+Madaus, L., McDermott, P., Hacker, J., & Pullen, J. (2020). Hyper-local, efficient extreme heat projection 
+and analysis using machine learning to augment a hybrid dynamical-statistical downscaling 
+technique. Urban Climate, 32, 100606. https://doi.org/10.1016/j.uclim.2020.100606 
+Mason, L. A., Riseng, C. M., Gronewold, A. D., Rutherford, E. S., Wang, J., Clites, A., Smith, S. D. P., & 
+McIntyre, P. B. (2016). Fine-scale spatial variation in ice cover and surface temperature trends 
+across the surface of the Laurentian Great Lakes. Climatic Change, 138(1), 71–83. 
+https://doi.org/10.1007/s10584-016-1721-2 
+Matthews, H. D., Tokarska, K. B., Rogelj, J., Smith, C. J., MacDougall, A. H., Haustein, K., Mengis, N., 
+Sippel, S., Forster, P. M., & Knutti, R. (2021). An integrated approach to quantifying uncertainties 
+in the remaining carbon budget. Communications Earth & Environment, 2(1), 1–11. 
+https://doi.org/10.1038/s43247-020-00064-9 
+Matthews, T., Wilby, R. L., & Murphy, C. (2019). An emerging tropical cyclone–deadly heat compound 
+hazard. Nature Climate Change, 9(8), Article 8. https://doi.org/10.1038/s41558-019-0525-6 
+Menne, M. J., Williams, C. N., & Vose, R. S. (2009). The U.S. Historical Climatology Network Monthly 
+Temperature Data, Version 2. Bulletin of the American Meteorological Society, 90(7), 993–1008. 
+https://doi.org/10.1175/2008BAMS2613.1 
+Ning, L., & Bradley, R. S. (2015). Snow occurrence changes over the central and eastern United States 
+under future warming scenarios. Scientific Reports, 5(1), 17073. 
+https://doi.org/10.1038/srep17073 
+NOAA. (2012). Arctic sea ice: 2012 record low was 18% smaller than previous record, nearly 50 percent 
+below average | NOAA Climate.gov. http://www.climate.gov/news-features/featured-
+images/arctic-sea-ice-2012-record-low-was-18-smaller-previous-record-nearly 
+Notaro, M., Bennington, V., & Lofgren, B. (2015). Dynamical Downscaling–Based Projections of Great 
+Lakes Water Levels. Journal of Climate, 28(24), 9721–9745. https://doi.org/10.1175/JCLI-D-14-
+00847.1 
+Notaro, M., Bennington, V., & Vavrus, S. (2015). Dynamically Downscaled Projections of Lake-Effect 
+Snow in the Great Lakes Basin*,+. Journal of Climate, 28(4), 1661–1684. 
+https://doi.org/10.1175/JCLI-D-14-00467.1 
+NYSERDA. (2020). Climate Needs Assessment for New York State. New York State Energy Research and 
+Development Authority (NYSERDA). https://www.nyserda.ny.gov/-
+/media/Project/Nyserda/Files/Publications/Research/Environmental/20-31-Climate-Needs-
+Assessment-for-New-York-State.pdf 
+O’Neill, B. C., Tebaldi, C., van Vuuren, D. P., Eyring, V., Friedlingstein, P., Hurtt, G., Knutti, R., Kriegler, E., 
+Lamarque, J.-F., Lowe, J., Meehl, G. A., Moss, R., Riahi, K., & Sanderson, B. M. (2016). The 
+Scenario Model Intercomparison Project (ScenarioMIP) for CMIP6. Geoscientific Model 
+Development, 9(9), 3461–3482. https://doi.org/10.5194/gmd-9-3461-2016 
+Ortiz, L. E., González, J. E., Horton, R., Lin, W., Wu, W., Ramamurthy, P., Arend, M., & Bornstein, R. D. 
+(2019). High‐resolution projections of extreme heat in New York City. International Journal of 
+Climatology, 39(12), 4721–4735. https://doi.org/10.1002/joc.6102 
+43 
+ 
+Orton, P. M., Lin, N., Gornitz, V., Colle, B., Booth, J., Feng, K., Buchanan, M., Oppenheimer, M., & Patrick, 
+L. (2019). New York City Panel on Climate Change 2019 Report Chapter 4: Coastal Flooding. 
+Annals of the New York Academy of Sciences, 1439(1), 95–114. 
+https://doi.org/10.1111/nyas.14011 
+Overland, J., Francis, J. A., Hall, R., Hanna, E., Kim, S.-J., & Vihma, T. (2015). The Melting Arctic and 
+Midlatitude Weather Patterns: Are They Connected?*. Journal of Climate, 28(20), 7917–7932. 
+https://doi.org/10.1175/JCLI-D-14-00822.1 
+Parsons, T., Wu, P., (Matt) Wei, M., & D’Hondt, S. (2023). The Weight of New York City: Possible 
+Contributions to Subsidence From Anthropogenic Sources. Earth’s Future, 11(5), 
+e2022EF003465. https://doi.org/10.1029/2022EF003465 
+Pederson, N., Bell, A. R., Cook, E. R., Lall, U., Devineni, N., Seager, R., Eggleston, K., & Vranes, K. P. 
+(2013). Is an Epic Pluvial Masking the Water Insecurity of the Greater New York City Region?*,+. 
+Journal of Climate, 26(4), 1339–1354. https://doi.org/10.1175/JCLI-D-11-00723.1 
+Peel, M. C., Finlayson, B. L., & McMahon, T. A. (2007). Updated world map of the Köppen-Geiger climate 
+classification. Hydrology and Earth System Sciences, 11(5), 1633–1644. 
+https://doi.org/10.5194/hess-11-1633-2007 
+Piecuch, C. G., Huybers, P., Hay, C. C., Kemp, A. C., Little, C. M., Mitrovica, J. X., Ponte, R. M., & Tingley, 
+M. P. (2018). Origin of spatial variation in US East Coast sea-level trends during 1900–2017. 
+Nature, 564(7736), 400–404. https://doi.org/10.1038/s41586-018-0787-6 
+Price, C., & Rind, D. (1994). Modeling Global Lightning Distributions in a General Circulation Model. 
+Monthly Weather Review, 122(8), 1930–1939. https://doi.org/10.1175/1520-
+0493(1994)122<1930:MGLDIA>2.0.CO;2 
+Ranasignhe, R., Ruane, A. C., Vautard, R., Arnell, N., Coppola, E., Cruz, A., Dessai, S., Islam, A. S., Rahimi, 
+M., Ruiz Carrascal, D., Sillmann, J., Sylla, M. B., Tebaldi, C., Wang, W., & Zaaboul, R. (2021). 
+Climate Change Information for Regional Impact and for Risk Assessment. In V. Masson-
+Delmotte, P. Zhai, A. Pirani, Connors, S., C. Pean, S. Berger, N. Caud, L. Chen, L. Goldfarb, M. I. 
+Gomis, M. Huang, K. Leitzell, E. Lonnoy, J. B. R. Matthews, T. K. Maycock, T. Waterfield, O. 
+Yelekci, R. Yu, & B. Zhou (Eds.), Climate Change 2021: The Physical Science Basis. Contribution of 
+Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate 
+Change. Cambridge University Press. 
+Raymond, C., Horton, R. M., Zscheischler, J., Martius, O., AghaKouchak, A., Balch, J., Bowen, S. G., 
+Camargo, S. J., Hess, J., Kornhuber, K., Oppenheimer, M., Ruane, A. C., Wahl, T., & White, K. 
+(2020). Understanding and managing connected extreme events. Nature Climate Change, 10(7), 
+611–621. https://doi.org/10.1038/s41558-020-0790-4 
+Riahi, K., van Vuuren, D. P., Kriegler, E., Edmonds, J., O’Neill, B. C., Fujimori, S., Bauer, N., Calvin, K., 
+Dellink, R., Fricko, O., Lutz, W., Popp, A., Cuaresma, J. C., Kc, S., Leimbach, M., Jiang, L., Kram, T., 
+Rao, S., Emmerling, J., … Tavoni, M. (2017). The Shared Socioeconomic Pathways and their 
+energy, land use, and greenhouse gas emissions implications: An overview. Global 
+Environmental Change, 42, 153–168. https://doi.org/10.1016/j.gloenvcha.2016.05.009 
+Romps, D. M., Seeley, J. T., Vollaro, D., & Molinari, J. (2014). Projected increase in lightning strikes in the 
+United States due to global warming. Science, 346(6211), 851–854. 
+https://doi.org/10.1126/science.1259100 
+Screen, J. A. (2021). An ice‐free Arctic: What could it mean for European weather? Weather, 76(10), 
+327–328. https://doi.org/10.1002/wea.4069 
+Screen, J. A., Bracegirdle, T. J., & Simmonds, I. (2018). Polar Climate Change as Manifest in Atmospheric 
+Circulation. Current Climate Change Reports, 4(4), 383–395. https://doi.org/10.1007/s40641-
+018-0111-4 
+44 
+ 
+Screen, J. A., Deser, C., & Sun, L. (2015). Reduced Risk of North American Cold Extremes due to 
+Continued Arctic Sea Ice Loss. Bulletin of the American Meteorological Society, 96(9), 1489–
+1503. https://doi.org/10.1175/BAMS-D-14-00185.1 
+Screen, J. A., & Simmonds, I. (2010). The central role of diminishing sea ice in recent Arctic temperature 
+amplification. Nature, 464(7293), 1334–1337. https://doi.org/10.1038/nature09051 
+Seeley, J. T., & Romps, D. M. (2015). The Effect of Global Warming on Severe Thunderstorms in the 
+United States. Journal of Climate, 28(6), 2443–2458. https://doi.org/10.1175/JCLI-D-14-00382.1 
+Seneviratne, S. I., Zhang, X., Adnan, M., Badi, W., Dereczynski, C., Di Luca, A., Ghosh, S., Iskandar, I., 
+Kossin, J., Lewis, S., Otto, F., Pinto, I., Satoh, M., Vincente-Serrano, S. M., Wehner, M., & Zhou, B. 
+(2021). Weather and Climate Extreme Events in a Changing Climate. In V. Masson-Delmotte, P. 
+Zhai, A. Pirani, Connors, S., C. Pean, S. Berger, N. Caud, L. Chen, L. Goldfarb, M. I. Gomis, M. 
+Huang, K. Leitzell, E. Lonnoy, J. B. R. Matthews, T. K. Maycock, T. Waterfield, O. Yelekci, R. Yu, & 
+B. Zhou (Eds.), Climate Change 2021: The Physical Science Basis. Contribution of Working Group I 
+to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge 
+University Press. 
+Shrestha, B., Brotzge, J. A., & Wang, J. (2022). Observations and Impacts of Long-Range Transported 
+Wildfire Smoke on Air Quality Across New York State During July 2021. Geophysical Research 
+Letters, 49(19), e2022GL100216. https://doi.org/10.1029/2022GL100216 
+Slangen, A., van de Wal, R., Reerink, T., de Winter, R., Hunter, J., Woodworth, P., & Edwards, T. (2017). 
+The Impact of Uncertainties in Ice Sheet Dynamics on Sea-Level Allowances at Tide Gauge 
+Locations. Journal of Marine Science and Engineering, 5(2), 21. 
+https://doi.org/10.3390/jmse5020021 
+Smith, A. B. (2021). U.S. Billion-dollar Weather and Climate Disasters, 1980—Present (NCEI Accession 
+0209268) [dataset]. NOAA National Centers for Environmental Information. 
+https://doi.org/10.25921/STKW-7W73 
+Strauss, B. H., Orton, P. M., Bittermann, K., Buchanan, M. K., Gilford, D. M., Kopp, R. E., Kulp, S., Massey, 
+C., Moel, H. de, & Vinogradov, S. (2021). Economic damages from Hurricane Sandy attributable 
+to sea level rise caused by anthropogenic climate change. Nature Communications, 12(1), 2720. 
+https://doi.org/10.1038/s41467-021-22838-1 
+Sweet, W. V., Kopp, R. E., Weaver, J., Obeysekera, J., Horton, R. M., Thieler, E. R., & Zervas, C. (2017). 
+Global and Regional Sea Level Rise Scenarios for the United States. (083; NOAA Technical Report 
+NOS CO-OPS). NOAA/NOS Center for Operational Oceanographic Products and Services. 
+Thibeault, J. M., & Seth, A. (2014). Changing climate extremes in the Northeast United States: 
+Observations and projections from CMIP5. Climatic Change, 127(2), 273–287. 
+https://doi.org/10.1007/s10584-014-1257-2 
+Thrasher, B., Maurer, E. P., McKellar, C., & Duffy, P. B. (2012). Technical Note: Bias correcting climate 
+model simulated daily temperature extremes with quantile mapping. Hydrology and Earth 
+System Sciences, 16(9), 3309–3314. https://doi.org/10.5194/hess-16-3309-2012 
+Trapp, R. J., Diffenbaugh, N. S., Brooks, H. E., Baldwin, M. E., Robinson, E. D., & Pal, J. S. (2007). Changes 
+in severe thunderstorm environment frequency during the 21st century caused by 
+anthropogenically enhanced global radiative forcing. Proceedings of the National Academy of 
+Sciences, 104(50), 19719–19723. https://doi.org/10.1073/pnas.0705494104 
+USGCRP. (2018_: Impacts, Risks, and Adaptation in the United States: Fourth National Climate 
+Assessment, Volume II [Reidmiller, D.R., C.W. Avery, D.R. Easterling, K.E. Kunkel, K.L.M. Lewis, 
+T.K. Maycock, and B.C. Stewart (eds.)]. U.S. Global Change Research Program, Washington, DC, 
+USA, 1515 pp. https://doi.org/10.7930/NCA4.2018  
+45 
+ 
+VanDeWeghe, A., Lin, V., Jayaram, J., & Gronewold, A. D. (2022). Changes in Large Lake Water Level 
+Dynamics in Response to Climate Change. Frontiers in Water, 4, 805143. 
+https://doi.org/10.3389/frwa.2022.805143 
+Vavrus, S., Notaro, M., & Zarrin, A. (2013). The Role of Ice Cover in Heavy Lake-Effect Snowstorms over 
+the Great Lakes Basin as Simulated by RegCM4. Monthly Weather Review, 141(1), 148–165. 
+https://doi.org/10.1175/MWR-D-12-00107.1 
+Wang, C., Soden, B. J., Yang, W., & Vecchi, G. A. (2021). Compensation Between Cloud Feedback and 
+Aerosol‐Cloud Interaction in CMIP6 Models. Geophysical Research Letters, 48(4). 
+https://doi.org/10.1029/2020GL091024 
+Wang, J., Bai, X., Hu, H., Clites, A., Colton, M., & Lofgren, B. (2012). Temporal and Spatial Variability of 
+Great Lakes Ice Cover, 1973–2010. Journal of Climate, 25(4), 1318–1329. 
+https://doi.org/10.1175/2011JCLI4066.1 
+Weather Prediction Center. (2022). Heat Index Equation. 
+https://www.wpc.ncep.noaa.gov/html/heatindex_equation.shtml 
+Wolfe, D. W., DeGaetano, A. T., Peck, G. M., Carey, M., Ziska, L. H., Lea-Cox, J., Kemanian, A. R., 
+Hoffmann, M. P., & Hollinger, D. Y. (2018). Unique challenges and opportunities for 
+northeastern US crop production in a changing climate. Climatic Change, 146(1–2), 231–245. 
+https://doi.org/10.1007/s10584-017-2109-7 
+Wuebbles, D. J. (2023). Can Global Mean Temperatures be Held to 1.5 ° C or Less without Major Efforts 
+in Carbon Removal / Geoengineering? Journal of Climate Action, Research, and Policy, 
+S2972312423500017. https://doi.org/10.1142/S2972312423500017 
+Yin, J., Schlesinger, M. E., & Stouffer, R. J. (2009). Model projections of rapid sea-level rise on the 
+northeast coast of the United States. Nature Geoscience, 2(4), 262–266. 
+https://doi.org/10.1038/ngeo462 
+Zarzycki, C. M. (2018). Projecting Changes in Societally Impactful Northeastern U.S. Snowstorms. 
+Geophysical Research Letters, 45(21), 12,067-12,075. https://doi.org/10.1029/2018GL079820 
+Zelinka, M. D., Myers, T. A., McCoy, D. T., Po‐Chedley, S., Caldwell, P. M., Ceppi, P., Klein, S. A., & Taylor, 
+K. E. (2020). Causes of Higher Climate Sensitivity in CMIP6 Models. Geophysical Research Letters, 
+47(1). https://doi.org/10.1029/2019GL085782 
+Zhang, P., Wu, Y., Simpson, I. R., Smith, K. L., Zhang, X., De, B., & Callaghan, P. (2018). A stratospheric 
+pathway linking a colder Siberia to Barents-Kara Sea sea ice loss. Science Advances, 4(7), 
+eaat6025. https://doi.org/10.1126/sciadv.aat6025 
+Zhang, X., Zwiers, F. W., Li, G., Wan, H., & Cannon, A. J. (2017). Complexity in estimating past and future 
+extreme short-duration rainfall. Nature Geoscience; London, 10(4), 255–259. 
+http://dx.doi.org.ezproxy.cul.columbia.edu/10.1038/ngeo2911 
+Zhang, Z., & Colle, B. A. (2017). Changes in Extratropical Cyclone Precipitation and Associated Processes 
+during the Twenty-First Century over Eastern North America and the Western Atlantic Using a 
+Cyclone-Relative Approach. Journal of Climate, 30(21), 8633–8656. https://doi.org/10.1175/JCLI-
+D-16-0906.1 
+Zhao, T., Bennett, J. C., Wang, Q. J., Schepen, A., Wood, A. W., Robertson, D. E., & Ramos, M.-H. (2017). 
+How Suitable is Quantile Mapping For Postprocessing GCM Precipitation Forecasts? Journal of 
+Climate, 30(9), 3185–3196. https://doi.org/10.1175/JCLI-D-16-0652.1 
+Zscheischler, J., Martius, O., Westra, S., Bevacqua, E., Raymond, C., Horton, R. M., van den Hurk, B., 
+AghaKouchak, A., Jézéquel, A., Mahecha, M. D., Maraun, D., Ramos, A. M., Ridder, N. N., Thiery, 
+W., & Vignotto, E. (2020). A typology of compound weather and climate events. Nature Reviews 
+Earth & Environment, 1(7), Article 7. https://doi.org/10.1038/s43017-020-0060-z 
+ 
