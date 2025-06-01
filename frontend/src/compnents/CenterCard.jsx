@@ -1,22 +1,22 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const options = [
-  {
-    title: "Saved Prompt Templates",
-    desc: "Users save and reuse prompt templates for faster responses."
-  },
-  {
-    title: "Media Type Selection",
-    desc: "Users select media type for tailored interactions."
-  },
-  {
-    title: "Multilingual Support",
-    desc: "Choose language for better interaction."
-  }
-];
+// const options = [
+//   {
+//     title: "Saved Prompt Templates",
+//     desc: "Users save and reuse prompt templates for faster responses."
+//   },
+//   {
+//     title: "Media Type Selection",
+//     desc: "Users select media type for tailored interactions."
+//   },
+//   {
+//     title: "Multilingual Support",
+//     desc: "Choose language for better interaction."
+//   }
+// ];
 
-const tabs = ["All", "Text", "Image", "Video", "Music", "Analytics"];
+// const tabs = ["All", "Text", "Image", "Video", "Music", "Analytics"];
 
 const CenterCard = () => {
   const [input, setInput] = useState("");
@@ -26,10 +26,12 @@ const CenterCard = () => {
     if (!input.trim()) return;
     setMessages([...messages, { from: "user", text: input }]);
     try {
-      const res = await axios.post("http://localhost:5000/api/chat", { message: input });
-      setMessages(msgs => [...msgs, { from: "bot", text: res.data.reply }]);
+      const res = await axios.post("http://127.0.0.1:5000/api/chat", { query: input });
+      console.log(res.data)
+      setMessages(msgs => [...msgs, { from: "bot", text: res.data.response }]);
     } catch (e) {
       setMessages(msgs => [...msgs, { from: "bot", text: "Error connecting to server." }]);
+      console.log(e)
     }
     setInput("");
   };
@@ -47,11 +49,11 @@ const CenterCard = () => {
       <div style={{ textAlign: "center", marginBottom: 24 }}>
         <div style={{ fontSize: 40, marginBottom: 8 }}>🤖</div>
         <h2 style={{ margin: 0 }}>How can i help you today?</h2>
-        <div style={{ color: "#aaa", marginTop: 8, fontSize: 15 }}>
+        {/* <div style={{ color: "#aaa", marginTop: 8, fontSize: 15 }}>
           This code will display a prompt asking the user for their name, and then it will display a greeting message with the name entered by the user.
-        </div>
+        </div> */}
       </div>
-      <div style={{
+      {/* <div style={{
         display: "flex",
         justifyContent: "space-between",
         gap: 12,
@@ -69,8 +71,8 @@ const CenterCard = () => {
             <div style={{ fontSize: 13, color: "#aaa" }}>{opt.desc}</div>
           </div>
         ))}
-      </div>
-      <div style={{
+      </div> */}
+      {/* <div style={{
         display: "flex",
         gap: 16,
         marginBottom: 16
@@ -84,7 +86,7 @@ const CenterCard = () => {
             {tab}
           </div>
         ))}
-      </div>
+      </div> */}
       <div style={{ minHeight: 100, marginBottom: 16 }}>
         {messages.map((msg, idx) => (
           <div key={idx} style={{ color: msg.from === "user" ? "#16c784" : "#aaa", margin: "4px 0" }}>
@@ -129,9 +131,9 @@ const CenterCard = () => {
           ▶
         </button>
       </div>
-      <div style={{ color: "#aaa", fontSize: 12, marginTop: 16, textAlign: "center" }}>
+      {/* <div style={{ color: "#aaa", fontSize: 12, marginTop: 16, textAlign: "center" }}>
         ChatGPT can make mistakes. Consider checking important information.
-      </div>
+      </div> */}
     </div>
   );
 };

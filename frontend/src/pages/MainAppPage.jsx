@@ -9,7 +9,7 @@ const MainAppPage = () => {
       background: "radial-gradient(circle at 70% 30%, #1a2a1a 0%, #111 100%)",
       display: "flex"
     }}>
-      <Sidebar />
+      {/* <Sidebar /> */}
       <main style={{
         flex: 1,
         display: "flex",
