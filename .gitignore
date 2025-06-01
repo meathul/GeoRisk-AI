@@ -8,8 +8,14 @@ processing/pdfs/
 processing/docs/
 
 backend/processing/chroma_store/
-backend/processing/pdfs/
-backend/processing/docs/
+# Ignore all files inside these folders
+backend/processing/docs/*
+backend/processing/pdfs/*
+
+# But allow .gitkeep
+!backend/processing/docs/.gitkeep
+!backend/processing/pdfs/.gitkeep
+
 
 
 backend/vector_store/climate_pdf
@@ -19,5 +25,3 @@ backend/vector_store/risk_docs
 backend/vector_store/climate_chroma_db
 backend/vector_store/risk_chroma_db
 
-!backend/processing/pdfs/.gitkeep
-!backend/processing/docs/.gitkeep
