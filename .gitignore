@@ -10,3 +10,11 @@ processing/docs/
 backend/processing/chroma_store/
 backend/processing/pdfs/
 backend/processing/docs/
+
+
+backend/vector_store/climate_pdf
+backend/vector_store/risk_pdf
+backend/vector_store/climate_docs
+backend/vector_store/risk_docs
+backend/vector_store/climate_chroma_db
+backend/vector_store/risk_chroma_db

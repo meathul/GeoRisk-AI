@@ -5,6 +5,14 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import SentenceTransformerEmbeddings
 from langchain_community.document_loaders import DirectoryLoader, TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+from huggingface_hub import login
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# Step 0: Authenticate with Hugging Face
+HUGGINGFACE_TOKEN = os.getenv("HUGGINGFACE_HUB_TOKEN")
+login(HUGGINGFACE_TOKEN)
 
 # Set paths
 PDF_DIR = "pdfs"      # Folder with input PDFs
