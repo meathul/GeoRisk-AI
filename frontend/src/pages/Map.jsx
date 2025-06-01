@@ -7,6 +7,7 @@ const Map = () => {
   const [submitted, setSubmitted] = useState(false);
 
   const handleLocationSelect = (data) => {
+    console.log("selected location:",data)
     setLocationData(data);
     setSubmitted(false); // reset state when new location is selected
   };
