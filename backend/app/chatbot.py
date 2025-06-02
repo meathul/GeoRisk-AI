@@ -12,14 +12,16 @@ from .agents.climate_agent import ClimateAgent
 from .agents.business_agent import BusinessRiskAgent
 from .settings.config import Config
 
-
 class ClimateRiskChatbot:
     def __init__(self):
+        # LLM setup
         self.model = setup_watsonx_model()
         self.serper = SerperSearchService()
         self.location_extractor = LocationExtractor(self.model)
 
-        self.memory = ConversationBufferMemory(memory_key="chat_history", return_messages=False)
+        # Simple in-memory history: list of (user_query, bot_response) tuples
+        self.history = []
+        # Track the last non-Global location seen
         self.last_location = None
 
         # Chroma DB retrievers
@@ -48,6 +50,41 @@ class ClimateRiskChatbot:
         )
 
     def process_query(self, user_query: str) -> str:
+        # 1. Classification prompt
+        classification_prompt = (
+            "Classify the following user input.\n"
+            "If it is only a casual greeting (e.g., 'hello', 'hi'), respond with 'GREETING'.\n"
+            "If it is only a farewell (e.g., 'bye', 'goodbye'), respond with 'FAREWELL'.\n"
+            "Otherwise, respond with 'OTHER'.\n\n"
+            f"User: {user_query}\n\n"
+            "Classification:"
+        )
+        classification_params = {
+            "decoding_method": "greedy",
+            "max_new_tokens": 10,
+            "temperature": 0.0,
+            "stop_sequences": ["\n"]
+        }
+        classification = self.model.generate_text(
+            prompt=classification_prompt, params=classification_params
+        ).strip().upper()
+
+        # 2. Handle GREETING
+        if classification == "GREETING":
+            return (
+                "Hello! I am your Climate Risk Advisor Bot. "
+                "I use a Retrieval-Augmented Generation (RAG) approach, combining on-demand real-time search, "
+                "a local climate knowledge base, and IBM Watsonx AI to deliver tailored insights. "
+                "You can ask me questions like:\n"
+                "- 'What climate risks threaten our Chicago warehouse?'\n"
+                "- 'How will sea-level rise affect our coastal plant?'\n"
+                "Feel free to start with any location or say 'Global' to get a worldwide overview."
+            )
+
+        # 3. Handle FAREWELL
+        if classification == "FAREWELL":
+            return "Goodbye! If you have more climate risk questions later, just let me know."
+
         loc_candidate = self.location_extractor.extract_location(user_query).strip()
 
         if loc_candidate.lower() == "global":
@@ -60,10 +97,12 @@ class ClimateRiskChatbot:
             location = loc_candidate
             self.last_location = loc_candidate
 
-        memory_dict = self.memory.load_memory()
-        history = memory_dict.get("chat_history", "")
-        if history:
-            combined_input = history + "\nUser: " + user_query
+        if self.history:
+            history_lines = []
+            for past_user, past_bot in self.history:
+                history_lines.append(f"User: {past_user}")
+                history_lines.append(f"Bot: {past_bot}")
+            combined_input = "\n".join(history_lines) + "\nUser: " + user_query
         else:
             combined_input = user_query
 
@@ -74,66 +113,64 @@ class ClimateRiskChatbot:
             location, climate_analysis, combined_input
         )
 
-        final_response = self._create_final_response(
+        final_response = self._create_tagged_response(
             location, climate_analysis, business_analysis
         )
 
-        self.memory.save_context({"input": user_query}, {"output": final_response})
+        self.history.append((user_query, final_response))
 
         return final_response
 
-    def _create_final_response(self, location: str, climate_analysis: str,
-                               business_analysis: str) -> str:
-        summary_prompt = f"""You are a Climate Risk Advisor.
-
-            LOCATION: {location}
-
-            CLIMATE ANALYSIS:
-            {climate_analysis}
-
-            BUSINESS ANALYSIS:
-            {business_analysis}
-
-            Produce a response with these sections:
-            1. Current Conditions
-            2. Historic Trends
-            3. Future Predictions
-            4. Risk Assessment
-            5. Economic Impact
-            6. Summary & Recommendations
-
-            For each section, provide concise but informative paragraphs."""
+    def _create_tagged_response(self, location: str, climate_analysis: str,
+                                business_analysis: str) -> str:
+        prompt = (
+            f"You are a C-suite Climate Risk Advisor.\n\n"
+            f"LOCATION: {location}\n\n"
+            f"CLIMATE ANALYSIS:\n{climate_analysis}\n\n"
+            f"BUSINESS ANALYSIS:\n{business_analysis}\n\n"
+            "Generate the output using exactly these tags and no additional text:\n"
+            "<current> (current conditions) </current>\n"
+            "<history> (historic trends) </history>\n"
+            "<future> (future predictions) </future>\n"
+            "<risk> (risk assessment) </risk>\n"
+            "<economy> (economic impact) </economy>\n"
+            "<summary> (final summary with recommendations) </summary>\n"
+            "Ensure each section’s content is placed between its opening and closing tags. "
+            "Do not include any explanation outside the tags.\n\n"
+            "Here is what to generate:\n"
+            "<current>\n"
+            "  "
+        )
 
         enhanced_params = {
             "decoding_method": "greedy",
-            "max_new_tokens": 1800,
+            "max_new_tokens": 2000,
             "temperature": 0.75,
-            "stop_sequences": ["\n\n\n"]
+            "stop_sequences": ["</summary>"]
         }
 
         try:
-            response_text = self.model.generate_text(
-                prompt=summary_prompt, params=enhanced_params
-            ).strip()
+            response_text = self.model.generate_text(prompt=prompt, params=enhanced_params).strip()
         except Exception:
-            # Fallback if WatsonX call fails
-            response_text = """1. Current Conditions:
-                - Overview of today's climate hazards and ongoing trends.
+            response_text = (
+                "<current>\n"
+                "Placeholder current conditions\n"
+                "</current>\n"
+                "<history>\n"
+                "Placeholder historic trends\n"
+                "</history>\n"
+                "<future>\n"
+                "Placeholder future predictions\n"
+                "</future>\n"
+                "<risk>\n"
+                "Placeholder risk assessment\n"
+                "</risk>\n"
+                "<economy>\n"
+                "Placeholder economic impact\n"
+                "</economy>\n"
+                "<summary>\n"
+                "Placeholder summary with recommendations\n"
+                "</summary>"
+            )
 
-                2. Historic Trends:
-                - Summary of how these climate factors have evolved over the past decades.
-
-                3. Future Predictions:
-                - Projections for temperature changes, sea level rise, extreme events.
-
-                4. Risk Assessment:
-                - Identification and evaluation of key vulnerabilities and threats.
-
-                5. Economic Impact:
-                - Analysis of potential financial losses, supply chain disruptions, and operational costs.
-
-                6. Summary & Recommendations:
-                - Executive summary highlighting critical points and recommended actions to mitigate risks,
-                including timeline, stakeholder roles, and resource considerations."""
-            
         return response_text
