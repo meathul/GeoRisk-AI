@@ -2,21 +2,20 @@
 import React, { useState } from "react";
 import LocationPickerMap from "../compnents/LocationPickerMap";
 
-const Map = () => {
+const Map = ({ onSubmitLocation }) => {
   const [locationData, setLocationData] = useState(null);
   const [submitted, setSubmitted] = useState(false);
 
   const handleLocationSelect = (data) => {
-    console.log("selected location:",data)
+    console.log("Selected location:", data);
     setLocationData(data);
-    setSubmitted(false); // reset state when new location is selected
+    setSubmitted(false); // reset submit state
   };
 
   const handleSubmit = async () => {
     if (!locationData) return;
 
     try {
-      // Send to your backend here (example URL)
       const response = await fetch("http://localhost:5000/api/locations", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -27,6 +26,14 @@ const Map = () => {
 
       setSubmitted(true);
       console.log("Location submitted:", locationData);
+
+      // Send the data to chat as a query
+      if (onSubmitLocation) {
+        const { lat, lng, address } = locationData;
+        const query = `Assess the climate or business risks for this location: ${address} (Latitude: ${lat}, Longitude: ${lng}).`;
+        onSubmitLocation(query);
+      }
+
     } catch (error) {
       console.error("Error submitting location:", error);
       alert("Submission failed.");
@@ -35,11 +42,14 @@ const Map = () => {
 
   return (
     <div>
-      <h2 style={{ textAlign: "center" }}>Click on the Map to Select a Location</h2>
+      <h2 style={{ textAlign: "center", color: "white" }}>
+        Click on the Map to Select a Location
+      </h2>
+
       <LocationPickerMap onLocationSelect={handleLocationSelect} />
 
       {locationData && (
-        <div style={{ padding: "1rem", backgroundColor: "#f9f9f9" }}>
+        <div style={{ padding: "1rem", backgroundColor: "#2b2b2b", borderRadius: "8px", marginTop: "1rem", color: "white" }}>
           <h3>Selected Location Details:</h3>
           <p><b>Latitude:</b> {locationData.lat}</p>
           <p><b>Longitude:</b> {locationData.lng}</p>
@@ -49,7 +59,7 @@ const Map = () => {
             style={{
               marginTop: "1rem",
               padding: "10px 20px",
-              backgroundColor: "#007bff",
+              backgroundColor: "#16c784",
               color: "white",
               border: "none",
               borderRadius: "5px",
@@ -60,7 +70,11 @@ const Map = () => {
             Submit Location
           </button>
 
-          {submitted && <p style={{ color: "green" }}>Location submitted successfully!</p>}
+          {submitted && (
+            <p style={{ color: "#16c784", marginTop: "0.5rem" }}>
+              Location submitted successfully!
+            </p>
+          )}
         </div>
       )}
     </div>

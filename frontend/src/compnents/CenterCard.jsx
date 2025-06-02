@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
+import AgentResponse from "./AgentResponse";
+
+
 
 // const options = [
 //   {
@@ -21,10 +24,13 @@ import axios from "axios";
 const CenterCard = () => {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
+  const [loading, setLoading] = useState(false);
+
 
   const sendMessage = async () => {
-    if (!input.trim()) return;
+    if (!input.trim() || loading) return;
     setMessages([...messages, { from: "user", text: input }]);
+    setLoading(true);
     try {
       const res = await axios.post("http://127.0.0.1:5000/api/chat", { query: input });
       console.log(res.data)
@@ -34,6 +40,7 @@ const CenterCard = () => {
       console.log(e)
     }
     setInput("");
+    setLoading(false);
   };
 
   return (
@@ -89,10 +96,20 @@ const CenterCard = () => {
       </div> */}
       <div style={{ minHeight: 100, marginBottom: 16 }}>
         {messages.map((msg, idx) => (
-          <div key={idx} style={{ color: msg.from === "user" ? "#16c784" : "#aaa", margin: "4px 0" }}>
-            <b>{msg.from === "user" ? "You" : "Bot"}:</b> {msg.text}
+          <div key={idx} style={{ margin: "8px 0" }}>
+            {msg.from === "user" ? (
+              <div style={{ color: "#16c784" }}>
+                <b>You:</b> {msg.text}
+              </div>
+            ) : (
+              <div>
+                <b style={{ color: "#aaa" }}>Bot:</b>
+                <AgentResponse text={msg.text.replace(/<\/?current>/g, "").trim()} />
+              </div>
+            )}
           </div>
         ))}
+
       </div>
       <div style={{
         background: "#181c1f",
@@ -107,6 +124,7 @@ const CenterCard = () => {
           value={input}
           onChange={e => setInput(e.target.value)}
           onKeyDown={e => e.key === "Enter" && sendMessage()}
+          disabled={loading}
           style={{
             flex: 1,
             background: "transparent",
@@ -118,6 +136,7 @@ const CenterCard = () => {
         />
         <button
           onClick={sendMessage}
+          disabled={loading} 
           style={{
             background: "#16c784",
             border: "none",

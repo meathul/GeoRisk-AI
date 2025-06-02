@@ -1,25 +1,41 @@
-import React from "react";
-import Sidebar from "../compnents/sidebar";
-import CenterCard from "../compnents/CenterCard";
+// pages/MainPage.jsx or index.jsx
+import React, { useState } from "react";
+import CenterCard from "../compnents/CenterCard"; // fix typo if needed
+import Map from "./Map"; // assumes Map accepts onSubmitLocation prop
 
-const MainAppPage = () => {
+const MainPage = () => {
+  const [locationQuery, setLocationQuery] = useState(null);
+
+  // Called when Map selects a location to be sent to chat
+  const handleLocationQuery = (query) => {
+    setLocationQuery(query);
+  };
+
   return (
-    <div style={{
-      minHeight: "100vh",
-      background: "radial-gradient(circle at 70% 30%, #1a2a1a 0%, #111 100%)",
-      display: "flex"
-    }}>
-      {/* <Sidebar /> */}
-      <main style={{
-        flex: 1,
+    <div
+      style={{
         display: "flex",
-        alignItems: "center",
-        justifyContent: "center"
-      }}>
-        <CenterCard />
-      </main>
+        flexDirection: "row",
+        justifyContent: "space-between",
+        gap: "40px",
+        padding: "40px",
+        backgroundColor: "#1e1e1e",
+        minHeight: "100vh",
+        color: "white",
+        overflow: "hidden"
+      }}
+    >
+      {/* Chat Panel */}
+      <div style={{ flex: "0 0 500px", display: "flex", justifyContent: "center" }}>
+        <CenterCard externalQuery={locationQuery} />
+      </div>
+
+      {/* Map Panel */}
+      <div style={{ flex: 1 }}>
+        <Map onSubmitLocation={handleLocationQuery} />
+      </div>
     </div>
   );
 };
 
-export default MainAppPage;
+export default MainPage;
