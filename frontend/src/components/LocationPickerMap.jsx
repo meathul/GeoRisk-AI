@@ -1,6 +1,6 @@
 // components/LocationPickerMap.jsx
-import React, { useState } from "react";
-import { MapContainer, TileLayer, Marker, useMapEvents, Popup } from "react-leaflet";
+import React, { useState, useEffect } from "react";
+import { MapContainer, TileLayer, Marker, useMapEvents, Popup, useMap } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
@@ -12,9 +12,30 @@ L.Icon.Default.mergeOptions({
   shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
 });
 
-const LocationMarker = ({ onLocationSelect }) => {
+// Component to handle map center changes
+const MapController = ({ searchLocation }) => {
+  const map = useMap();
+
+  useEffect(() => {
+    if (searchLocation) {
+      map.setView([searchLocation.lat, searchLocation.lng], 5);
+    }
+  }, [searchLocation, map]);
+
+  return null;
+};
+
+const LocationMarker = ({ onLocationSelect, searchLocation }) => {
   const [position, setPosition] = useState(null);
   const [address, setAddress] = useState("");
+
+  // Update marker when search location changes
+  useEffect(() => {
+    if (searchLocation) {
+      setPosition([searchLocation.lat, searchLocation.lng]);
+      setAddress(searchLocation.address);
+    }
+  }, [searchLocation]);
 
   useMapEvents({
     click(e) {
@@ -47,10 +68,11 @@ const LocationMarker = ({ onLocationSelect }) => {
   ) : null;
 };
 
-const LocationPickerMap = ({ onLocationSelect }) => (
-  <MapContainer center={[20.5937, 78.9629]} zoom={5} style={{ height: "100vh", width: "100%" }}>
+const LocationPickerMap = ({ onLocationSelect, searchLocation }) => (
+  <MapContainer center={[39.8283, -98.5795]} zoom={4.5} style={{ height: "100%", width: "100%" }}>
     <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-    <LocationMarker onLocationSelect={onLocationSelect} />
+    <LocationMarker onLocationSelect={onLocationSelect} searchLocation={searchLocation} />
+    <MapController searchLocation={searchLocation} />
   </MapContainer>
 );
 
