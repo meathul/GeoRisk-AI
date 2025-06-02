@@ -1,14 +1,17 @@
 import os
 from datetime import datetime
 
+from langchain.memory import ConversationBufferMemory
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_chroma import Chroma
+
 from .agents.watsonx_model import setup_watsonx_model
 from .tools.search_tool import SerperSearchService
 from .tools.location_extractor import LocationExtractor
 from .agents.climate_agent import ClimateAgent
 from .agents.business_agent import BusinessRiskAgent
 from .settings.config import Config
-from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_chroma import Chroma
+
 
 class ClimateRiskChatbot:
     def __init__(self):
@@ -16,6 +19,10 @@ class ClimateRiskChatbot:
         self.serper = SerperSearchService()
         self.location_extractor = LocationExtractor(self.model)
 
+        self.memory = ConversationBufferMemory(memory_key="chat_history", return_messages=False)
+        self.last_location = None
+
+        # Chroma DB retrievers
         embedding_fn = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
         try:
             self.climate_db = Chroma(
@@ -41,18 +48,38 @@ class ClimateRiskChatbot:
         )
 
     def process_query(self, user_query: str) -> str:
-        location = self.location_extractor.extract_location(user_query)
+        loc_candidate = self.location_extractor.extract_location(user_query).strip()
 
-        climate_results = self.climate_agent.analyze_climate_risks(location, user_query)
+        if loc_candidate.lower() == "global":
+            if self.last_location:
+                location = self.last_location
+            else:
+                location = "Global"
+                self.last_location = None
+        else:
+            location = loc_candidate
+            self.last_location = loc_candidate
+
+        memory_dict = self.memory.load_memory()
+        history = memory_dict.get("chat_history", "")
+        if history:
+            combined_input = history + "\nUser: " + user_query
+        else:
+            combined_input = user_query
+
+        climate_results = self.climate_agent.analyze_climate_risks(location, combined_input)
         climate_analysis = climate_results["analysis"]
 
         business_analysis = self.risk_agent.analyze_business_impact(
-            location, climate_analysis, user_query
+            location, climate_analysis, combined_input
         )
 
         final_response = self._create_final_response(
             location, climate_analysis, business_analysis
         )
+
+        self.memory.save_context({"input": user_query}, {"output": final_response})
+
         return final_response
 
     def _create_final_response(self, location: str, climate_analysis: str,
@@ -75,8 +102,7 @@ class ClimateRiskChatbot:
             5. Economic Impact
             6. Summary & Recommendations
 
-            For each section, provide concise but informative paragraphs.
-            In the Summary & Recommendations section, include actionable steps and strategic advice tailored to the user's needs."""
+            For each section, provide concise but informative paragraphs."""
 
         enhanced_params = {
             "decoding_method": "greedy",
@@ -90,6 +116,7 @@ class ClimateRiskChatbot:
                 prompt=summary_prompt, params=enhanced_params
             ).strip()
         except Exception:
+            # Fallback if WatsonX call fails
             response_text = """1. Current Conditions:
                 - Overview of today's climate hazards and ongoing trends.
 
@@ -108,5 +135,5 @@ class ClimateRiskChatbot:
                 6. Summary & Recommendations:
                 - Executive summary highlighting critical points and recommended actions to mitigate risks,
                 including timeline, stakeholder roles, and resource considerations."""
-
+            
         return response_text
