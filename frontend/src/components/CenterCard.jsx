@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 import AgentResponse from "./AgentResponse";
 
 const CenterCard = ({ locationAddress }) => {
@@ -14,11 +15,6 @@ const CenterCard = ({ locationAddress }) => {
     }
   }, [locationAddress]);
 
-  // Fixed bot response text
-  const fixedResponse = `
-High temperatures: The maximum temperature is expected to go as high as 29°C. Heavy rainfall: There is a 100% chance of precipitation, with heavy downpours and frequent lightning. High humidity: The relative humidity is expected to be around 89%. Cloudy skies: The weather forecast indicates cloudy skies with occasional rain and thunderstorms. Air quality: The current air quality index (AQI) is not available, but it is expected to be moderate to poor due to the high levels of pollution in the area. </current> <history> Increasing temperatures: The average temperature has been increasing over the past few decades, with a rise of 0.5°C to 1.5°C. Changing precipitation patterns: There has been a shift in the precipitation patterns, with more frequent and intense rainfall events. Rising sea levels: The sea level has been rising at a rate of 0.0018 m/year (1.8 mm/yr). Increased frequency of extreme weather events: There has been an increase in the frequency and intensity of extreme weather events such as floods, droughts, and heatwaves. Loss of biodiversity: The changing climate has led to a loss of biodiversity, with many species facing extinction due to habitat destruction and changing environmental conditions. </history> <future> Continued temperature rise: The temperature is expected to rise by another 1.5°C to 2.5°C by 2050. Increased precipitation: The precipitation is expected to increase by 10% to 20% by 2050. Sea level rise: The sea level is expected to rise by 0.11 m by 2050. Increased frequency of extreme weather events: The frequency and intensity of extreme weather events such as floods, droughts, and heatwaves are expected to increase. Saltwater intrusion: The rising sea level is expected to lead to saltwater intrusion into freshwater sources, affecting agriculture and human consumption. </future> <risk> High risk of flooding: The area is prone to flooding due to heavy rainfall and sea level rise. Drought risk: The area is also at risk of drought, particularly during the summer months. Heatwave risk: The area is at risk of heatwaves, particularly during the summer months. Loss of livelihoods: The changing climate is expected to affect the livelihoods of people dependent on agriculture, fishing, and other climate-sensitive sectors. Health risks: The changing climate is expected to increase the risk of water-borne and vector-borne diseases. </risk> <economy> Loss of revenue: The changing climate is expected to affect the revenue of the state, particularly in the agriculture and tourism sectors. Increased costs: The changing climate is expected to increase the costs of infrastructure, healthcare, and other services. Impact on industry: The changing climate is expected to affect the industry, particularly the manufacturing and construction sectors. Loss of property: The changing climate is expected to lead to loss of property, particularly in the coastal areas. Migration: The changing climate is expected to lead to migration, particularly of people living in low-lying areas. </economy> <summary> To mitigate the impacts of climate change in Ernakulam, Kerala, India, it is recommended to develop a climate-resilient business strategy, implement climate-resilient infrastructure and technology, promote climate-resilient agriculture and livelihoods, develop early warning systems and emergency response plans, and encourage climate-resilient entrepreneurship and innovation. The strategic mitigation framework should include short-term, medium-term, and long-term measures to address the climate risks and impacts. The implementation roadmap should include conducting climate risk assessments, developing a strategic mitigation framework, implementing mitigation measures, and monitoring and evaluating the effectiveness of the measures. The financial estimates for the mitigation measures should be in the range of ₹10 million to ₹1 billion over the next 20 years. The timeline for the implementation of the mitigation measures should be over the next 20 years, with specific milestones and targets to be achieved. </summary>
-  `;
-
   // Auto-resize handler for the textarea
   const handleInputChange = (e) => {
     setInput(e.target.value);
@@ -29,7 +25,7 @@ High temperatures: The maximum temperature is expected to go as high as 29°C. H
     textarea.style.height = Math.min(textarea.scrollHeight, 120) + "px";
   };
 
-  const sendMessage = () => {
+  const sendMessage = async () => {
     if (!input.trim() || loading) return;
 
     // Format the message with location if selected
@@ -49,15 +45,31 @@ High temperatures: The maximum temperature is expected to go as high as 29°C. H
     ]);
     setLoading(true);
 
-    // Simulate bot response
-    setTimeout(() => {
-      setMessages((prev) => [...prev, { from: "bot", text: fixedResponse }]);
-      setLoading(false);
-      setInput("");
-      // Reset textarea height after send
-      const ta = document.querySelector("textarea.chat-input");
-      if (ta) ta.style.height = "auto";
-    }, 500);
+    try {
+      // Send the formatted message (with location) to backend
+      const res = await axios.post("http://127.0.0.1:5000/api/chat", { 
+        query: userMessage 
+      });
+      console.log(res.data);
+      
+      setMessages(msgs => [
+        ...msgs, 
+        { from: "bot", text: res.data.response }
+      ]);
+    } catch (e) {
+      setMessages(msgs => [
+        ...msgs, 
+        { from: "bot", text: "Error connecting to server." }
+      ]);
+      console.log(e);
+    }
+
+    setInput("");
+    setLoading(false);
+    
+    // Reset textarea height after send
+    const ta = document.querySelector("textarea.chat-input");
+    if (ta) ta.style.height = "auto";
   };
 
   const clearAddress = () => {
@@ -153,6 +165,11 @@ High temperatures: The maximum temperature is expected to go as high as 29°C. H
                 )}
               </div>
             ))}
+            {loading && (
+              <div style={{ color: "#aaa" }}>
+                <b>Bot:</b> Typing...
+              </div>
+            )}
           </div>
         )}
       </div>
@@ -235,17 +252,17 @@ High temperatures: The maximum temperature is expected to go as high as 29°C. H
             onClick={sendMessage}
             disabled={loading}
             style={{
-              background: "#16c784",
+              background: loading ? "#555" : "#16c784",
               border: "none",
               borderRadius: 6,
               color: "#fff",
               padding: "6px 14px",
               marginLeft: 8,
               fontWeight: "bold",
-              cursor: "pointer",
+              cursor: loading ? "not-allowed" : "pointer",
             }}
           >
-            ▶
+            {loading ? "..." : "▶"}
           </button>
         </div>
       </div>
