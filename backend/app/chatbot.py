@@ -72,6 +72,7 @@ class ClimateRiskChatbot:
         # 2. Handle GREETING
         if classification == "GREETING":
             return (
+                "<hello>"
                 "Hello! I am your Climate Risk Advisor Bot. "
                 "I use a Retrieval-Augmented Generation (RAG) approach, combining on-demand real-time search, "
                 "a local climate knowledge base, and IBM Watsonx AI to deliver tailored insights. "
@@ -79,11 +80,12 @@ class ClimateRiskChatbot:
                 "- 'What climate risks threaten our Chicago warehouse?'\n"
                 "- 'How will sea-level rise affect our coastal plant?'\n"
                 "Feel free to start with any location or say 'Global' to get a worldwide overview."
+                "</hello>"
             )
 
         # 3. Handle FAREWELL
         if classification == "FAREWELL":
-            return "Goodbye! If you have more climate risk questions later, just let me know."
+            return "<bye>Goodbye! If you have more climate risk questions later, just let me know.</bye>"
 
         loc_candidate = self.location_extractor.extract_location(user_query).strip()
 
