@@ -43,9 +43,11 @@ It enables businesses to make informed decisions by assessing weather risks and 
 2. Run the Frontend:
    '''bash
    npm run dev
+   '''
 3.Run the backend:
   '''bash
   python main.py
+'''
 
 
    
