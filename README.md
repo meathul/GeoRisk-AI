@@ -50,8 +50,6 @@ python main.py
 
 
 
+![image](https://github.com/user-attachments/assets/7e4e262b-2ce2-4c87-b6b8-22946923a871)
 
-
-
-![TechX](https://github.com/user-attachments/assets/e506a79d-1f43-4c48-86aa-59bd7930d9c0)
 
