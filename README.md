@@ -1,8 +1,8 @@
-# Climate-Aware Supply Chain Multi-Agent System
+# GeoRisk AI
 
 ## Overview
 
-This project is a Proof of Concept (PoC) demonstrating a **multi-agent system** that leverages **IBM watsonx.ai** and **Retrieval-Augmented Generation (RAG)** to provide climate-aware risk analysis for supply chain locations.  
+This project is a demonstrating a **multi-agent system** that leverages **IBM watsonx.ai** and **Retrieval-Augmented Generation (RAG)** to provide climate-aware risk analysis for business risk.  
 It enables businesses to make informed decisions by assessing weather risks and historical climate data relevant to key supply chain points.
 
 ---
