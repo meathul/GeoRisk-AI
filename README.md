@@ -47,6 +47,11 @@ It enables businesses to make informed decisions by assessing weather risks and 
 ```bash
 python main.py
 ```
-```
+
+
+
+
+
+
 ![TechX](https://github.com/user-attachments/assets/e506a79d-1f43-4c48-86aa-59bd7930d9c0)
-```
+
